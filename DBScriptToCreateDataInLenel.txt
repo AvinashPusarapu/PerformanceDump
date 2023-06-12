@@ -1,5 +1,5 @@
 declare @cnt int;
-set @cnt =40261;
+set @cnt =1;
 declare @empid bigint
 set @empid=395147;
 declare @empbadgeid bigint
@@ -11,10 +11,14 @@ set @badgekey=91508;
 declare @badgekey2 int
 set @badgekey2=101508;
 
-while(@cnt<60001)
+while(@cnt<60002)
 begin
+set @empid=(select max(id)+1 from emp)
 insert into emp(id,LASTNAME,FIRSTNAME,LASTCHANGED,VISITOR,ALLOWEDVISITORS,ASSET_GROUPID,LNL_DBID,GUARD,SEGMENTID,EMAIL_DOCUMENTS)
 select @empid,'TestPerFLastName'+cast(@cnt as varchar),'TestPerFFirstName'+cast(@cnt as varchar),GETDATE(),VISITOR,ALLOWEDVISITORS,ASSET_GROUPID,LNL_DBID,GUARD,SEGMENTID,EMAIL_DOCUMENTS from emp where id=45961;
+
+insert into UDFEMP(id,DEPT,TITLE,DIVISION,BUILDING,LOCATION)
+select @empid,'0','0','0','0','0'
 
 insert into MMOBJS(empid,OBJECT,type,LNL_BLOB,LASTCHANGED)
 select @empid,OBJECT,TYPE,LNL_BLOB,getdate() from MMOBJS where empid=45726;

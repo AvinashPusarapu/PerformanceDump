@@ -1,0 +1,361 @@
+select USER_NAME()
+
+ALTER USER AEQA18008 with default_schema = chevrondemo
+
+select top 1500 VISITOR_ID from chevrondemo.visitors_visits where visit_status = '60' order by created_on desc
+
+select top 2000 * from chevrondemo.asset where asset_status = 'OPEN' order by created_on desc
+
+select top 1500 * from chevrondemo.asset order by created_on desc
+
+select top 1500 * from chevrondemo.asset where created_on like '%2022-07-07 10:%'
+
+select * from chevrondemo.asset where asset_access_id = '6211295'
+
+select * from chevrondemo.asset where text like '%620%'
+
+select * from chevrondemo.VISITOR where id = '3895096304055032'
+
+select top 401 * from chevrondemo.VISITOR_ACCESS order by created_on desc
+
+select top 1500 * from chevrondemo.VISITORS_VISITS where visit_status = 60 order by created_on desc
+
+select top 200 * from chevrondemo.visitors_visits where visit_status = 69 order by changed_on desc
+
+select top 1500 * from chevrondemo.asset where asset_status = 'open' order by created_on desc
+
+select * from chevrondemo.visitors_visits where id = '3895096304120540'
+
+select * from chevrondemo.VISITOR order by created_on desc
+
+select * from chevrondemo.users where last_name = 'Martinez'
+
+select top 300 * from chevrondemo.VISITORS_VISITS order by created_on desc
+
+select top 2000 * from chevrondemo.asset where asset_status = 'open' order by created_on desc
+
+select * from chevrondemo.asset where asset_status = 'open' order by changed_on desc
+
+select * from chevrondemo.asset where text like '78%' and asset_status = 'open'
+
+select * from chevrondemo.VISIT order by changed_on desc
+
+select * from chevrondemo.VISIT where VISIT_TYPE_CODE = 'group' and GROUP_NAME like 'lion%' order by created_on desc
+
+select * from chevrondemo.VISITOR where id = '3912149331997280'
+
+select * from chevrondemo.asset where id = '3913380068733631'
+
+select * from chevrondemo.asset where text = '6217199'
+
+select * from chevrondemo.VISITORS_VISITS where VISIT_ID = '3914593592259257'
+
+select * from chevrondemo.VISITOR order by changed_on desc
+
+select id, first_name, last_name, FULL_NAME from chevrondemo.visitor where first_name like 'devara%' and last_name like 'konda%' order by changed_on desc
+
+select top 100 id, changed_on, INT_STATUS, type, WORKFLOW_ID, WORKFLOW_NAME from chevrondemo.VISIT order by changed_on desc
+
+select SCHEMA_NAME ()
+
+--alter user AEQA18008 with default_schema=chevrondemo
+
+select * from chevrondemo.tenant
+
+--update chevrondemo.tenant set db_schema = 'chevrondemo'
+
+select * from chevrondemo.doc_number_range where bus_obj_cat = 'Visit';
+
+select * from chevrondemo.doc_number where num_range_id = 'VST-2100'
+
+select top 80 * from chevrondemo.visit where visit_type_code = 'single' order by created_on desc 
+
+--update chevrondemo.visit set ext_id = 'abcd1' where ext_id ='${Visit.location.extId}-00000001'
+
+update chevrondemo.doc_number set doc_number = 'VST-00004100', USED_DOC_NUMBER = 4100 where num_range_id = 'VST-2100'
+
+--update chevrondemo.doc_number set doc_number = 'VST-00008100', USED_DOC_NUMBER = 8100 where num_range_id = 'VST-2100'
+
+select top 300 * from chevrondemo.visitor order by created_on desc
+
+--delete top (1500) from chevrondemo.asset where created_on like '%2022-07-07 10:%'
+
+select * from chevrondemo.rules where condition like '%VDE - incremented%'
+
+select * from chevrondemo.asset where id = '3906373210124812'
+
+select * from chevrondemo.visitor where FIRST_NAME like 'jerry%' and LAST_NAME like 'joe%'
+
+Check-in Query:
+SELECT
+   VISITOR.FIRST_NAME,
+   VISITOR.LAST_NAME,
+   VISITOR.id as Visitor_id,
+   VISITOR.CREATED_ON as Visitor_created_on,
+   VISIT.id as Visit_id,
+   VISIT.CREATED_ON as Visit_created_on,
+   VISIT.EXT_ID as Visit_Doc_Number,
+   VISITORS_VISITS.id as  Visitor_visits_id,
+   VISITORS_VISITS.LAST_CHECKIN_DATE, 
+   VISITORS_VISITS.LAST_CHECKOUT_DATE,
+   VISITOR_ACCESS.prov_status
+FROM chevrondemo.VISITOR
+JOIN chevrondemo.VISITORS_VISITS 
+ ON VISITOR.id = VISITORS_VISITS.VISITOR_ID
+ JOIN chevrondemo.VISIT
+  ON VISIT.id = VISITORS_VISITS.VISIT_ID
+  JOIN chevrondemo.VISITOR_ACCESS 
+  on VISITOR.id = VISITOR_ACCESS.Visitor_ID 
+  WHERE VISITOR.FULL_NAME like 'Lukz% Mer%' order by LAST_CHECKIN_DATE desc
+  
+  Lenel Check-in Status in DB:
+  Select emp.FIRSTNAME,emp.LASTNAME,badge.ID,badge.lastchanged,badge.ACTIVATE,badge.DEACTIVATE,
+access.ACCESSLVID,access.DESCRIPT from dbo.emp emp inner join
+dbo.badge badge on emp.id=badge.EMPID inner join  dbo.BADGELINK bl
+on bl.BADGEKEY=badge.BADGEKEY inner join dbo.ACCESSLVL access on access.ACCESSLVID=bl.ACCLVLID where emp.FIRSTNAME like 'Lukz%' and emp.LASTNAME like 'mer%' order by LASTCHANGED desc
+
+To create roles on lenel:
+declare @id int ;
+set @id=38;
+while(@id<239)
+begin
+insert into dbo.accesslvl(ACCESSLVID,DESCRIPT,command,ELEVATORLVL,SEGMENTID,FIRST_CARD_UNLOCK,ARM_DISARM_COMMAND,HAS_DOUBLE_CARD_AUTHORITY,AVAILABLE_FOR_REQUEST)
+select @id,@id,0,0,0,0,0,0,0
+set @id=@id+1;
+end
+
+update dbo.accesslvl set DESCRIPT = DESCRIPT+ '_Access' where ACCESSLVID between 38 and 238
+
+DB Buffer check:
+SELECT
+CASE database_id
+WHEN 32767 THEN 'ResourceDb'
+ELSE db_name(database_id)
+END AS database_name, COUNT(1)/128 AS megabytes_in_cache
+FROM sys.dm_os_buffer_descriptors
+GROUP BY DB_NAME(database_id) ,database_id
+ORDER BY megabytes_in_cache DESC;
+
+DB Buffer clear:
+DBCC DROPCLEANBUFFERS
+
+Area admin Access import job functionality - Query to get identity id's with asset in Lenel:
+select distinct
+identity_system.identity_id,
+identity_system.system_id,
+ identity_system.created_on,
+identity_user.master_identity_id,
+identity_user.first_name,
+identity_user.last_name,
+identity_asset.asset_id,
+identity_access.access_id,
+identity_asset.int_status
+from aehsc.identity_system
+join aehsc.identity_user 
+on identity_system.identity_id = identity_user.id
+join aehsc.identity_asset
+on identity_user.id = identity_asset.identity_id 
+and identity_system.system_id = identity_asset.system_id
+join aehsc.identity_access
+on identity_user.id = identity_access.identity_id
+where identity_asset.int_status = 0 and identity_system.system_id = 3633053883487034 and access_id = 4148083923506473
+order by identity_system.created_on desc
+
+
+
+To identify the table or index that consumes the most memory:
+SELECT COUNT(1)/128 AS megabytes_in_cache
+,name ,index_id
+FROM sys.dm_os_buffer_descriptors AS bd
+INNER JOIN
+(
+SELECT object_name(object_id) AS name
+,index_id ,allocation_unit_id
+FROM sys.allocation_units AS au
+INNER JOIN sys.partitions AS p
+ON au.container_id = p.hobt_id
+AND (au.type = 1 OR au.type = 3)
+UNION ALL
+SELECT object_name(object_id) AS name
+,index_id, allocation_unit_id
+FROM sys.allocation_units AS au
+INNER JOIN sys.partitions AS p
+ON au.container_id = p.partition_id
+AND au.type = 2
+) AS obj
+ON bd.allocation_unit_id = obj.allocation_unit_id
+WHERE database_id = DB_ID()
+GROUP BY name, index_id
+ORDER BY megabytes_in_cache DESC;
+
+DB Job status:
+
+select * from chevrondemo.batch_step_execution order by 1 desc;
+
+select  a.step_name,a.read_count,a.write_count,a.status,
+CASE 
+            WHEN DATEPART(YEAR,  a.end_time- a.start_time) > 1900 
+            THEN CAST( DATEPART(YEAR,  a.end_time- a.start_time) - 1900 AS nvarchar(100)) + ' Year ' 
+            ELSE ''
+         END
+       + CASE 
+            WHEN DATEPART(MONTH,  a.end_time- a.start_time) > 1 
+            THEN CAST( DATEPART(MONTH,  a.end_time- a.start_time) - 1 AS nvarchar(100)) + ' Months '
+            ELSE ''
+         END
+       + CASE 
+            WHEN DATEPART(DAY,  a.end_time- a.start_time) > 1 
+            THEN CAST( DATEPART(DAY, a.end_time- a.start_time) - 1 AS nvarchar(100)) + ' Days '
+            ELSE ''
+         END
+       + CASE 
+            WHEN DATEPART(HOUR,  a.end_time- a.start_time) > 0 
+            THEN CAST( DATEPART(HOUR, a.end_time- a.start_time) AS nvarchar(100)) + ' Hours '
+            ELSE ''
+         END
+       + CASE 
+            WHEN DATEPART(MINUTE,  a.end_time- a.start_time) > 0 
+            THEN CAST( DATEPART(MINUTE, a.end_time- a.start_time) AS nvarchar(100)) + ' Minutes '
+            ELSE ''
+         END
+       + CASE 
+            WHEN DATEPART(SECOND,  a.end_time- a.start_time) > 0 
+            THEN CAST( DATEPART(SECOND, a.end_time- a.start_time) AS nvarchar(100)) + ' Seconds'
+            ELSE ''
+         END AS Difference from batch_step_execution a where a.job_execution_id=4042414609216180
+
+
+
+
+Queries to check data picked by TPM jobs on current date:
+select * from VISIT_LOG where operation = 'NO_SHOW' and CAST(CHANGED_ON AS DATE) = CAST(getdate() AS DATE)
+ORDER BY 3 desc
+select * from VISIT_LOG where operation = 'Final Checked-Out success' and CAST(CHANGED_ON AS DATE) = CAST(getdate() AS DATE)ORDER BY 3 desc
+
+Other:
+select * from aehsc.identity_user where first_name = 'teraina'
+select id, text, system_id from aehsc.access_role where system_id in (3632972214129644, 3633053883487034) order by 3 desc
+select * from aehsc.asset 
+select * from aehsc.system_type_field_mapping
+select * from aehsc.system_field_mapping where system_id = 3632972214129644 and int_status = 3 and system_field_name like 'company'
+select * from aehsc.identity_asset where identity_id = 3961668004813260
+--update identity_asset set cbadge_type = 3 where identity_id = 3961668004813260
+select * from access_role where system_id = 3633053883487034 and description like '%lobby%' order by 3 desc
+select * from system where id = 3632972214129644
+select * from aehsc.VISIT_ACCESS_ROLE where visit_id = 4100364033389106
+select * from aehsc.access_owner where owner_id = 3862910325807631 order by 3 desc
+--update aehsc.access_owner set type = 'AreaOwner' where ID IN (4100364033340150, 4100364033356381, 4100364033356435, 4100364033356486, 4100364033356540, 4100364033372774, 4100436478636736, 4100436478653073, 4100436478653127, 4100436478653181)
+
+select * from access_role where id = 3855524664679039
+select * from access_role  where text like 'lobby_%' order by 5 desc
+select top 300 * from asset where asset_status = 'open' order by 5 desc
+select top 300 * from visitors_visits order by 1 desc
+select top 300 * from aehsc.visitor order by CREATED_ON desc
+select top 300 * from aehsc.visit order by created_on desc
+select * from aehsc.doc_number where num_range_id like '%VST%'
+select * from aehsc.doc_number_range where ext_id = 'VVST-R1'
+--update aehsc.doc_number_range set internal_range_start = 'VST-00000001' where bus_obj_cat = 'Visit'
+--update aehsc.doc_number_range set internal_range_end = 'VST-99999999' where bus_obj_cat = 'Visit'
+--update aehsc.doc_number_range set internal_range_format = 'VST-NNNNNNNN' where bus_obj_cat = 'Visit'
+select * from aehsc.visit where ext_id like 'VST%'
+--update aehsc.doc_number set doc_number = 'VST-00004000', used_doc_number = 4000 where num_range_id = 'VST-2100'
+sp_help visit
+
+select * from aehsc.VISITOR order by 5 desc
+--where group_name like 'Mario%'
+select * from aehsc.VISITORS_VISITS where LAST_CHECKIN_DATE is null order by 5 desc
+select * from identity_user where type = 'CAI' order by created_on desc
+select region from identity_user where id = 3855408019643076 --surajrattan
+select region from identity_user where id = 3971668607646232
+--update identity_user set region = 'Americas West' where id = 3971668607646232
+select top 10 * from identity_user where region = 'Pascagoula' and id in (select identity_id from identity_system where system_id = '3633053883487034')
+select * from identity_asset where identity_id =  3971668590951338
+select * from identity_system where system_id = 3633053883487034 order by created_on desc
+select * from system where id = '3633053883487034'
+select * from rules where text like '%TemporaryBadge%'
+select * from identity_access where identity_id 	= 3971668708177606
+
+select * from identity_access where asset_id in (4072184803218743,4072184803218744) and identity_id = 3971668618961796 and int_status = 0
+select * from identity_access where asset_id in (4072184803218743,4072184803218744) and access_id in (select id from access_role where system_id = 3633053883487034 and identity_Id = 3971668618961796) and int_status = 0
+
+select * from access_request_type where id = 3712598079902655
+--update access_request_type set IDENTITY_SELECTION_CONDITION = NULL where id = 3712598079902655
+select * from identity_asset where identity_id = 3971668658885672
+select COL_LENGTH('access_request_type', 'IDENTITY_SELECTION_CONDITION')
+select * from location where REGION_ID =  'Americas West'
+select * from DELEGATION
+select * from screen_control_set
+
+flyway:
+select * from flyway_schema_history where type='delete';
+delete from flyway_schema_history where type='delete'
+
+Script to insert owner and owner type for an access:
+insert into access_owner (id, changed_by,changed_on,created_by,created_on,int_status,access_id,owner_id, type) values ('4193275572000122','1','2023-02-09 12:00:00.000000','1','2023-02-09 12:00:00.000000','0','4195074065158864','3862910325791252','AreaOwnerWithApproval');
+
+Queries to check DB performance:
+sp_who
+
+SELECT r.session_id,
+       st.TEXT AS batch_text,
+       qp.query_plan AS 'XML Plan',
+       r.start_time,
+       r.status,
+       r.total_elapsed_time
+FROM sys.dm_exec_requests AS r
+     CROSS APPLY sys.dm_exec_sql_text(r.sql_handle) AS st
+     CROSS APPLY sys.dm_exec_query_plan(r.plan_handle) AS qp
+WHERE DB_NAME(r.database_id) = 'AEQACHV991'
+ORDER BY cpu_time DESC;
+
+SELECT 
+    'Deadlocks Occurrences Report', 
+    CONVERT(BIGINT,((1.0 * p.cntr_value / 
+NULLIF(datediff(DD,d.create_date,CURRENT_TIMESTAMP),0)))) as 
+AveragePerDay,
+    CAST(p.cntr_value AS NVARCHAR(100)) + ' deadlocks have been recorded 
+since startup.' AS Details, 
+    d.create_date as StartupDateTime
+FROM sys.dm_os_performance_counters p
+INNER JOIN sys.databases d ON d.name = 'tempdb'
+WHERE RTRIM(p.counter_name) = 'Number of Deadlocks/sec'
+AND RTRIM(p.instance_name) = '_Total'
+;
+
+SELECT 
+  CASE WHEN database_id = 32767 THEN 'ResourceDB' ELSE DB_NAME(database_id) END AS DatabaseName,
+  COUNT(*)
+ AS cached_pages,
+  (COUNT(*)
+ * 8.0) / 1024 AS MBsInBufferPool
+FROM
+  sys.dm_os_buffer_descriptors
+GROUP BY
+  database_id
+ORDER BY
+  MBsInBufferPool DESC
+GO
+ 
+
+Query to check the executed queries in specific time period:
+select * FROM sys.dm_exec_query_stats
+
+SELECT deqs.last_execution_time AS [Time], dest.text AS [Query], deqs.execution_count AS [Execution Count]
+FROM sys.dm_exec_query_stats AS deqs
+CROSS APPLY sys.dm_exec_sql_text(deqs.sql_handle) AS dest where last_execution_time > '2023-06-30 07:00:59.477' and last_execution_time < '2023-06-30 16:36:59.477'
+ORDER BY 3 DESC
+
+ SELECT dest.TEXT AS [Query],
+deqs.execution_count [Count],
+deqs.last_execution_time AS [Time]
+FROM sys.dm_exec_query_stats AS deqs
+CROSS APPLY sys.dm_exec_sql_text(deqs.sql_handle) AS dest-- where dest.TEXT like '%select right%'
+ORDER BY deqs.last_execution_time DESC
+
+ALTER TABLE aehsc.access_group DISABLE TRIGGER ALL; 
+Delete 
+ALTER TABLE aehsc.access_group ENABLE TRIGGER ALL;
+
+  
+
+

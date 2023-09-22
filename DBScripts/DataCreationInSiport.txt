@@ -1,0 +1,73 @@
+declare @pn bigint  
+set @pn=4007042850501 
+declare @id int 
+set @id=590  
+declare @idPers int;  
+
+declare @cnt int; 
+set @cnt=1;    
+while(@cnt<70002) 
+begin  
+set @idPers=(select  data_auto_id from SIST_Pers  where DATA_20_Name_NA = 'testuserperffirstname_'+cast(@cnt as nvarchar )) 
+insert into SIST_Prof2_XYProf(PersID,ProfileID, datefrom,dateto,XProfIndex,ts,Flags,Deleted,ID_VISITOR,ID_VISIT,ID_VisGroup) 
+select @idPers,10,GETDATE(),dateadd(year,1,getdate()),0,getdate(),0,-1,0,null,0
+ 
+
+insert into SIST_Prof2_XYProf(PersID,ProfileID, datefrom,dateto,XProfIndex,ts,Flags,Deleted,ID_VISITOR,ID_VISIT,ID_VisGroup) 
+select @idPers,11,GETDATE(),dateadd(year,1,getdate()),0,getdate(),0,-1,0,null,0
+set @cnt=@cnt+1;     
+end
+declare @pn bigint  
+set @pn=4007042850501 
+declare @id int 
+set @id=590  
+declare @idPers int;  
+
+declare @cnt int; 
+set @cnt=1;    
+while(@cnt<70002) 
+begin  
+set @idPers=(select  data_auto_id from SIST_Pers  where DATA_20_Name_NA = 'testuserperffirstname_'+cast(@cnt as nvarchar )) 
+insert into SIST_AW146(pn,DELETED,ts,mode,flag,DATA_NOT_SYNC,IDPers,LockFlag) 
+select cast(@pn as nvarchar),-1,GETDATE(),mode,flag,DATA_NOT_SYNC,@idPers,LockFlag from SIST_AW146 where id=201  
+set @pn=@pn+1;  
+set @id=@id+1;  set @cnt=@cnt+1;     
+end
+
+
+declare @idPers int;  
+
+declare @cnt int; 
+set @cnt=1;    
+while(@cnt<70002) 
+begin  
+set @idPers=(select  data_auto_id from SIST_Pers  where DATA_20_Name_NA = 'testuserperffirstname_'+cast(@cnt as nvarchar )) 
+insert into [VAS_Portrait]([DATA_Portrait_Left]
+      ,[DATA_Portrait_Top]
+      ,[DATA_Portrait_Width]
+      ,[DATA_Portrait_Height]
+      ,[Portrait]
+      ,[Signature]
+      ,[PersID]
+      ,[TS]
+     
+      ,[Flags]
+      ,[Thumbnail]
+      ,[PortraitMedium]) 
+select [DATA_Portrait_Left]
+      ,[DATA_Portrait_Top]
+      ,[DATA_Portrait_Width]
+      ,[DATA_Portrait_Height]
+      ,[Portrait]
+      ,[Signature]
+      ,@idPers
+      ,[TS]
+     
+      ,[Flags]
+      ,[Thumbnail]
+      ,[PortraitMedium] from [VAS_Portrait] where persid=897
+ 
+
+
+set @cnt=@cnt+1;     
+end

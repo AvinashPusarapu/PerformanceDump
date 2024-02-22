@@ -356,6 +356,32 @@ ALTER TABLE aehsc.access_group DISABLE TRIGGER ALL;
 Delete 
 ALTER TABLE aehsc.access_group ENABLE TRIGGER ALL;
 
-  
+Query to fetch active database connections:
+SELECT count(*) AS active_connections
+FROM pg_stat_activity
+WHERE state = 'active';
 
+Query to fetch long running queries from PostgresSQL:
+SELECT
+  pid,
+  user,
+  pg_stat_activity.query_start,
+  now() - pg_stat_activity.query_start AS query_time,
+  query,
+  state,
+  wait_event_type,
+  wait_event
+FROM pg_stat_activity
+WHERE (now() - pg_stat_activity.query_start) > interval '5 minutes';
+
+
+Query to check pg table size:
+SELECT pg_size_pretty(pg_total_relation_size('sectv.notification_value_map'));
+
+Query to check pg db size:
+SELECT pg_size_pretty( pg_database_size('SECTV') );
+
+
+Query to check job status in Agent DB:
+select created_on,changed_on, data_count, data_type,status,post_job_ext_id from aehsc.recon_request order by 2 desc
 

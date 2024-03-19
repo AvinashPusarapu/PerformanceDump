@@ -384,4 +384,3 @@ SELECT pg_size_pretty( pg_database_size('SECTV') );
 
 Query to check job status in Agent DB:
 select created_on,changed_on, data_count, data_type,status,post_job_ext_id from aehsc.recon_request order by 2 desc
-

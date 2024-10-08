@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726651672001,1044,AdminLogin-api/auth/token,404,Not Found,setUp Thread Group 1-1,text,false,,710,802,1,1,http://172.16.37.224/api/auth/token,1044,0,11
+1726651673127,1034,AssetSave-Admin-api/asset/save,404,Not Found,AssetSave 1-1,text,false,,308,744,1,1,http://172.16.37.224/api/asset/save,1034,0,13

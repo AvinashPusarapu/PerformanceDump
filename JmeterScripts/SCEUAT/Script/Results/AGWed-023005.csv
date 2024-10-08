@@ -1,0 +1,42 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1708525805793,782,Login-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,144022,802,1,1,http://172.16.33.16/api/auth/token,736,0,4
+1708525806789,669,Login,200,OK,VIMScreens 2-1,text,true,,144039,859,1,1,http://172.16.33.16/api/auth/token,632,0,4
+1708525807774,214,VIM_Visit-/api/tpmadmin/visit/find1,200,OK,VIMScreens 2-1,text,true,,3689,1362,2,2,http://172.16.33.16/api/tpmadmin/visit/find,213,0,0
+1708525808394,220,VIM_Visit-/api/tpmadmin/visit/find2,200,OK,VIMScreens 2-1,text,true,,609,1363,2,2,http://172.16.33.16/api/tpmadmin/visit/find,220,0,0
+1708525807988,639,Login,200,OK,VIMScreens 2-2,text,true,,144027,859,2,2,http://172.16.33.16/api/auth/token,601,0,2
+1708525808901,136,VIM_Visit-/api/tpmadmin/visit/find3,200,OK,VIMScreens 2-1,text,true,,609,1363,2,2,http://172.16.33.16/api/tpmadmin/visit/find,136,0,0
+1708525809028,233,VIM_NERCVisitorReg-/api/tpmadmin/visit/find1,200,OK,VIMScreens 2-2,text,true,,3690,1362,3,3,http://172.16.33.16/api/tpmadmin/visit/find,233,0,0
+1708525809357,135,VIM_Visit-/api/tpmadmin/visitmicro/4725848051507711,200,OK,VIMScreens 2-1,text,true,,857,1128,3,3,http://172.16.33.16/api/tpmadmin/visitmicro/4725848051507711,135,0,0
+1708525809512,109,VIM_NERCVisitorReg-/api/tpmadmin/visit/find2,200,OK,VIMScreens 2-2,text,true,,609,1363,3,3,http://172.16.33.16/api/tpmadmin/visit/find,109,0,0
+1708525809187,638,Login,200,OK,VIMScreens 2-3,text,true,,144026,859,3,3,http://172.16.33.16/api/auth/token,602,0,2
+1708525809928,194,VIM_Visit-/api/tpmadmin/visit/4725848051507711,200,OK,VIMScreens 2-1,text,true,,1659,1123,3,3,http://172.16.33.16/api/tpmadmin/visit/4725848051507711,194,0,0
+1708525810078,158,VIM_NERCVisitorReg-/api/tpmadmin/visit/find3,200,OK,VIMScreens 2-2,text,true,,609,1363,2,2,http://172.16.33.16/api/tpmadmin/visit/find,158,0,0
+1708525810109,184,VIM_VisitorPreRegistration-/api/tpmadmin/visit/find1,200,OK,VIMScreens 2-3,text,true,,3689,1362,2,2,http://172.16.33.16/api/tpmadmin/visit/find,184,0,0
+1708525810577,114,VIM_VisitorPreRegistration-/api/tpmadmin/visit/find2,200,OK,VIMScreens 2-3,text,true,,609,1363,3,3,http://172.16.33.16/api/tpmadmin/visit/find,114,0,0
+1708525810679,130,VIM_NERCVisitorReg-/api/tpm/visitui/find,200,OK,VIMScreens 2-2,text,true,,1219,1570,3,3,http://172.16.33.16/api/tpm/visitui/find,130,0,0
+1708525810389,725,Login,200,OK,VIMScreens 2-4,text,true,,144028,859,3,3,http://172.16.33.16/api/auth/token,672,0,2
+1708525810967,190,VIM_VisitorPreRegistration-/api/tpmadmin/visit/find3,200,OK,VIMScreens 2-3,text,true,,609,1363,3,3,http://172.16.33.16/api/tpmadmin/visit/find,190,0,0
+1708525811292,102,VIM_NERCVisitorReg-/api/location/4280432129922972,200,OK,VIMScreens 2-2,text,true,,927,1117,3,3,http://172.16.33.16/api/location/4280432129922972,102,0,0
+1708525811414,136,VIM_Watchlist-/api/classdef/find,200,OK,VIMScreens 2-4,text,true,,3139,1207,3,3,http://172.16.33.16/api/classdef/find,136,0,0
+1708525811492,135,VIM_Visit-/api/tpmadmin/visit/4725848051507711,200,OK,VIMScreens 2-3,text,true,,1659,1123,4,4,http://172.16.33.16/api/tpmadmin/visit/4725848051507711,135,0,0
+1708525811663,152,VIM_Visit-/api/tpmadmin/visit/4725848051507711,200,OK,VIMScreens 2-2,text,true,,1659,1123,4,4,http://172.16.33.16/api/tpmadmin/visit/4725848051507711,152,0,0
+1708525811836,177,VIM_Visit-/api/tpmadmin/visitmicro/4725848051507711,200,OK,VIMScreens 2-3,text,true,,857,1128,4,4,http://172.16.33.16/api/tpmadmin/visitmicro/4725848051507711,177,0,0
+1708525811838,177,VIM_Watchlist-/api/country/find,200,OK,VIMScreens 2-4,text,true,,6920,1156,4,4,http://172.16.33.16/api/country/find,177,0,0
+1708525812138,113,VIM_Visit-/api/tpmadmin/visitmicro/4725848051507711,200,OK,VIMScreens 2-2,text,true,,857,1128,3,3,http://172.16.33.16/api/tpmadmin/visitmicro/4725848051507711,113,0,0
+1708525811587,702,Login,200,OK,VIMScreens 2-5,text,true,,144027,859,3,3,http://172.16.33.16/api/auth/token,641,0,2
+1708525812232,151,VIM_Watchlist-/api/lists/find,200,OK,VIMScreens 2-4,text,true,,694,1232,2,2,http://172.16.33.16/api/lists/find,151,0,0
+1708525812637,143,VIM_Watchlist-/api/lists/find,200,OK,VIMScreens 2-4,text,true,,766,1234,2,2,http://172.16.33.16/api/lists/find,143,0,0
+1708525812662,156,VIM_Kiosk-/api/kiosk/find,200,OK,VIMScreens 2-5,text,true,,2683,1154,3,3,http://172.16.33.16/api/kiosk/find,156,0,0
+1708525812992,107,VIM_Watchlist-/api/lists/find,200,OK,VIMScreens 2-4,text,true,,602,1239,3,3,http://172.16.33.16/api/lists/find,107,0,0
+1708525813147,97,VIM_Kiosk-/api/lists/find,200,OK,VIMScreens 2-5,text,true,,881,1246,3,3,http://172.16.33.16/api/lists/find,97,0,0
+1708525812789,634,Login,200,OK,VIMScreens 2-6,text,true,,144025,859,3,3,http://172.16.33.16/api/auth/token,599,0,2
+1708525813516,109,VIM_Kiosk-/api/lists/find1,200,OK,VIMScreens 2-5,text,true,,1609,1241,3,3,http://172.16.33.16/api/lists/find,109,0,0
+1708525813587,105,VIM_Watchlist-/api/lists/find,200,OK,VIMScreens 2-4,text,true,,841,1247,3,3,http://172.16.33.16/api/lists/find,105,0,0
+1708525813835,161,VIM_Visitors-/api/identitytype/find,200,OK,VIMScreens 2-6,text,true,,1143,1161,4,4,http://172.16.33.16/api/identitytype/find,161,0,0
+1708525813916,120,VIM_Kiosk-/api/lists/find1,200,OK,VIMScreens 2-5,text,true,,1609,1241,4,4,http://172.16.33.16/api/lists/find,120,0,0
+1708525814173,198,VIM_Watchlist-/api/watchlist/find,200,OK,VIMScreens 2-4,text,true,,2504,1328,4,4,http://172.16.33.16/api/watchlist/find,198,0,0
+1708525814286,148,VIM_Kiosk-/api/kiosk/4132935871816074,200,OK,VIMScreens 2-5,text,true,,1049,1114,4,4,http://172.16.33.16/api/kiosk/4132935871816074,148,0,0
+1708525814364,119,VIM_Visitors-/api/lists/find,200,OK,VIMScreens 2-6,text,true,,602,1239,3,3,http://172.16.33.16/api/lists/find,118,0,0
+1708525813989,644,Login,200,OK,VIMScreens 2-7,text,true,,144031,859,3,3,http://172.16.33.16/api/auth/token,609,0,2
+1708525814732,119,VIM_Watchlist-/api/watchlist/find,200,OK,VIMScreens 2-4,text,true,,2285,1329,3,3,http://172.16.33.16/api/watchlist/find,119,0,0
+1708525814972,136,VIM_Visitors-/api/tpmadmin/visitors/find,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,VIMScreens 2-6,text,false,,2699,0,2,2,http://172.16.33.16/api/tpmadmin/visitors/find,0,0,0

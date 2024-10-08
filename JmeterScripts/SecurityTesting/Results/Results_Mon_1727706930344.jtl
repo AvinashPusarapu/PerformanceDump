@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727706930390,1146,KioskCasesDL-/api/tpm/visitui/findby/drivingLicense,200,OK,KioskCasesDL 1-1,text,true,,2038,1291,1,1,https://192.168.192.172:8443/api/tpm/visitui/findby/drivingLicense,1146,0,549
+1727706931536,480,KioskCasesDL-/api/tpm/visitui/findby/drivingLicense,200,OK,KioskCasesDL 1-1,text,true,,650,1293,1,1,https://192.168.192.172:8443/api/tpm/visitui/findby/drivingLicense,480,0,0

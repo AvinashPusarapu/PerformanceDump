@@ -1,0 +1,328 @@
+
+--Deactivate an access card
+select distinct iu.id as identity_id, ia.asset_id, isy.system_id,
+TO_CHAR(ia.valid_from, 'YYYY-MM-DD"T"HH24:MI:SS-0000') as valid_from,
+TO_CHAR(ia.valid_to, 'YYYY-MM-DD"T"HH24:MI:SS-0000') as valid_to
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+where iu.int_status = 0 and isy.int_status = 0
+and iu.master_identity_id is not NULL
+and ia.source_asset_status = 'ACTIVE' and 
+isy.system_id in ('4237099265094320') 
+and iu.first_name like 'James%' --or iu.first_name like '%Peter'
+
+select first_name ,* from identity_user iu where id='4624268659306294'
+select count(*) from identity_user iu --35961
+--RequestAnAccessArea: 
+select distinct iu.id as identity_id, iu.master_identity_id 
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status = 0 and isy.int_status = 0  
+and iac.int_status = 0 and ia.int_status = 0
+and iu.master_identity_id is not NULL
+and isy.system_id in ('4237099265094320') --and iac.access_id not in ('4439603306845141','4320718765765998')
+and iu.first_name like 'James%' --or iu.first_name like '%Peter'
+
+---get access id for add
+select distinct (access_id) from identity_access ia where access_id not in ('4439603306845141','4320718765765998','1') 
+--order by created_on desc
+>>>>>>>>>>>>>>>>>end user<<<<<<<<<<<<<<
+SELECT * FROM users WHERE identity_id IN (
+    SELECT id
+    FROM identity_user
+    WHERE id IN (
+        SELECT identity_id
+        FROM identity_system
+        GROUP BY identity_id
+        HAVING COUNT(identity_id) = 2
+    )
+) AND password IS NOT null;
+
+--Activate an access card
+select distinct iu.id as identity_id, ia.asset_id, isy.system_id
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+where iu.int_status = 0 and isy.int_status = 0 
+and iu.master_identity_id is not NULL
+and ia.source_asset_status in ('DISABLED' , 'INACTIVE')
+and isy.system_id in ('4237099265094320')
+ and iu.first_name like 'James%' --or iu.first_name like '%Peter'
+ 
+ 
+select distinct iu.id as identity_id, ia.asset_id,isy.system_id, string_agg(CAST(iac.access_id AS VARCHAR), ',') as AccessIds
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status = 0 and isy.int_status = 0  and iac.int_status = 0 and ia.int_status = 0
+and isy.system_id in ('4237099265094320')  
+and iu.mailbox ='312'
+and iu.first_name like 'PERTESTFNAME%'
+group by iu.id having COUNT(iac.access_id) <= 14;
+ 
+ --Replace Use cases (Not CREC and IREC):
+select distinct iu.id as identity_id, ia.asset_id
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status = 0 and isy.int_status = 0  
+and iac.int_status = 0 and ia.int_status = 0 --and iu.mailbox='101'
+and iu.master_identity_id is not NULL
+and isy.system_id in ('4237099265094320')  
+and iu.mailbox is not null 
+and iu.first_name like 'James%'  ----or iu.first_name like '%Peter'
+
+select distinct iu.id as identity_id, ia.asset_id,isy.system_id, string_agg(CAST(iac.access_id AS VARCHAR), ',') as AccessIds
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status = 0 and isy.int_status = 0  
+and iac.int_status in (0) 
+and ia.int_status in (0)
+and isy.system_id in ('4237099265094320')  
+and iu.mailbox = '312'
+and iu.master_identity_id is not NULL
+and iu.first_name like 'James%'
+group by iu.id,ia.asset_id,isy.system_id having COUNT(iac.access_id) <= 20;
+
+select * from aehsc.system_custom_fields where id='4237198213123363' and name='PASS_OFFICE'
+select first_name ,* from identity_user where id='4623884805812022'
+select * from stg_user_role_data surd where id='4623884805844755'
+
+--CREC & IREC:
+	select distinct iu.id as identity_id, ia.asset_id, isy.system_id
+	from aehsc.identity_user iu
+	join aehsc.identity_asset ia on iu.id=ia.identity_id 
+	join aehsc.identity_system isy on iu.id=isy.identity_id
+	join aehsc.asset a on ia.asset_id = a.id
+	join aehsc.identity_access iac on iu.id = iac.identity_id
+	where iu.int_status = 0 and isy.int_status = 0  
+	and iac.int_status = 0 and ia.int_status = 0
+	and iu.master_identity_id is not NULL
+	and isy.system_id in ('4237099265094320','4232918200356110') 
+	--and iu.mailbox = '312' 
+	and iu.first_name like 'Mike%'  --or iu.first_name like '%Peter'
+
+
+--Ex-Offboarding
+select distinct iu.id as identity_id
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status in ('0', '9') 
+and isy.int_status = 0  
+and iu.master_identity_id is not NULL
+and iac.int_status in ('0', '9') and ia.int_status in ('0', '9')
+and isy.system_id in ('4233055097671150','4237099265094320','4237198213123363') 
+and iu.full_name like 'James%'  --or iu.first_name like '%Peter'
+
+select first_name ,* from identity_user iu where id='4623884805763047'
+
+--Em-RequestAnAccessArea:
+select distinct iu.id as identity_id
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status = 0 and isy.int_status = 0  
+and iac.int_status = 0 and ia.int_status = 0
+and iu.master_identity_id is not NULL
+and isy.system_id in ('4237198213123363') 
+and iac.access_id not in ('4565805152903521','4565805152903522','4565805152903523','4565805152903524','4565805152903525','4565805152903526','4565805152903527','4565805152903528','4565805152903529','4565805152903530')
+and iu.first_name like 'James%' --or iu.first_name like '%Peter'
+
+select  * from access_role ar where system_id ='4237198213123363' and int_status =0 
+order by created_on  desc limit 10
+select first_name ,* from identity_user iu where id='4624179904375023'
+--Ex-OnLeave
+select distinct iu.id as identity_id
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status = 0 and isy.int_status = 0  and iac.int_status = 0 
+and ia.int_status = 0 and iu.employement_status = 18
+and iu.master_identity_id is not NULL
+and isy.system_id in ('4237099265094320','4237198213123363','4233055097671150') and iu.first_name like 'James%' --or iu.first_name like '%Peter'
+
+--Ex-ReturnFromLeave
+select distinct iu.id as identity_id,iu.first_name
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status = 0 and isy.int_status = 0
+and ia.int_status = 9 or ia.source_asset_status='Disabled'
+and iu.master_identity_id is not NULL
+and isy.system_id in ('4237099265094320','4237198213123363','4233055097671150') 
+and iu.employement_status='23'  
+and iu.first_name like 'PERTESTFNAME%' and iu.last_name  like 'PERTESTLNAME'--or iu.first_name like '%Peter'
+
+select first_name ,int_status ,justification ,employement_status ,* from identity_user iu where id='4624268659306310'
+--Ex-Reactivate Person (Does not pick terminated badges)
+select distinct iu.id as identity_id
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+where iu.int_status = 9
+and isy.int_status in ('0', '9') 
+and iu.master_identity_id is not NULL
+and isy.system_id in ('4237099265094320','4237198213123363','4233055097671150') 
+and iu.first_name like 'James%' --or iu.first_name like '%Peter'
+
+--Em-RemoveAnAccessArea
+select distinct iu.id as identity_id, string_agg(CAST(iac.access_id AS VARCHAR), ',') as AccessIds
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status = 0 and isy.int_status = 0  and iac.int_status = 0 and ia.int_status = 0
+and iu.master_identity_id is not NULL
+and isy.system_id in ('4237099265094320','4232918200356110') 
+and iu.first_name like 'James%'  --or iu.first_name like '%Peter'
+group by iu.id having COUNT(iac.access_id) >= 10;
+
+--UpdatePhoto:
+select distinct iu.id as identity_id
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status = 0 and isy.int_status = 0 
+and iu.master_identity_id is not NULL 
+and isy.system_id in ('4233055097671150','4237198213123363','4237099265094320')
+and iu.first_name like 'James%' --or iu.first_name like '%Peter'
+
+select * from identity_user iu where first_name ='PERTESTFNAME1066'
+select first_name ,* from identity_user iu where id ='4624063897364608'
+--OutOfOffice
+select distinct iu.id as identity_id
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+where iu.int_status = 0 and isy.int_status = 0 
+and iu.outofoffice is null
+and iu.master_identity_id is not NULL
+and isy.system_id in ('4233055097671150','4237198213123363','4237099265094320')
+and iu.first_name like 'James%' --or iu.first_name like '%Peter' 
+
+
+--Request HSC Roles:
+select distinct iu.id as identity_id, iu.master_identity_id
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status = 0 and isy.int_status = 0 and ia.int_status = 0
+and iu.master_identity_id is not NULL
+and isy.system_id in ('4233055097671150','4237198213123363','4237099265094320')
+and iu.first_name like 'James%'  --or iu.first_name like '%Peter'
+and iac.access_id not in ('4430301290209579', '4430301290209598')
+
+--Request an access card
+select id from aehsc.identity_user where int_status = 0 and id in
+(select identity_id from aehsc.identity_system where int_status = 0
+and system_id in ('4237198213123363')) and mailbox is NULL
+and master_identity_id is not NULL
+and first_name like 'James%'  --or iu.first_name like '%Peter'
+
+select distinct iu.id as identity_id, iu.master_identity_id 
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status = 0 and isy.int_status = 0  and iac.int_status = 0 and ia.int_status = 0
+and isy.system_id in ('4237099265094320','4237198213123363','4233055097671150')
+--('4237099265094320') 
+--and iac.access_id not in ('4565805152903547','4565805152903548','4565805152903549','4565805152903550','4565805152903551','4565805152903546','4565805152903545','4565805152903544','4565805152903543','4565805152903542')
+and iac.access_id not in (4622462776338445,4622462776338452,4622462776338454,4622462776338460,
+4622462776338469,4622462776338471,4622462776338475,4622462776338487,4622462776338489,4622462776338504)
+and iu.first_name like 'James%'-- or iu.first_name like '%Peter'
+and iu.master_identity_id is not null
+
+--select * from identity_user iu where id ='4626609692012542'
+--select * from users u where identity_id='4626609692012542'
+
+--RemoveAnAccessArea
+select distinct iu.id as identity_id, ia.asset_id, string_agg(CAST(iac.access_id AS VARCHAR), ',') as AccessIds
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status = 0 and isy.int_status = 0  and iac.int_status in ('0','9') and ia.int_status in ('0','9')
+and iu.master_identity_id is not NULL
+and isy.system_id in ('4237099265094320','4237198213123363','4233055097671150')
+and iu.first_name like 'James%'   group by iu.id, ia.asset_id
+HAVING
+  COUNT(iac.access_id) <= 10
+  
+select distinct iu.id as identity_id, ia.asset_id, string_agg(CAST(iac.access_id AS VARCHAR), ',') as AccessIds
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status = 0 and isy.int_status = 0  
+and iac.int_status = 0 and ia.int_status = 0
+and iu.master_identity_id is not NULL
+and isy.system_id in ('4237099265094320','4237198213123363','4233055097671150') 
+and iu.first_name like 'PERTESTFNAME%' group by iu.id, ia.asset_id
+HAVING
+  COUNT(iac.access_id) >=10
+  
+--Em-RemoveAnAccessArea
+select iu.id as identity_id, ia.asset_id, iac.access_id,  isy.system_id
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status = 0 and isy.int_status = 0  and iac.int_status = 0 and ia.int_status = 0
+and isy.system_id in ('4233055097671150') 
+and iu.first_name like 'PERTESTFNAME%'
+
+select distinct iu.id as identity_id, string_agg(CAST(iac.access_id AS VARCHAR), ',') as AccessIds
+from aehsc.identity_user iu
+join aehsc.identity_asset ia on iu.id=ia.identity_id 
+join aehsc.identity_system isy on iu.id=isy.identity_id
+join aehsc.asset a on ia.asset_id = a.id
+join aehsc.identity_access iac on iu.id = iac.identity_id
+where iu.int_status = 0 and isy.int_status = 0  
+and iu.master_identity_id is not NULL
+and iac.int_status = 0 and ia.int_status = 0
+and isy.system_id in ('4233055097671150','4237198213123363','4237099265094320') 
+and iu.first_name like 'PERTESTFNAME%' 
+group by iu.id having COUNT(iac.access_id) >= 10;
+
+select * from aehsc.securityeventview s 
+  
+  SELECT aehsc.notificationdataview_reports.subject_html AS subject_html,aehsc.notificationdataview_reports.toids_email AS toids_email,aehsc.notificationdataview_reports.ccids_email AS ccids_email,aehsc.notificationdataview_reports.bccids_email AS bccids_email,aehsc.notificationdataview_reports.created_on AS date_sent,aehsc.notificationdataview_reports.id AS id FROM aehsc.notificationdataview_reports GROUP BY aehsc.notificationdataview_reports.subject_html,aehsc.notificationdataview_reports.toids_email,aehsc.notificationdataview_reports.ccids_email,aehsc.notificationdataview_reports.bccids_email,aehsc.notificationdataview_reports.created_on,aehsc.notificationdataview_reports.id ORDER BY aehsc.notificationdataview_reports.created_on DESC
+
+  select * from notification_data
+apps-fileview.texmex_20240425.01_p0
+api data query.txt
+Displaying api data query.txt.

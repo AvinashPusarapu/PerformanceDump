@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1710841159797,1454,BadgeAdminLogin-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,209016,807,1,1,http://172.16.33.16/api/auth/token,1436,0,2
+1710841161295,776,AdminLogin-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,193234,801,1,1,http://172.16.33.16/api/auth/token,759,0,0
+1710841162341,76,api/getnewids,200,OK,VIMOtherUseCases 1-1,text,true,,737,1176,1,1,http://172.16.33.16/api/getnewids,76,0,2
+1710841162419,422,EmergencyNotification,200,OK,VIMOtherUseCases 1-1,text,true,,698,1573,1,1,http://172.16.33.16/api/tpm/visitui/emergencynotification/save,422,0,0
+1710841162842,316,CreatePermanentBadgeForIdentity,200,OK,VIMOtherUseCases 1-1,text,true,,1110,1300,1,1,http://172.16.33.16/api/asset/save,316,0,0
+1710841163159,209,CreateTempBadgeForIdentity,200,OK,VIMOtherUseCases 1-1,text,true,,1118,1300,1,1,http://172.16.33.16/api/asset/save,209,0,0
+1710841163369,814,identityCreationForTempBadgeRequest,200,OK,VIMOtherUseCases 1-1,text,true,,1089,1632,1,1,http://172.16.33.16/api/identity/save?,814,0,0
+1710841164184,163,identityFindForTempBadge,200,OK,VIMOtherUseCases 1-1,text,true,,4930,1664,1,1,http://172.16.33.16/api/identity/find,162,0,0
+1710841164348,10526,tempBadgeRequest,200,OK,VIMOtherUseCases 1-1,text,true,,2799,1762,1,1,http://172.16.33.16/api/request/save,993,0,0

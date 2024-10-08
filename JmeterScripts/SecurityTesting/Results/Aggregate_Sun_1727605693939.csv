@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727605694004,1972,KioskCases-/api/tpmadmin/visit/save,200,OK,KioskCases 1-1,text,true,,1785,1631,1,1,https://192.168.192.172:8443/api/tpmadmin/visit/save,1972,0,583

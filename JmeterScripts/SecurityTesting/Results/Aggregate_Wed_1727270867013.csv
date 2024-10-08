@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727270867060,10622,VisitorImageUpload,201,Created,RefinedVIMEndUserCases 1-1,text,true,,788036,588004,1,1,https://192.168.192.172:8443/api/binaryresource/upload,8985,0,562

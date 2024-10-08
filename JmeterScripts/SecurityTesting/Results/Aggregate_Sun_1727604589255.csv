@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727604589307,2931,KioskCases-/api/visitor/get,401,Unauthorized,KioskCases 1-1,text,false,,413,1077,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/6037177745870583?_dc=1724760553337&id=6037177745870583,2931,0,566
+1727604592239,3586,KioskCases-/api/visitor/get,401,Unauthorized,KioskCases 1-1,text,false,,413,1077,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/5021716673891915?_dc=1724760553337&id=5021716673891915,3586,0,0
+1727604595825,3426,KioskCases-/api/visitor/get,400,Bad Request,KioskCases 1-1,text,false,,673,960,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/6037177745870583?_dc=1724760553337&id=6037177745870583,3426,0,0
+1727604599250,3881,KioskCases-/api/visitor/get,400,Bad Request,KioskCases 1-1,text,false,,673,960,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/5021716673891915?_dc=1724760553337&id=5021716673891915,3881,0,0

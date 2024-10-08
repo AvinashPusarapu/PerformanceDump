@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1717494500220,1210,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,134472,809,1,1,https://coa-uat.alerthsc.com/api/auth/token,1065,0,249
+1717494503043,7017,VIM_dev/api/tpm/visitorsvisits/save,200,OK,VIM_dev 1-1,text,true,,1946,1335,1,1,https://coa-uat.alerthsc.com/api/tpm/visitorsvisits/save,7017,0,229

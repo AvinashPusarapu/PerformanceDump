@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727686753581,1374,KioskCases-/api/tpm/visitui/findby/email,200,OK,KioskCases 1-1,text,true,,2162,1337,1,1,https://192.168.192.172:8443/api/tpm/visitui/findby/email,1374,0,570
+1727686754954,453,KioskCases-/api/tpm/visitui/findby/email,401,Unauthorized,KioskCases 1-1,text,false,,399,1325,1,1,https://192.168.192.172:8443/api/tpm/visitui/findby/email,453,0,0
+1727686755407,338,KioskCases-/api/tpm/visitui/findby/email,401,Unauthorized,KioskCases 1-1,text,false,,399,1256,1,1,https://192.168.192.172:8443/api/tpm/visitui/findby/email,338,0,0
+1727686755746,551,KioskCases-/api/tpm/visitors/findby/email,200,OK,KioskCases 1-1,text,true,,3553,1063,1,1,https://192.168.192.172:8443/api/tpm/visitors/findby/email,551,0,0
+1727686756298,371,KioskCases-/api/tpm/visitors/findby/email,401,Unauthorized,KioskCases 1-1,text,false,,399,1051,1,1,https://192.168.192.172:8443/api/tpm/visitors/findby/email,371,0,0
+1727686756670,328,KioskCases-/api/tpm/visitors/findby/email,401,Unauthorized,KioskCases 1-1,text,false,,399,982,1,1,https://192.168.192.172:8443/api/tpm/visitors/findby/email,328,0,0

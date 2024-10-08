@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1724414278778,882,api/getnewids,200,OK,VIMInvite 1-1,text,true,,743,1083,1,1,https://192.168.194.132/api/getnewids,881,0,590
+1724414279663,322,VIMInvite/api/tpmadmin/visitors/save,401,Unauthorized,VIMInvite 1-1,text,false,,489,1423,1,1,https://192.168.194.132/api/tpmadmin/visitors/save,322,0,0

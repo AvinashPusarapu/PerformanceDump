@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1717829322250,970,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,135286,809,1,1,https://coa-uat.alerthsc.com/api/auth/token,824,0,257

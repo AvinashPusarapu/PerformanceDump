@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1708596279171,1331,Login-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,162239,806,1,1,http://172.16.37.224/api/auth/token,1287,0,2
+1708596280821,677,VisitorCreation,200,OK,VIMCases 1-1,text,true,,981,2619,1,1,http://172.16.37.224/api/tpmadmin/visitors/save?,677,0,2
+1708596281499,139,VisitCreation,500,Internal Server Error,VIMCases 1-1,text,false,,8570,3017,1,1,http://172.16.37.224/api/tpmadmin/visit/save?,139,0,0

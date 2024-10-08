@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727257120425,1217,RefinedVIMEndUserCases-/api/visitor/get,200,OK,RefinedVIMEndUserCases 1-1,text,true,,3354,1084,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/5032767698915004?_dc=1724760553337&id=5032767698915004,1217,0,534
+1727257121643,510,RefinedVIMEndUserCases-/api/visitor/get,400,Bad Request,RefinedVIMEndUserCases 1-1,text,false,,673,1084,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/5021716673891915?_dc=1724760553337&id=5021716673891915,510,0,0
+1727257122153,905,RefinedVIMEndUserCases-/api/visit/get,200,OK,RefinedVIMEndUserCases 1-1,text,true,,5378,1081,1,1,https://192.168.192.172:8443/api/tpmadmin/visit/5032767698914846?_dc=1726498027146&id=5032767698914846,905,0,0
+1727257123058,883,RefinedVIMEndUserCases-/api/visit/get,400,Bad Request,RefinedVIMEndUserCases 1-1,text,false,,673,1081,1,1,https://192.168.192.172:8443/api/tpmadmin/visit/5001902155959910?_dc=1726498027146&id=5001902155959910,883,0,0

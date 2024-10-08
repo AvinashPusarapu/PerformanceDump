@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1709201258367,928,Login,200,OK,AllScreens 1-1,text,true,,90171,858,1,1,http://172.16.33.16/api/auth/token,895,0,2

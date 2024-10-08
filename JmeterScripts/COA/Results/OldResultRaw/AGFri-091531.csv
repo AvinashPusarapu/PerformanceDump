@@ -1,0 +1,34 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715332531164,1730,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,137788,802,1,1,http://172.16.32.247/api/auth/token,1689,0,5
+1715332532914,1379,PGIRLogin,200,OK,setUp Thread Group 1-1,text,true,,137870,799,1,1,http://172.16.32.247/api/auth/token,1222,0,0
+1715332534307,1078,SecurityAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,137432,808,1,1,http://172.16.32.247/api/auth/token,916,0,0
+1715332536101,104,PGIR_getnewids,200,OK,PGIR 1-2,text,true,,738,1040,6,6,http://172.16.32.247/api/getnewids,104,0,4
+1715332536500,405,PGIR_getnewids,200,OK,PGIR 1-4,text,true,,748,1040,10,10,http://172.16.32.247/api/getnewids,405,0,13
+1715332537069,235,PGIR_getnewids,200,OK,PGIR 1-1,text,true,,737,1040,10,10,http://172.16.32.247/api/getnewids,235,0,9
+1715332537204,159,PGIR_getnewids,200,OK,PGIR 1-3,text,true,,741,1040,10,10,http://172.16.32.247/api/getnewids,158,0,3
+1715332537469,118,PGIR_getnewids,200,OK,PGIR 1-10,text,true,,735,1040,10,10,http://172.16.32.247/api/getnewids,118,0,19
+1715332537701,97,PGIR_getnewids,200,OK,PGIR 1-8,text,true,,741,1040,10,10,http://172.16.32.247/api/getnewids,97,0,6
+1715332537769,95,PGIR_getnewids,200,OK,PGIR 1-5,text,true,,734,1040,10,10,http://172.16.32.247/api/getnewids,95,0,4
+1715332537998,136,PGIR_getnewids,200,OK,PGIR 1-7,text,true,,740,1040,10,10,http://172.16.32.247/api/getnewids,136,0,12
+1715332538016,121,PGIR_getnewids,200,OK,PGIR 1-9,text,true,,746,1040,10,10,http://172.16.32.247/api/getnewids,121,0,5
+1715332538160,857,PGIR/api/tpmadmin/visitors/save,200,OK,PGIR 1-3,text,true,,1034,1442,10,10,http://172.16.32.247/api/tpmadmin/visitors/save,857,0,0
+1715332538200,859,PGIR/api/tpmadmin/visitors/save,200,OK,PGIR 1-2,text,true,,1034,1442,10,10,http://172.16.32.247/api/tpmadmin/visitors/save,859,0,0
+1715332538129,970,PGIR/api/tpmadmin/visitors/save,200,OK,PGIR 1-4,text,true,,1032,1442,10,10,http://172.16.32.247/api/tpmadmin/visitors/save,970,0,0
+1715332537399,1892,PGIR/api/tpmadmin/visitors/save,200,OK,PGIR 1-1,text,true,,1035,1442,10,10,http://172.16.32.247/api/tpmadmin/visitors/save,1892,0,0
+1715332538547,986,PGIR/api/tpmadmin/visitors/save,200,OK,PGIR 1-7,text,true,,1035,1442,10,10,http://172.16.32.247/api/tpmadmin/visitors/save,986,0,0
+1715332538485,1049,PGIR/api/tpmadmin/visitors/save,200,OK,PGIR 1-8,text,true,,1035,1442,10,10,http://172.16.32.247/api/tpmadmin/visitors/save,1049,0,0
+1715332537650,2143,PGIR/api/tpmadmin/visitors/save,200,OK,PGIR 1-10,text,true,,1035,1442,10,10,http://172.16.32.247/api/tpmadmin/visitors/save,2143,0,0
+1715332539385,474,PGIR/api/tpmadmin/visitors/save,200,OK,PGIR 1-5,text,true,,1034,1442,10,10,http://172.16.32.247/api/tpmadmin/visitors/save,474,0,0
+1715332539628,633,PGIR/api/tpmadmin/visitors/save,200,OK,PGIR 1-9,text,true,,1035,1442,10,10,http://172.16.32.247/api/tpmadmin/visitors/save,633,0,0
+1715332537623,3163,PGIR_getnewids,200,OK,PGIR 1-6,text,true,,734,1040,10,10,http://172.16.32.247/api/getnewids,3163,0,3018
+1715332542614,808,PGIR/api/tpmadmin/visitors/save,200,OK,PGIR 1-6,text,true,,1034,1442,10,10,http://172.16.32.247/api/tpmadmin/visitors/save,808,0,0
+1715332539674,5203,PGIR/api/tpmadmin/visit/save,200,OK,PGIR 1-4,text,true,,1270,1810,10,10,http://172.16.32.247/api/tpmadmin/visit/save,5203,0,0
+1715332540949,4189,PGIR/api/tpmadmin/visit/save,200,OK,PGIR 1-3,text,true,,1269,1810,9,9,http://172.16.32.247/api/tpmadmin/visit/save,4189,0,0
+1715332539641,5773,PGIR/api/tpmadmin/visit/save,200,OK,PGIR 1-7,text,true,,1264,1810,8,8,http://172.16.32.247/api/tpmadmin/visit/save,5773,0,0
+1715332539159,6257,PGIR/api/tpmadmin/visit/save,200,OK,PGIR 1-2,text,true,,1265,1810,7,7,http://172.16.32.247/api/tpmadmin/visit/save,6257,0,0
+1715332540721,5066,PGIR/api/tpmadmin/visit/save,200,OK,PGIR 1-10,text,true,,1274,1810,6,6,http://172.16.32.247/api/tpmadmin/visit/save,5065,0,0
+1715332540675,5206,PGIR/api/tpmadmin/visit/save,200,OK,PGIR 1-5,text,true,,1271,1810,5,5,http://172.16.32.247/api/tpmadmin/visit/save,5206,0,0
+1715332541223,5095,PGIR/api/tpmadmin/visit/save,200,OK,PGIR 1-1,text,true,,1270,1810,4,4,http://172.16.32.247/api/tpmadmin/visit/save,5095,0,0
+1715332541409,5225,PGIR/api/tpmadmin/visit/save,200,OK,PGIR 1-9,text,true,,1264,1810,3,3,http://172.16.32.247/api/tpmadmin/visit/save,5225,0,0
+1715332540314,6748,PGIR/api/tpmadmin/visit/save,200,OK,PGIR 1-8,text,true,,1265,1810,2,2,http://172.16.32.247/api/tpmadmin/visit/save,6748,0,0
+1715332544002,4430,PGIR/api/tpmadmin/visit/save,200,OK,PGIR 1-6,text,true,,1260,1810,1,1,http://172.16.32.247/api/tpmadmin/visit/save,4430,0,0

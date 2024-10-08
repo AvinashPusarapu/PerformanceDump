@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725471660064,1387,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,114074,802,1,1,http://172.16.37.224/api/auth/token,1336,0,10
+1725471661458,525,InvitationLogin-api/auth/token,400,Bad Request,setUp Thread Group 1-1,text,false,,581,814,1,1,http://172.16.37.224/api/auth/token,525,0,0
+1725471661984,1087,InvitationLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,111794,808,1,1,http://172.16.37.224/api/auth/token,1050,0,0
+1725471663077,1023,InvitationLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,111635,803,1,1,http://172.16.37.224/api/auth/token,987,0,0
+1725471664107,1187,InvitationLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,114109,808,1,1,http://172.16.37.224/api/auth/token,1155,0,0
+1725471665301,1057,InvitationLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,111706,807,1,1,http://172.16.37.224/api/auth/token,1025,0,0
+1725471666365,924,InvitationLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,101005,806,1,1,http://172.16.37.224/api/auth/token,884,0,0

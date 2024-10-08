@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1710746844255,1091,Login-Admin-/api/auth/token,400,Bad Request,setUp Thread Group 1-1,text,false,,3228,804,1,1,http://172.16.33.16/api/auth/token,1091,0,3
+1710746845519,80,api/getnewids,200,OK,VIMCases 1-1,text,true,,741,718,1,1,http://172.16.33.16/api/getnewids,80,0,2
+1710746845601,61,VisitorImageUpload,401,Unauthorized,VIMCases 1-1,text,false,,489,11079,1,1,http://172.16.33.16/api/binaryresource/upload,61,0,0

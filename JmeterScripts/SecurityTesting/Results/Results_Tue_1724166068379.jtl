@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1724166068564,905,other-/api/watchlist/find,203,,other 1-1,text,true,,288,1150,1,1,https://192.168.192.172/api/watchlist/find,905,0,636

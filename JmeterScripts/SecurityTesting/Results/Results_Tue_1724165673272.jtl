@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1724165673424,1075,other-/api/watchlist/find,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Unsupported or unrecognized SSL message,other 1-1,text,false,,2836,0,1,1,https://192.168.192.172:9000/api/watchlist/find,0,0,1074

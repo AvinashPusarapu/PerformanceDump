@@ -1,0 +1,12 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1713543175025,969,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,196199,832,1,1,https://alertgolddemo.alertenterprisecloud.com/api/auth/token,865,0,138
+1713543176284,150,LocationSave-Admin-/api/location/save,500,Internal Server Error,LocationSave 1-1,text,false,,1090,1326,1,1,https://alertgolddemo.alertenterprisecloud.com/api/location/save,150,0,103
+1713543176566,98,LocationSave-Admin-/api/location/save,400,Bad Request,LocationSave 1-1,text,false,,568,1317,1,1,https://alertgolddemo.alertenterprisecloud.com/api/location/save,98,0,0
+1713543176667,109,LocationSave-Admin-/api/location/save,400,Bad Request,LocationSave 1-1,text,false,,568,1317,1,1,https://alertgolddemo.alertenterprisecloud.com/api/location/save,109,0,0
+1713543176783,83,LocationSave-Admin-/api/location/save,400,Bad Request,LocationSave 1-1,text,false,,568,1317,1,1,https://alertgolddemo.alertenterprisecloud.com/api/location/save,83,0,0
+1713543176868,87,LocationSave-Admin-/api/location/save,400,Bad Request,LocationSave 1-1,text,false,,568,1311,1,1,https://alertgolddemo.alertenterprisecloud.com/api/location/save,86,0,0
+1713543176956,85,LocationSave-Admin-/api/location/save,400,Bad Request,LocationSave 1-1,text,false,,568,1314,1,1,https://alertgolddemo.alertenterprisecloud.com/api/location/save,85,0,0
+1713543177043,80,LocationSave-Admin-/api/location/save,400,Bad Request,LocationSave 1-1,text,false,,568,1317,1,1,https://alertgolddemo.alertenterprisecloud.com/api/location/save,80,0,0
+1713543177125,82,LocationSave-Admin-/api/location/save,400,Bad Request,LocationSave 1-1,text,false,,568,1317,1,1,https://alertgolddemo.alertenterprisecloud.com/api/location/save,82,0,0
+1713543177209,81,LocationSave-Admin-/api/location/save,400,Bad Request,LocationSave 1-1,text,false,,568,1310,1,1,https://alertgolddemo.alertenterprisecloud.com/api/location/save,81,0,0
+1713543177292,81,LocationSave-Admin-/api/location/save,400,Bad Request,LocationSave 1-1,text,false,,568,1309,1,1,https://alertgolddemo.alertenterprisecloud.com/api/location/save,81,0,0

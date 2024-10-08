@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1718516534739,866,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,139998,825,1,1,https://coa-dev.hsc.alertenterprisecloud.com/api/auth/token,721,0,256
+1718516535785,4244,visitUIAPI/api/tpm/visitui/findInpatientFilter,200,OK,visitUIAPI 1-1,text,true,,533904,2155,1,1,https://coa-dev.hsc.alertenterprisecloud.com/api/tpm/visitui/find,3867,0,244

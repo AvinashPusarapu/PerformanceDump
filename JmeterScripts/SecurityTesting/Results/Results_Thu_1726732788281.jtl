@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726732788299,3453,AdminLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,113749,804,1,1,https://192.168.192.189/api/auth/token,2925,0,602
+1726732792017,1180,VisitorImageDownload1,404,Not Found,APIsAccessibiltiyWithEndUserToken 1-1,,false,,360,938,1,1,https://192.168.192.189/api/binaryresource/download/5023955680612082,1180,0,580

@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1711021430624,1353,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,51129,801,1,1,https://172.16.35.86/api/auth/token,1350,0,67

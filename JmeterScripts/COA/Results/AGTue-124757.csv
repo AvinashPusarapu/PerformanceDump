@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1719920877891,440,RoomTransfer-A02_/api/Hl7Message,200,OK,RoomTransfer-A02 1-1,text,true,,587,1834,1,1,https://coa-agent-dev.hsc.alertenterprisecloud.com/api/Hl7Message,440,0,236

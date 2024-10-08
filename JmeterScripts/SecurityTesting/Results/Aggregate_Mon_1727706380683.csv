@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727706380740,1111,KioskCasesDL-/api/tpm/visitors/findby/drivingLicense,200,OK,KioskCasesDL 1-1,text,true,,651,1019,1,1,https://192.168.192.172:8443/api/tpm/visitors/findby/drivingLicense,1111,0,548

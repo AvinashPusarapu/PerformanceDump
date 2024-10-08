@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1709201318364,912,Login,200,OK,AllScreens 1-1,text,true,,90414,858,1,1,http://172.16.33.16/api/auth/token,881,0,2
+1709201319731,2240,Admin_LoggingDetails-api/logging/loggingdetails/find,200,OK,AllScreens 1-1,text,true,,6668,1297,1,1,http://172.16.33.16/api/logging/loggingdetails/find,2239,0,0

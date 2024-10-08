@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715329466628,2172,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,137777,802,1,1,http://172.16.32.247/api/auth/token,2121,0,9
+1715329468814,1497,PGIRLogin,200,OK,setUp Thread Group 1-1,text,true,,137845,799,1,1,http://172.16.32.247/api/auth/token,1104,0,0
+1715329470320,1343,SecurityAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,137399,808,1,1,http://172.16.32.247/api/auth/token,904,0,0
+1715329473664,109,PGIR_getnewids,200,OK,PGIR 1-1,text,true,,742,1040,1,1,http://172.16.32.247/api/getnewids,109,0,6
+1715329474856,594,PGIR/api/tpmadmin/visitors/save,200,OK,PGIR 1-1,text,true,,1033,1442,1,1,http://172.16.32.247/api/tpmadmin/visitors/save,594,0,0
+1715329475459,4679,PGIR/api/tpmadmin/visit/save,200,OK,PGIR 1-1,text,true,,1263,1810,1,1,http://172.16.32.247/api/tpmadmin/visit/save,4679,0,0

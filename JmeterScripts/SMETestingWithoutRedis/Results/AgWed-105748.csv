@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1712746669129,828,Login-Admin-/api/auth/token,200,OK,Request An Access Card 1-1,text,true,,209525,858,1,1,http://172.16.33.16/api/auth/token,801,0,2
+1712746670976,106,Request An Access Card_getnewids,200,OK,Request An Access Card 1-1,text,true,,740,1092,1,1,http://172.16.33.16/api/getnewids,105,0,0
+1712746671586,3170,Request An Access Card_api/identity/save-1,400,Bad Request,Request An Access Card 1-1,text,false,,711,1684,1,1,http://172.16.33.16/api/identity/save?_dc=1712746671586,3170,0,0
+1712746669967,3277,Data creation,,"Number of samples in transaction : 2, number of failing samples : 1",Request An Access Card 1-1,,false,,1451,2776,1,1,null,3275,1513,0

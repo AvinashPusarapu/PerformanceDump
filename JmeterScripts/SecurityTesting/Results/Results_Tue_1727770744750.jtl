@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727770744806,1233,KioskCases-/api/tpm/visitui/findby/id,200,OK,KioskCases 1-1,text,true,,2481,1312,1,1,https://192.168.192.172:8443/api/tpm/visitui/findby/id,1233,0,563
+1727770746040,526,KioskCases-/api/tpm/visitui/findby/id,200,OK,KioskCases 1-1,text,true,,651,1312,1,1,https://192.168.192.172:8443/api/tpm/visitui/findby/id,526,0,0
+1727770746566,520,KioskCases-/api/tpm/visitors/findby/id,200,OK,KioskCases 1-1,text,true,,3512,1038,1,1,https://192.168.192.172:8443/api/tpm/visitors/findby/id,520,0,0
+1727770747087,478,KioskCases-/api/tpm/visitors/findby/id,200,OK,KioskCases 1-1,text,true,,650,1038,1,1,https://192.168.192.172:8443/api/tpm/visitors/findby/id,478,0,0

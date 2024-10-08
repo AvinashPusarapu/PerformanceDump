@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727272881401,870,/api/visitor/save,400,Bad Request,VIMSave 1-1,text,false,,393,1267,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/save,870,0,540
+1727272882273,328,/api/visit/save,400,Bad Request,VIMSave 1-1,text,false,,393,1816,1,1,https://192.168.192.172:8443/api/tpmadmin/visit/save,328,0,0
+1727272882604,380,/api/visitorsvisits/save,400,Bad Request,VIMSave 1-1,text,false,,393,1225,1,1,https://192.168.192.172:8443/api/tpm/visitorsvisits/save,380,0,0

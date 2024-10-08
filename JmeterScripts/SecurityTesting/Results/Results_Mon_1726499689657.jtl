@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726499689871,1777,APIsAccessibiltiyWithEndUserTokenCheckIn-/api/tpm/visitorsvisits/save,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 192.168.192.189:8443 [/192.168.192.189] failed: Connection refused: connect,APIsAccessibiltiyWithEndUserToken 1-1,text,false,,2741,0,1,1,https://192.168.192.189:8443/api/tpm/visitorsvisits/save,0,0,1777

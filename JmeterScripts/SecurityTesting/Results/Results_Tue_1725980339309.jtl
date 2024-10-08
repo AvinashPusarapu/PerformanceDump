@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725980339324,578,AdminLogin-api/auth/token,400,Bad Request,setUp Thread Group 1-1,text,false,,461,819,1,1,https://hscperf187.alertenterprise.com/api/auth/token,578,0,80
+1725980340115,120,APIsAccessibiltiyWithEndUserToken-/api/tpmadmin/visit/save,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,613,1142,1,1,https://hscperf187.alertenterprise.com/api/tpmadmin/visit/save,120,0,15

@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725374680132,287,Login-api/auth/token,400,Bad Request,setUp Thread Group 1-1,text,false,,973,818,1,1,https://hscperf69.alertenterprise.com/api/auth/token,287,0,75
+1725374680680,45,ARBITRARY CODE EXECUTION -/api/rule/save,401,Unauthorized,ARBITRARY CODE EXECUTION  1-1,text,false,,482,877,1,1,https://hscperf69.alertenterprise.com/api/rule/save,45,0,32

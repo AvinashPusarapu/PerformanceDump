@@ -1,0 +1,16 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1710756377229,957,BadgeAdminLogin-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,209090,807,1,1,http://172.16.33.16/api/auth/token,855,0,4
+1710756378220,925,AdminLogin-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,193258,801,1,1,http://172.16.33.16/api/auth/token,857,0,0
+1710756379361,114,api/getnewids,200,OK,SingleRegistrationCases 1-1,text,true,,737,1176,1,1,http://172.16.33.16/api/getnewids,114,0,3
+1710756379477,159,VisitorImageUpload,201,Created,SingleRegistrationCases 1-1,text,true,,12525,11565,1,1,http://172.16.33.16/api/binaryresource/upload,158,0,0
+1710756379638,167,VisitorImageDownload,200,OK,SingleRegistrationCases 1-1,bin,true,,9962,1730,1,1,http://172.16.33.16/api/binaryresource/download/4762571639808387?dummy=1708432416755&Authorization=Bearer%20eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo0MTI0Mzc5NDIyNTE1NjI0LCJ1c2VyX25hbWUiOiJiYWRnZS5hZG1pbiIsImlzcyI6IlRoZVBsYXlBcHAiLCJzYXZlTG9nVG9EQiI6ZmFsc2UsImxhc3RfbmFtZSI6IkFkbWluIiwiYWNjZXNzSWRzIjpbNDI0OTA1OTMzODYwNzg3OSw0MjQ5MTgyMDAyNzk3OTM5LDM0NjQyNzM3NjUxNTU0MDldLCJpZCI6ImJhZGdlLmFkbWluIiwibG9jYWxlIjoiZW4iLCJleHAiOjE3MTA3NjM1NzcsImZpcnN0X25hbWUiOiJCYWRnZSIsInRlbmFudCI6ImFsZXJ0In0.FrN0WBKQgTJ0ZduxT-DBwDdg0eduQHf22tZbYa8zgL76DiHzoeRBA4UAax5z3yp5_0PaPd00coJb6YESfWokdw,137,0,0
+1710756379808,227,VisitorCreation,200,OK,SingleRegistrationCases 1-1,text,true,,976,1487,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,227,0,0
+1710756380037,259,VisitCreation,200,OK,SingleRegistrationCases 1-1,text,true,,1206,2327,1,1,http://172.16.33.16/api/tpmadmin/visit/save?,258,0,0
+1710756380298,282,VisitorModifyBeforeCheckIn,200,OK,SingleRegistrationCases 1-1,text,true,,1069,1278,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,282,0,0
+1710756380581,169,VisitModifyBeforeCheckIn,200,OK,SingleRegistrationCases 1-1,text,true,,598,1326,1,1,http://172.16.33.16/api/tpmadmin/visit/save?,169,0,0
+1710756380751,249,VisitGet,200,OK,SingleRegistrationCases 1-1,text,true,,6202,1198,1,1,http://172.16.33.16/api/tpmadmin/visit/4762571639808338,249,0,0
+1710756381000,205,CreateBadgeForCheckIn,200,OK,SingleRegistrationCases 1-1,text,true,,1115,1297,1,1,http://172.16.33.16/api/asset/save,205,0,0
+1710756381206,278,CheckIn,200,OK,SingleRegistrationCases 1-1,text,true,,693,1572,1,1,http://172.16.33.16/api/tpm/visitorsvisits/save,278,0,0
+1710756381485,230,VisitorModifyAfterCheckIn,200,OK,SingleRegistrationCases 1-1,text,true,,1066,1277,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,229,0,0
+1710756381715,175,VisitModifyAfterCheckIn,200,OK,SingleRegistrationCases 1-1,text,true,,598,1657,1,1,http://172.16.33.16/api/tpmadmin/visit/save?,175,0,0
+1710756381891,207,CheckOut,200,OK,SingleRegistrationCases 1-1,text,true,,760,1415,1,1,http://172.16.33.16/api/tpm/visitorsvisits/save,207,0,0

@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726649310837,5770,AdminLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,114349,802,1,1,http://172.16.37.224/api/auth/token,5735,0,39
+1726649316844,1040,AssetSave-Admin-api/asset/save,200,OK,AssetSave 1-1,text,true,,1119,1106,1,1,http://172.16.37.224/api/asset/save,1040,0,38

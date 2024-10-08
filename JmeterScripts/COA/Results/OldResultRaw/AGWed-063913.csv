@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715193553211,6543,AdminLogin,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,setUp Thread Group 1-1,text,false,,2227,0,1,1,http://172.16.32.16/api/auth/token,0,0,6543

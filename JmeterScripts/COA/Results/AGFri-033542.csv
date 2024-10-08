@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1720190143007,424,PatientCreation-A01_/api/Hl7Message,200,OK,PatientCreation-A01 1-1,text,true,,588,2913,5,5,https://coa-agent-dev.hsc.alertenterprisecloud.com/api/Hl7Message,424,0,233
+1720190143125,418,PatientCreation-A01_/api/Hl7Message,200,OK,PatientCreation-A01 1-2,text,true,,588,2913,5,5,https://coa-agent-dev.hsc.alertenterprisecloud.com/api/Hl7Message,418,0,218
+1720190143207,413,PatientCreation-A01_/api/Hl7Message,200,OK,PatientCreation-A01 1-3,text,true,,588,2913,5,5,https://coa-agent-dev.hsc.alertenterprisecloud.com/api/Hl7Message,413,0,215
+1720190143308,407,PatientCreation-A01_/api/Hl7Message,200,OK,PatientCreation-A01 1-4,text,true,,588,2913,5,5,https://coa-agent-dev.hsc.alertenterprisecloud.com/api/Hl7Message,406,0,217
+1720190143407,402,PatientCreation-A01_/api/Hl7Message,200,OK,PatientCreation-A01 1-5,text,true,,588,2913,5,5,https://coa-agent-dev.hsc.alertenterprisecloud.com/api/Hl7Message,402,0,214
+1720190143506,405,PatientCreation-A01_/api/Hl7Message,200,OK,PatientCreation-A01 1-6,text,true,,588,2913,5,5,https://coa-agent-dev.hsc.alertenterprisecloud.com/api/Hl7Message,405,0,219
+1720190143608,403,PatientCreation-A01_/api/Hl7Message,200,OK,PatientCreation-A01 1-7,text,true,,588,2913,4,4,https://coa-agent-dev.hsc.alertenterprisecloud.com/api/Hl7Message,403,0,220
+1720190143708,401,PatientCreation-A01_/api/Hl7Message,200,OK,PatientCreation-A01 1-8,text,true,,588,2913,3,3,https://coa-agent-dev.hsc.alertenterprisecloud.com/api/Hl7Message,401,0,225
+1720190143808,398,PatientCreation-A01_/api/Hl7Message,200,OK,PatientCreation-A01 1-9,text,true,,588,2913,2,2,https://coa-agent-dev.hsc.alertenterprisecloud.com/api/Hl7Message,398,0,217
+1720190143907,401,PatientCreation-A01_/api/Hl7Message,200,OK,PatientCreation-A01 1-10,text,true,,588,2913,1,1,https://coa-agent-dev.hsc.alertenterprisecloud.com/api/Hl7Message,401,0,218

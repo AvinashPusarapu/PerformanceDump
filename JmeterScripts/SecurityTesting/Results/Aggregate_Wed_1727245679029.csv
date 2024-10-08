@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727245679305,3175,RefinedVIMEndUserCases-/api/visit/get,500,Internal Server Error,RefinedVIMEndUserCases 1-1,text,false,,6060,1113,1,1,https://192.168.192.172:8443/api/tpmadmin/visit/5032697014636067?_dc=1726498027146&id=5032697014636067,3175,0,583

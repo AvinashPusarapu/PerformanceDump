@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725472189537,1655,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,114204,802,1,1,http://172.16.37.224/api/auth/token,1594,0,7
+1725472191408,111,ARBITRARY CODE EXECUTION -/api/rule/save,400,Bad Request,ARBITRARY CODE EXECUTION  1-1,text,false,,689,1203,1,1,http://172.16.37.224/api/rule/save,111,0,18
+1725472191523,334,ARBITRARY_FILE_WRITE -/api/recognition/image/save,500,Internal Server Error,ARBITRARY_FILE_WRITE  2-1,text,false,,587,1398,1,1,http://172.16.37.224/api/recognition/image/save,334,0,17

@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726902178092,546,SelfRegLogin-api/auth/token,400,Bad Request,setUp Thread Group 1-1,text,false,,464,816,1,1,http://172.16.37.224/api/auth/token,546,0,31
+1726902178985,103,api/getnewids,200,OK,VIMInvite 1-1,text,true,,736,1081,1,1,http://172.16.37.224/api/getnewids,103,0,3
+1726902179088,93,VIMInvite/api/tpmadmin/visitors/save,401,Unauthorized,VIMInvite 1-1,text,false,,489,1421,1,1,http://172.16.37.224/api/tpmadmin/visitors/save,93,0,0

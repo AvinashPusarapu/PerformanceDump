@@ -1,0 +1,29 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1708596424717,970,Login-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,162275,806,1,1,http://172.16.37.224/api/auth/token,929,0,4
+1708596425922,109,api/getnewids,200,OK,VIMCases 1-1,text,true,,737,2293,1,1,http://172.16.37.224/api/getnewids,109,0,3
+1708596426032,579,VisitorCreation,200,OK,VIMCases 1-1,text,true,,976,2611,1,1,http://172.16.37.224/api/tpmadmin/visitors/save?,579,0,0
+1708596426612,1219,VisitCreation,200,OK,VIMCases 1-1,text,true,,1124,3041,1,1,http://172.16.37.224/api/tpmadmin/visit/save?,1219,0,0
+1708596427832,111,api/getnewids,200,OK,VIMCases 1-1,text,true,,734,2293,1,1,http://172.16.37.224/api/getnewids,111,0,0
+1708596427944,415,VisitorCreation,200,OK,VIMCases 1-1,text,true,,1055,2611,1,1,http://172.16.37.224/api/tpmadmin/visitors/save?,415,0,0
+1708596428359,1075,VisitCreation,200,OK,VIMCases 1-1,text,true,,1127,3041,1,1,http://172.16.37.224/api/tpmadmin/visit/save?,1075,0,0
+1708596429435,135,api/getnewids,200,OK,VIMCases 1-1,text,true,,734,2293,1,1,http://172.16.37.224/api/getnewids,135,0,0
+1708596429571,479,VisitorCreation,200,OK,VIMCases 1-1,text,true,,1054,2611,1,1,http://172.16.37.224/api/tpmadmin/visitors/save?,479,0,0
+1708596430051,997,VisitCreation,200,OK,VIMCases 1-1,text,true,,1133,3041,1,1,http://172.16.37.224/api/tpmadmin/visit/save?,997,0,0
+1708596431048,121,api/getnewids,200,OK,VIMCases 1-1,text,true,,729,2293,1,1,http://172.16.37.224/api/getnewids,121,0,0
+1708596431170,505,VisitorCreation,200,OK,VIMCases 1-1,text,true,,1056,2611,1,1,http://172.16.37.224/api/tpmadmin/visitors/save?,504,0,0
+1708596431675,1415,VisitCreation,200,OK,VIMCases 1-1,text,true,,1132,3041,1,1,http://172.16.37.224/api/tpmadmin/visit/save?,1415,0,0
+1708596433091,121,api/getnewids,200,OK,VIMCases 1-1,text,true,,730,2293,1,1,http://172.16.37.224/api/getnewids,121,0,0
+1708596433213,635,VisitorCreation,200,OK,VIMCases 1-1,text,true,,1055,2611,1,1,http://172.16.37.224/api/tpmadmin/visitors/save?,635,0,0
+1708596433848,1225,VisitCreation,200,OK,VIMCases 1-1,text,true,,1124,3041,1,1,http://172.16.37.224/api/tpmadmin/visit/save?,1225,0,0
+1708596435074,122,api/getnewids,200,OK,VIMCases 1-1,text,true,,736,2293,1,1,http://172.16.37.224/api/getnewids,122,0,0
+1708596435197,568,VisitorCreation,200,OK,VIMCases 1-1,text,true,,1056,2611,1,1,http://172.16.37.224/api/tpmadmin/visitors/save?,567,0,0
+1708596435765,1422,VisitCreation,200,OK,VIMCases 1-1,text,true,,1138,3041,1,1,http://172.16.37.224/api/tpmadmin/visit/save?,1421,0,0
+1708596437187,121,api/getnewids,200,OK,VIMCases 1-1,text,true,,730,2293,1,1,http://172.16.37.224/api/getnewids,120,0,0
+1708596437309,454,VisitorCreation,200,OK,VIMCases 1-1,text,true,,1056,2611,1,1,http://172.16.37.224/api/tpmadmin/visitors/save?,454,0,0
+1708596437764,1366,VisitCreation,200,OK,VIMCases 1-1,text,true,,1142,3041,1,1,http://172.16.37.224/api/tpmadmin/visit/save?,1366,0,0
+1708596439130,110,api/getnewids,200,OK,VIMCases 1-1,text,true,,730,2293,1,1,http://172.16.37.224/api/getnewids,110,0,0
+1708596439241,511,VisitorCreation,200,OK,VIMCases 1-1,text,true,,1056,2611,1,1,http://172.16.37.224/api/tpmadmin/visitors/save?,511,0,0
+1708596439753,1336,VisitCreation,200,OK,VIMCases 1-1,text,true,,1137,3041,1,1,http://172.16.37.224/api/tpmadmin/visit/save?,1336,0,0
+1708596441089,117,api/getnewids,200,OK,VIMCases 1-1,text,true,,728,2293,1,1,http://172.16.37.224/api/getnewids,117,0,0
+1708596441206,465,VisitorCreation,200,OK,VIMCases 1-1,text,true,,1055,2611,1,1,http://172.16.37.224/api/tpmadmin/visitors/save?,464,0,0
+1708596441671,329,VisitCreation,500,Internal Server Error,VIMCases 1-1,,false,,133,3041,1,1,http://172.16.37.224/api/tpmadmin/visit/save?,329,0,0

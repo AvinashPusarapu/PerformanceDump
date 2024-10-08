@@ -1,0 +1,50 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 131,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 41407.9389312977,
+    "medianResTime" : 42547.0,
+    "minResTime" : 933.0,
+    "maxResTime" : 70942.0,
+    "pct1ResTime" : 64321.0,
+    "pct2ResTime" : 68341.2,
+    "pct3ResTime" : 70505.20000000001,
+    "throughput" : 0.8735080349403214,
+    "receivedKBytesPerSec" : 2.421916675001667,
+    "sentKBytesPerSec" : 1.1353768149463226
+  },
+  "AdminLogin" : {
+    "transaction" : "AdminLogin",
+    "sampleCount" : 1,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 933.0,
+    "medianResTime" : 933.0,
+    "minResTime" : 933.0,
+    "maxResTime" : 933.0,
+    "pct1ResTime" : 933.0,
+    "pct2ResTime" : 933.0,
+    "pct3ResTime" : 933.0,
+    "throughput" : 1.0718113612004287,
+    "receivedKBytesPerSec" : 141.57958199356912,
+    "sentKBytesPerSec" : 0.8467728429796355
+  },
+  "VIM_dev/api/tpm/visitorsvisits/save" : {
+    "transaction" : "VIM_dev/api/tpm/visitorsvisits/save",
+    "sampleCount" : 130,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 41719.2846153846,
+    "medianResTime" : 42829.5,
+    "minResTime" : 5145.0,
+    "maxResTime" : 70942.0,
+    "pct1ResTime" : 64328.0,
+    "pct2ResTime" : 68348.34999999999,
+    "pct3ResTime" : 70518.84999999999,
+    "throughput" : 0.8812125484666902,
+    "receivedKBytesPerSec" : 1.5666677540603562,
+    "sentKBytesPerSec" : 1.1488464376982728
+  }
+}

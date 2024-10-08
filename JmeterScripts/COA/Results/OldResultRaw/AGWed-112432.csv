@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715167472900,1178,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,138295,825,1,1,https://coa-dev.hsc.alertenterprisecloud.com/api/auth/token,1032,0,225
+1715167474829,299,CheckInWithProv_getnewids,200,OK,CheckInWithProv 1-1,text,true,,638,1133,1,1,https://coa-dev.hsc.alertenterprisecloud.com/api/getnewids,299,0,225
+1715167475760,131,CheckInWithProv/api/asset/save,200,OK,CheckInWithProv 1-1,text,true,,809,1356,1,1,https://coa-dev.hsc.alertenterprisecloud.com/api/asset/save,131,0,0

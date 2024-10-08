@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1724228304280,1200,other-/api/tpmadmin/visit/save,200,OK,other 1-1,text,true,,614,1088,1,1,https://192.168.192.172/api/tpmadmin/visit/save,1200,0,583

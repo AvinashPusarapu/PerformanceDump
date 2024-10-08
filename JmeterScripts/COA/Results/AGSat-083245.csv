@@ -1,0 +1,24 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1717835565178,891,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,135291,809,1,1,https://coa-uat.alerthsc.com/api/auth/token,745,0,256
+1717835567583,303,VIM_dev_getnewids,200,OK,VIM_dev 1-1,text,true,,638,1112,1,1,https://coa-uat.alerthsc.com/api/getnewids,303,0,228
+1717835569669,138,VIM_dev/api/tpmadmin/visitors/save,200,OK,VIM_dev 1-1,text,true,,932,1513,1,1,https://coa-uat.alerthsc.com/api/tpmadmin/visitors/save,138,0,0
+1717835571115,217,VIM_dev/api/tpmadmin/visit/save,200,OK,VIM_dev 1-1,text,true,,1114,1850,1,1,https://coa-uat.alerthsc.com/api/tpmadmin/visit/save,217,0,0
+1717835572817,74,VIM_dev_getnewids,200,OK,VIM_dev 1-1,text,true,,639,1112,1,1,https://coa-uat.alerthsc.com/api/getnewids,74,0,0
+1717835573801,126,VIM_dev/api/tpmadmin/visitors/save,200,OK,VIM_dev 1-1,text,true,,931,1513,1,1,https://coa-uat.alerthsc.com/api/tpmadmin/visitors/save,126,0,0
+1717835574580,208,VIM_dev/api/tpmadmin/visit/save,200,OK,VIM_dev 1-1,text,true,,1115,1850,1,1,https://coa-uat.alerthsc.com/api/tpmadmin/visit/save,208,0,0
+1717835575591,74,VIM_dev_getnewids,200,OK,VIM_dev 1-1,text,true,,643,1112,1,1,https://coa-uat.alerthsc.com/api/getnewids,74,0,0
+1717835576356,127,VIM_dev/api/tpmadmin/visitors/save,200,OK,VIM_dev 1-1,text,true,,931,1513,1,1,https://coa-uat.alerthsc.com/api/tpmadmin/visitors/save,127,0,0
+1717835576523,200,VIM_dev/api/tpmadmin/visit/save,200,OK,VIM_dev 1-1,text,true,,1115,1850,1,1,https://coa-uat.alerthsc.com/api/tpmadmin/visit/save,200,0,0
+1717835578615,74,VIM_dev_getnewids,200,OK,VIM_dev 1-1,text,true,,637,1112,1,1,https://coa-uat.alerthsc.com/api/getnewids,74,0,0
+1717835580607,138,VIM_dev/api/tpmadmin/visitors/save,200,OK,VIM_dev 1-1,text,true,,928,1513,1,1,https://coa-uat.alerthsc.com/api/tpmadmin/visitors/save,138,0,0
+1717835580869,200,VIM_dev/api/tpmadmin/visit/save,200,OK,VIM_dev 1-1,text,true,,1113,1850,1,1,https://coa-uat.alerthsc.com/api/tpmadmin/visit/save,200,0,0
+1717835581469,75,VIM_dev_getnewids,200,OK,VIM_dev 1-1,text,true,,644,1112,1,1,https://coa-uat.alerthsc.com/api/getnewids,75,0,0
+1717835582328,125,VIM_dev/api/tpmadmin/visitors/save,200,OK,VIM_dev 1-1,text,true,,930,1513,1,1,https://coa-uat.alerthsc.com/api/tpmadmin/visitors/save,125,0,0
+1717835582471,199,VIM_dev/api/tpmadmin/visit/save,200,OK,VIM_dev 1-1,text,true,,1114,1850,1,1,https://coa-uat.alerthsc.com/api/tpmadmin/visit/save,199,0,0
+1717835583652,75,VIM_dev_getnewids,200,OK,VIM_dev 1-1,text,true,,640,1112,1,1,https://coa-uat.alerthsc.com/api/getnewids,75,0,0
+1717835585108,130,VIM_dev/api/tpmadmin/visitors/save,200,OK,VIM_dev 1-1,text,true,,930,1513,1,1,https://coa-uat.alerthsc.com/api/tpmadmin/visitors/save,130,0,0
+1717835585588,219,VIM_dev/api/tpmadmin/visit/save,200,OK,VIM_dev 1-1,text,true,,1116,1850,1,1,https://coa-uat.alerthsc.com/api/tpmadmin/visit/save,219,0,0
+1717835587468,74,VIM_dev_getnewids,200,OK,VIM_dev 1-1,text,true,,638,1112,1,1,https://coa-uat.alerthsc.com/api/getnewids,74,0,0
+1717835587955,122,VIM_dev/api/tpmadmin/visitors/save,200,OK,VIM_dev 1-1,text,true,,930,1513,1,1,https://coa-uat.alerthsc.com/api/tpmadmin/visitors/save,122,0,0
+1717835589240,187,VIM_dev/api/tpmadmin/visit/save,200,OK,VIM_dev 1-1,text,true,,1114,1850,1,1,https://coa-uat.alerthsc.com/api/tpmadmin/visit/save,187,0,0
+1717835589560,74,VIM_dev_getnewids,200,OK,VIM_dev 1-1,text,true,,639,1112,1,1,https://coa-uat.alerthsc.com/api/getnewids,74,0,0

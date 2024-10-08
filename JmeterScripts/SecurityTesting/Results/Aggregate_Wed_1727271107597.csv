@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727271107641,2641,VisitorDocUpload,403,Forbidden,RefinedVIMEndUserCases 1-1,text,false,,392,263021,1,1,https://192.168.192.172:8443/api/binaryresource/upload,2641,0,540

@@ -1,0 +1,15 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1710763131958,820,BadgeAdminLogin-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,209082,807,1,1,http://172.16.33.16/api/auth/token,777,0,2
+1710763132797,870,AdminLogin-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,193244,801,1,1,http://172.16.33.16/api/auth/token,833,0,0
+1710763133908,83,api/getnewids,200,OK,GroupRegistrationCases 1-1,text,true,,744,1176,1,1,http://172.16.33.16/api/getnewids,83,0,3
+1710763133994,174,VisitorCreation0,200,OK,GroupRegistrationCases 1-1,text,true,,979,1492,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,174,0,0
+1710763134171,136,VisitorCreation1,200,OK,GroupRegistrationCases 1-1,text,true,,978,1492,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,136,0,0
+1710763134309,169,VisitorCreation2,200,OK,GroupRegistrationCases 1-1,text,true,,977,1492,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,169,0,0
+1710763134480,137,VisitorCreation3,200,OK,GroupRegistrationCases 1-1,text,true,,978,1492,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,137,0,0
+1710763134619,156,VisitorCreation4,200,OK,GroupRegistrationCases 1-1,text,true,,979,1492,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,156,0,0
+1710763134777,150,VisitorCreation5,200,OK,GroupRegistrationCases 1-1,text,true,,978,1492,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,150,0,0
+1710763134929,134,VisitorCreation6,200,OK,GroupRegistrationCases 1-1,text,true,,979,1492,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,134,0,0
+1710763135065,135,VisitorCreation7,200,OK,GroupRegistrationCases 1-1,text,true,,977,1492,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,135,0,0
+1710763135202,153,VisitorCreation8,200,OK,GroupRegistrationCases 1-1,text,true,,979,1492,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,153,0,0
+1710763135357,157,VisitorCreation9,200,OK,GroupRegistrationCases 1-1,text,true,,977,1492,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,157,0,0
+1710763135515,602,GroupVisitCreation,200,OK,GroupRegistrationCases 1-1,text,true,,1317,2912,1,1,http://172.16.33.16/api/tpmadmin/visit/save?,602,0,0

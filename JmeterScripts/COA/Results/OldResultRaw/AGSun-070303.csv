@@ -1,0 +1,14 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715497383399,1328,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,137791,802,1,1,http://172.16.32.247/api/auth/token,1260,0,4
+1715497384738,1064,PGIRLogin,200,OK,setUp Thread Group 1-1,text,true,,137860,799,1,1,http://172.16.32.247/api/auth/token,977,0,0
+1715497385813,1273,SecurityAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,137417,808,1,1,http://172.16.32.247/api/auth/token,1239,0,0
+1715497388324,7513,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-1,text,true,,371334,2224,10,10,http://172.16.32.247/api/tpm/visitui/find,7429,0,6
+1715497390330,6261,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-5,text,true,,371336,2224,9,9,http://172.16.32.247/api/tpm/visitui/find,6073,0,8
+1715497391829,5639,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-8,text,true,,371320,2224,8,8,http://172.16.32.247/api/tpm/visitui/find,5416,0,6
+1715497388832,9468,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-2,text,true,,371334,2224,7,7,http://172.16.32.247/api/tpm/visitui/find,9389,0,22
+1715497389830,8876,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-4,text,true,,371334,2224,6,6,http://172.16.32.247/api/tpm/visitui/find,8645,0,3
+1715497390833,7882,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-6,text,true,,371334,2224,5,5,http://172.16.32.247/api/tpm/visitui/find,7770,0,5
+1715497391331,7473,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-7,text,true,,371323,2224,4,4,http://172.16.32.247/api/tpm/visitui/find,7398,0,39
+1715497389330,9510,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-3,text,true,,371334,2224,3,3,http://172.16.32.247/api/tpm/visitui/find,8576,0,40
+1715497392830,13472,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-10,text,true,,371323,2224,2,2,http://172.16.32.247/api/tpm/visitui/find,13403,0,17
+1715497392332,15704,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-9,text,true,,371335,2224,1,1,http://172.16.32.247/api/tpm/visitui/find,15262,0,11

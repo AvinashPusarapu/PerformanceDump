@@ -1,0 +1,16 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715167413671,560,AdminLogin,401,Unauthorized,setUp Thread Group 1-1,text,false,,831,1561,1,1,https://coa-dev.hsc.alertenterprisecloud.com:443/api/auth/token,250,0,98
+1715167413671,250,AdminLogin-0,301,Moved Permanently,setUp Thread Group 1-1,text,true,,370,825,1,1,http://coa-dev.hsc.alertenterprisecloud.com/api/auth/token,250,0,98
+1715167413923,308,AdminLogin-1,401,Unauthorized,setUp Thread Group 1-1,text,false,,461,736,1,1,https://coa-dev.hsc.alertenterprisecloud.com:443/api/auth/token,308,0,230
+1715167414233,209,PGIRLogin,401,Unauthorized,setUp Thread Group 1-1,text,false,,831,1558,1,1,https://coa-dev.hsc.alertenterprisecloud.com:443/api/auth/token,130,0,0
+1715167414233,131,PGIRLogin-0,301,Moved Permanently,setUp Thread Group 1-1,text,true,,370,822,1,1,http://coa-dev.hsc.alertenterprisecloud.com/api/auth/token,130,0,0
+1715167414364,78,PGIRLogin-1,401,Unauthorized,setUp Thread Group 1-1,text,false,,461,736,1,1,https://coa-dev.hsc.alertenterprisecloud.com:443/api/auth/token,78,0,0
+1715167414443,206,SecurityAdminLogin,401,Unauthorized,setUp Thread Group 1-1,text,false,,831,1567,1,1,https://coa-dev.hsc.alertenterprisecloud.com:443/api/auth/token,132,0,0
+1715167414443,132,SecurityAdminLogin-0,301,Moved Permanently,setUp Thread Group 1-1,text,true,,370,831,1,1,http://coa-dev.hsc.alertenterprisecloud.com/api/auth/token,132,0,0
+1715167414575,74,SecurityAdminLogin-1,401,Unauthorized,setUp Thread Group 1-1,text,false,,461,736,1,1,https://coa-dev.hsc.alertenterprisecloud.com:443/api/auth/token,74,0,0
+1715167415389,507,CheckInWithProv_getnewids,200,OK,CheckInWithProv 1-1,text,true,,1015,1488,1,1,https://coa-dev.hsc.alertenterprisecloud.com:443/api/getnewids,208,0,72
+1715167415389,208,CheckInWithProv_getnewids-0,301,Moved Permanently,CheckInWithProv 1-1,text,true,,369,742,1,1,http://coa-dev.hsc.alertenterprisecloud.com/api/getnewids,208,0,72
+1715167415597,299,CheckInWithProv_getnewids-1,200,OK,CheckInWithProv 1-1,text,true,,646,746,1,1,https://coa-dev.hsc.alertenterprisecloud.com:443/api/getnewids,299,0,224
+1715167417271,280,CheckInWithProv/api/asset/save,401,Unauthorized,CheckInWithProv 1-1,text,false,,837,1712,1,1,https://coa-dev.hsc.alertenterprisecloud.com:443/api/asset/save,204,0,0
+1715167417271,204,CheckInWithProv/api/asset/save-0,301,Moved Permanently,CheckInWithProv 1-1,text,true,,370,965,1,1,http://coa-dev.hsc.alertenterprisecloud.com/api/asset/save,204,0,0
+1715167417475,76,CheckInWithProv/api/asset/save-1,401,Unauthorized,CheckInWithProv 1-1,text,false,,467,747,1,1,https://coa-dev.hsc.alertenterprisecloud.com:443/api/asset/save,76,0,0

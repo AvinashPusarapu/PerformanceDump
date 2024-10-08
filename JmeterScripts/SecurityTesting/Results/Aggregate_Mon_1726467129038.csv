@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726467129053,1090,AdminLogin-api/auth/token,404,Not Found,setUp Thread Group 1-1,text,false,,710,802,1,1,http://172.16.37.224/api/auth/token,1090,0,12
+1726467130388,1049,api/getnewids,404,Not Found,VIMInvite 1-1,text,false,,710,719,1,1,http://172.16.37.224/api/getnewids,1049,0,18

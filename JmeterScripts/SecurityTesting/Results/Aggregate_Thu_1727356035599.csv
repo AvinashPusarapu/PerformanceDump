@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727356035854,1250,RefinedVIMEndUserCases-/api/tpm/visitui/findby/email,200,OK,RefinedVIMEndUserCases 1-1,text,true,,3454,1712,1,1,https://192.168.192.172:8443/api/tpm/visitui/findby/email,1250,0,576
+1727356037104,512,RefinedVIMEndUserCases-/api/tpm/visitui/findby/email,200,OK,RefinedVIMEndUserCases 1-1,text,true,,651,1680,1,1,https://192.168.192.172:8443/api/tpm/visitui/findby/email,512,0,0
+1727356037616,537,RefinedVIMEndUserCases-/api/tpm/visitors/findby/email,200,OK,RefinedVIMEndUserCases 1-1,text,true,,3518,1099,1,1,https://192.168.192.172:8443/api/tpm/visitors/findby/email,537,0,0
+1727356038153,405,RefinedVIMEndUserCases-/api/tpm/visitors/findby/email,200,OK,RefinedVIMEndUserCases 1-1,text,true,,650,1083,1,1,https://192.168.192.172:8443/api/tpm/visitors/findby/email,405,0,0

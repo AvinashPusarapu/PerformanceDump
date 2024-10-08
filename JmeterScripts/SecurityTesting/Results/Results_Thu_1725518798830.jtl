@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725518798848,4041,InvitationLogin-api/auth/token,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: No such host is known (hscperf187.alertenterprise.co),setUp Thread Group 1-1,text,false,,2536,0,1,1,https://hscperf187.alertenterprise.co/api/auth/token,0,0,4041

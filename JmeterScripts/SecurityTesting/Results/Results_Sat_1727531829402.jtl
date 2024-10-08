@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727531829629,998,RefinedVIMEndUserCases-VisitorImageDownload1,200,OK,RefinedVIMEndUserCases 1-1,bin,true,,8721,1045,1,1,https://192.168.192.172:8443/api/binaryresource/download/5032767698914903,998,0,566
+1727531830628,455,RefinedVIMEndUserCases-VisitorImageDownload1,400,Bad Request,RefinedVIMEndUserCases 1-1,text,false,,673,928,1,1,https://192.168.192.172:8443/api/binaryresource/download/4173841139946415,455,0,0

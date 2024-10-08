@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725471590168,5092,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,108453,818,1,1,https://hscperf69.alertenterprise.com/api/auth/token,5085,0,32
+1725471595268,1846,InvitationLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,102804,824,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1838,0,0
+1725471597121,458,InvitationLogin-api/auth/token,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,setUp Thread Group 1-1,text,false,,3172,0,1,1,https://hscperf69.alertenterprise.com/api/auth/token,0,0,0

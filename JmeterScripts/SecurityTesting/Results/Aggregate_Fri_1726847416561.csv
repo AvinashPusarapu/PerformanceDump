@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726847416577,1293,SelfRegLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,1055203,833,1,1,https://hscperf187.alertenterprise.com/api/auth/token,1203,0,28
+1726847418160,45,/api/visitor/save,400,Bad Request,VIMSave 1-1,text,false,,393,1196,1,1,https://hscperf187.alertenterprise.com/api/tpmadmin/visitors/save,45,0,18
+1726847418207,25,/api/visit/save,400,Bad Request,VIMSave 1-1,text,false,,393,1745,1,1,https://hscperf187.alertenterprise.com/api/tpmadmin/visit/save,25,0,0
+1726847418233,25,/api/visitorsvisits/save,400,Bad Request,VIMSave 1-1,text,false,,393,1155,1,1,https://hscperf187.alertenterprise.com/api/tpm/visitorsvisits/save,25,0,0

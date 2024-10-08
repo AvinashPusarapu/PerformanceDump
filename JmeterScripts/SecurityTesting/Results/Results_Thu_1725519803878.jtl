@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725519803922,1113,EmployeeLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,111971,808,1,1,http://172.16.37.224/api/auth/token,1050,0,16
+1725519805041,1161,EmployeeLogin1-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,111799,803,1,1,http://172.16.37.224/api/auth/token,1123,0,0
+1725519806209,1232,badgeAdminLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,114244,808,1,1,http://172.16.37.224/api/auth/token,1199,0,0
+1725519807449,1102,EmployeeLogin2-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,111833,807,1,1,http://172.16.37.224/api/auth/token,1068,0,0
+1725519808559,906,EmployeeLogin3-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,101177,806,1,1,http://172.16.37.224/api/auth/token,874,0,0

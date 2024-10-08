@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726484073130,1142,Login-api/auth/token,200,OK,sceValidationsPastDate 1-1,text,true,,161536,895,1,1,https://sce-dev.hsc.alertenterprisecloud.com/api/auth/token,935,0,330
+1726484074310,72,sceValidationsPastDate_getnewids,200,OK,sceValidationsPastDate 1-1,text,true,,639,933,1,1,https://sce-dev.hsc.alertenterprisecloud.com/api/getnewids,72,0,0
+1726484074383,348,sceValidationsPastDate-/api/tpmadmin/visitors/save,200,OK,sceValidationsPastDate 1-1,text,true,,845,1168,1,1,https://sce-dev.hsc.alertenterprisecloud.com/api/tpmadmin/visitors/save,348,0,0
+1726484074732,599,sceValidationsPastDate-/api/tpmadmin/visit/save,200,OK,sceValidationsPastDate 1-1,text,true,,1028,1705,1,1,https://sce-dev.hsc.alertenterprisecloud.com/api/tpmadmin/visit/save,599,0,0
+1726484075332,216,sceValidationsPastDate-/api/tpm/visitorsvisits/save,200,OK,sceValidationsPastDate 1-1,text,true,,758,1227,1,1,https://sce-dev.hsc.alertenterprisecloud.com/api/tpm/visitorsvisits/save,216,0,0

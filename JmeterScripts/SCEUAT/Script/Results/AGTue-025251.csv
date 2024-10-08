@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1708440771399,785,Login-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,143915,802,1,1,http://172.16.33.16/api/auth/token,749,0,3
+1708440773999,72,api/getnewids,200,OK,VIMCases 1-1,text,true,,742,1101,1,1,http://172.16.33.16/api/getnewids,72,0,3
+1708440774403,141,VisitorImageUpload,201,Created,VIMCases 1-1,text,true,,12514,11483,1,1,http://172.16.33.16/api/binaryresource/upload,141,0,0
+1708440775034,117,VisitorImageDownload,200,OK,VIMCases 1-1,bin,true,,9962,1580,1,1,http://172.16.33.16/api/binaryresource/download/4724654358520134?dummy=1708432416755&Authorization=Bearer%20eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VyX25hbWUiOiJhZG1pbiIsImlzcyI6IlRoZVBsYXlBcHAiLCJzYXZlTG9nVG9EQiI6ZmFsc2UsImxhc3RfbmFtZSI6IiIsImFjY2Vzc0lkcyI6WzFdLCJpZCI6ImFkbWluIiwibG9jYWxlIjoiZW4iLCJleHAiOjE3MDg0NDc5NzEsImZpcnN0X25hbWUiOiJhZG1pbiIsInRlbmFudCI6ImFsZXJ0Iiwib3JnSWQiOjQxMjQxNTAyNTcxNDgzODV9.uQJRw_W8WoHGc6KdQYBm2Nqh12tw8MG4s8xFjGIE3-wrHNuXTBdDyBtOTKctdlMBh23aKaJze8GQ8-Rlym5Oxg,89,0,0
+1708440775997,317,VisitorCreation,200,OK,VIMCases 1-1,text,true,,969,1426,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,317,0,0
+1708440777371,308,VisitCreation,200,OK,VIMCases 1-1,text,true,,1117,1867,1,1,http://172.16.33.16/api/tpmadmin/visit/save?,308,0,0
+1708440778928,755,CheckIn,200,OK,VIMCases 1-1,text,true,,1171,1321,1,1,http://172.16.33.16/api/tpm/visitorsvisits/save,755,0,0
+1708440781363,715,CheckOut,200,OK,VIMCases 1-1,text,true,,1221,1344,1,1,http://172.16.33.16/api/tpm/visitorsvisits/save,715,0,0
+1708440783167,0,Debug Sampler,200,OK,VIMCases 1-1,text,true,,663,0,1,1,null,0,0,0

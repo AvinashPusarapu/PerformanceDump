@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726728115376,1163,APIsAccessibiltiyWithEndUserToken-/api/badgedesigner/find,400,Bad Request,APIsAccessibiltiyWithEndUserToken 1-1,text,false,,665,1109,1,1,https://192.168.192.172:8443/api/badgedesigner/find,1163,0,628
+1726728116540,2758,APIsAccessibiltiyWithEndUserToken-/api/badgedesigner/getbadgetemplate,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,114436,1494,1,1,https://192.168.192.172:8443/api/badgedesigner/getbadgetemplate,2221,0,0

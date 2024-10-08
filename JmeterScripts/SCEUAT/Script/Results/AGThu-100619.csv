@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1708596379253,920,Login-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,162227,806,1,1,http://172.16.37.224/api/auth/token,882,0,3
+1708596380411,141,api/getnewids,200,OK,VIMCases 1-1,text,true,,737,2293,1,1,http://172.16.37.224/api/getnewids,141,0,2
+1708596380553,60,VisitorCreation,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,VIMCases 1-1,text,false,,2699,0,1,1,http://172.16.37.224/api/tpmadmin/visitors/save?,0,0,0

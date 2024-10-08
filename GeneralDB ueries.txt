@@ -2,59 +2,6 @@ select USER_NAME()
 
 ALTER USER AEQA18008 with default_schema = chevrondemo
 
-select top 1500 VISITOR_ID from chevrondemo.visitors_visits where visit_status = '60' order by created_on desc
-
-select top 2000 * from chevrondemo.asset where asset_status = 'OPEN' order by created_on desc
-
-select top 1500 * from chevrondemo.asset order by created_on desc
-
-select top 1500 * from chevrondemo.asset where created_on like '%2022-07-07 10:%'
-
-select * from chevrondemo.asset where asset_access_id = '6211295'
-
-select * from chevrondemo.asset where text like '%620%'
-
-select * from chevrondemo.VISITOR where id = '3895096304055032'
-
-select top 401 * from chevrondemo.VISITOR_ACCESS order by created_on desc
-
-select top 1500 * from chevrondemo.VISITORS_VISITS where visit_status = 60 order by created_on desc
-
-select top 200 * from chevrondemo.visitors_visits where visit_status = 69 order by changed_on desc
-
-select top 1500 * from chevrondemo.asset where asset_status = 'open' order by created_on desc
-
-select * from chevrondemo.visitors_visits where id = '3895096304120540'
-
-select * from chevrondemo.VISITOR order by created_on desc
-
-select * from chevrondemo.users where last_name = 'Martinez'
-
-select top 300 * from chevrondemo.VISITORS_VISITS order by created_on desc
-
-select top 2000 * from chevrondemo.asset where asset_status = 'open' order by created_on desc
-
-select * from chevrondemo.asset where asset_status = 'open' order by changed_on desc
-
-select * from chevrondemo.asset where text like '78%' and asset_status = 'open'
-
-select * from chevrondemo.VISIT order by changed_on desc
-
-select * from chevrondemo.VISIT where VISIT_TYPE_CODE = 'group' and GROUP_NAME like 'lion%' order by created_on desc
-
-select * from chevrondemo.VISITOR where id = '3912149331997280'
-
-select * from chevrondemo.asset where id = '3913380068733631'
-
-select * from chevrondemo.asset where text = '6217199'
-
-select * from chevrondemo.VISITORS_VISITS where VISIT_ID = '3914593592259257'
-
-select * from chevrondemo.VISITOR order by changed_on desc
-
-select id, first_name, last_name, FULL_NAME from chevrondemo.visitor where first_name like 'devara%' and last_name like 'konda%' order by changed_on desc
-
-select top 100 id, changed_on, INT_STATUS, type, WORKFLOW_ID, WORKFLOW_NAME from chevrondemo.VISIT order by changed_on desc
 
 select SCHEMA_NAME ()
 
@@ -232,60 +179,6 @@ select * from VISIT_LOG where operation = 'NO_SHOW' and CAST(CHANGED_ON AS DATE)
 ORDER BY 3 desc
 select * from VISIT_LOG where operation = 'Final Checked-Out success' and CAST(CHANGED_ON AS DATE) = CAST(getdate() AS DATE)ORDER BY 3 desc
 
-Other:
-select * from aehsc.identity_user where first_name = 'teraina'
-select id, text, system_id from aehsc.access_role where system_id in (3632972214129644, 3633053883487034) order by 3 desc
-select * from aehsc.asset 
-select * from aehsc.system_type_field_mapping
-select * from aehsc.system_field_mapping where system_id = 3632972214129644 and int_status = 3 and system_field_name like 'company'
-select * from aehsc.identity_asset where identity_id = 3961668004813260
---update identity_asset set cbadge_type = 3 where identity_id = 3961668004813260
-select * from access_role where system_id = 3633053883487034 and description like '%lobby%' order by 3 desc
-select * from system where id = 3632972214129644
-select * from aehsc.VISIT_ACCESS_ROLE where visit_id = 4100364033389106
-select * from aehsc.access_owner where owner_id = 3862910325807631 order by 3 desc
---update aehsc.access_owner set type = 'AreaOwner' where ID IN (4100364033340150, 4100364033356381, 4100364033356435, 4100364033356486, 4100364033356540, 4100364033372774, 4100436478636736, 4100436478653073, 4100436478653127, 4100436478653181)
-
-select * from access_role where id = 3855524664679039
-select * from access_role  where text like 'lobby_%' order by 5 desc
-select top 300 * from asset where asset_status = 'open' order by 5 desc
-select top 300 * from visitors_visits order by 1 desc
-select top 300 * from aehsc.visitor order by CREATED_ON desc
-select top 300 * from aehsc.visit order by created_on desc
-select * from aehsc.doc_number where num_range_id like '%VST%'
-select * from aehsc.doc_number_range where ext_id = 'VVST-R1'
---update aehsc.doc_number_range set internal_range_start = 'VST-00000001' where bus_obj_cat = 'Visit'
---update aehsc.doc_number_range set internal_range_end = 'VST-99999999' where bus_obj_cat = 'Visit'
---update aehsc.doc_number_range set internal_range_format = 'VST-NNNNNNNN' where bus_obj_cat = 'Visit'
-select * from aehsc.visit where ext_id like 'VST%'
---update aehsc.doc_number set doc_number = 'VST-00004000', used_doc_number = 4000 where num_range_id = 'VST-2100'
-sp_help visit
-
-select * from aehsc.VISITOR order by 5 desc
---where group_name like 'Mario%'
-select * from aehsc.VISITORS_VISITS where LAST_CHECKIN_DATE is null order by 5 desc
-select * from identity_user where type = 'CAI' order by created_on desc
-select region from identity_user where id = 3855408019643076 --surajrattan
-select region from identity_user where id = 3971668607646232
---update identity_user set region = 'Americas West' where id = 3971668607646232
-select top 10 * from identity_user where region = 'Pascagoula' and id in (select identity_id from identity_system where system_id = '3633053883487034')
-select * from identity_asset where identity_id =  3971668590951338
-select * from identity_system where system_id = 3633053883487034 order by created_on desc
-select * from system where id = '3633053883487034'
-select * from rules where text like '%TemporaryBadge%'
-select * from identity_access where identity_id 	= 3971668708177606
-
-select * from identity_access where asset_id in (4072184803218743,4072184803218744) and identity_id = 3971668618961796 and int_status = 0
-select * from identity_access where asset_id in (4072184803218743,4072184803218744) and access_id in (select id from access_role where system_id = 3633053883487034 and identity_Id = 3971668618961796) and int_status = 0
-
-select * from access_request_type where id = 3712598079902655
---update access_request_type set IDENTITY_SELECTION_CONDITION = NULL where id = 3712598079902655
-select * from identity_asset where identity_id = 3971668658885672
-select COL_LENGTH('access_request_type', 'IDENTITY_SELECTION_CONDITION')
-select * from location where REGION_ID =  'Americas West'
-select * from DELEGATION
-select * from screen_control_set
-
 flyway:
 select * from flyway_schema_history where type='delete';
 delete from flyway_schema_history where type='delete'
@@ -352,6 +245,29 @@ FROM sys.dm_exec_query_stats AS deqs
 CROSS APPLY sys.dm_exec_sql_text(deqs.sql_handle) AS dest-- where dest.TEXT like '%select right%'
 ORDER BY deqs.last_execution_time DESC
 
+Pg:
+Create below for full queries in results:    CREATE EXTENSION pg_stat_statements;
+Make changes in pg conf: shared_preload_libraries = 'pg_stat_statements'
+ 
+
+ SELECT
+    a.pid,
+    now() - a.query_start AS duration,
+    a.usename,
+    s.query,
+    a.state
+FROM
+    pg_stat_activity a
+JOIN
+    pg_stat_statements s
+ON
+    a.query = s.query
+WHERE
+    a.state = 'active'  -- Only active queries
+    AND now() - a.query_start > interval '5 minutes'
+ORDER BY
+    duration DESC;
+
 ALTER TABLE aehsc.access_group DISABLE TRIGGER ALL; 
 Delete 
 ALTER TABLE aehsc.access_group ENABLE TRIGGER ALL;
@@ -384,3 +300,59 @@ SELECT pg_size_pretty( pg_database_size('SECTV') );
 
 Query to check job status in Agent DB:
 select created_on,changed_on, data_count, data_type,status,post_job_ext_id from aehsc.recon_request order by 2 desc
+
+Query to check data type discripancy:
+SELECT 'ALTER TABLE ' || table_name || ' ALTER COLUMN ' || column_name || ' TYPE bigint;'
+FROM information_schema.columns
+WHERE table_schema = 'aehsc'
+  AND data_type = 'numeric';
+  
+  Query to check pg locks;
+  select pid, 
+       usename, 
+       pg_blocking_pids(pid) as blocked_by, 
+       query as blocked_query
+from pg_stat_activity
+where cardinality(pg_blocking_pids(pid)) > 0;
+
+
+
+Queries to login issue:
+ALTER TABLE users ADD if not exists ACCESSIBILITY_ENABLED boolean default 'false';
+alter table  USERS  add if not exists NOTIFICATION_PREFERENCES varchar(255);
+alter table users add country_id varchar(255);
+alter table users add constraint fk2399md98ngv7vxpsdw6aqd2dk
+foreign key (country_id)  references country (ext_id);
+alter table users add date_format varchar(255);
+alter table USERS add if not exists keep_messages boolean default 'false';
+alter table users add locale_code varchar(255);
+alter table  USERS  add if not exists number_format varchar(255);
+alter table USERS add if not exists ENABLE_SINGLE_PAGE_INBOX boolean default 'false';
+alter table USERS add if not exists language  varchar(255);
+alter table USERS add if not exists sidebar_menu_enabled boolean default 'false';
+alter table  USERS  add if not exists start_activity varchar(255);
+alter table USERS add if not exists start_last_activity boolean default 'false';
+alter table  USERS  add if not exists time_format varchar(255);
+alter table  USERS  add if not exists time_zone varchar(255);
+
+
+To get definition of view:
+select pg_get_viewdef('visit_hostsui_view', true)
+
+To check datatype in a table of pg:
+SELECT column_name, data_type 
+FROM information_schema.columns 
+WHERE table_schema = 'coa' 
+  AND table_name = 'access_role' 
+  AND data_type like '%int%';
+  
+To set default schema in SQL:
+USE AEQA5087;
+ALTER USER [AEQA5087] WITH DEFAULT_SCHEMA = alertgold;  
+
+
+
+SELECT
+    (SELECT COUNT(*) FROM stg_user_data WHERE sync_id = '4875868482499251' ) AS user_data ,
+    (SELECT COUNT(*) FROM stg_user_role_data WHERE sync_id = '4875868482499251') AS user_role,
+    (SELECT COUNT(*) FROM stg_user_badge_data WHERE sync_id = '4875868482499251') AS Badge_data;

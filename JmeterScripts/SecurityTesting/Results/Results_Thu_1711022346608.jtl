@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1711022346624,1245,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,51140,801,1,1,https://172.16.35.86/api/auth/token,1242,0,70
+1711022348199,218,AssetSave-Admin-api/asset/save,200,OK,AssetSave 1-1,text,true,,1102,1098,1,1,https://172.16.35.86/api/asset/save,218,0,66
+1711022348418,207,AssetSave-Admin-api/asset/save,200,OK,AssetSave 1-1,text,true,,1103,1098,1,1,https://172.16.35.86/api/asset/save,207,0,0
+1711022348626,98,AssetSave-Admin-api/asset/save,200,OK,AssetSave 1-1,text,true,,1100,1098,1,1,https://172.16.35.86/api/asset/save,98,0,0
+1711022348726,80,AssetSave-Admin-api/asset/save,200,OK,AssetSave 1-1,text,true,,1100,1098,1,1,https://172.16.35.86/api/asset/save,80,0,0
+1711022348807,112,AssetSave-Admin-api/asset/save,200,OK,AssetSave 1-1,text,true,,1102,1166,1,1,https://172.16.35.86/api/asset/save,112,0,0

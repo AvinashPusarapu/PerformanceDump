@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715178735083,1747,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,137044,802,1,1,http://172.16.32.247/api/auth/token,1710,0,6
+1715178737018,263,visitUIAPI/api/activity/save,200,OK,visitUIAPI 1-1,text,true,,1040,1204,1,1,http://172.16.32.247/api/activity/save,263,0,4

@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715497234264,7305,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,137778,802,1,1,http://172.16.32.247/api/auth/token,7147,0,2
+1715497241577,940,PGIRLogin,200,OK,setUp Thread Group 1-1,text,true,,137862,799,1,1,http://172.16.32.247/api/auth/token,847,0,0
+1715497242526,1233,SecurityAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,137422,808,1,1,http://172.16.32.247/api/auth/token,1167,0,0
+1715497245067,4348,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-1,text,true,,371320,2224,1,1,http://172.16.32.247/api/tpm/visitui/find,4110,0,4

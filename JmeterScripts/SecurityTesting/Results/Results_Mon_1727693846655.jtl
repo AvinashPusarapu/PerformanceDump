@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727693846903,1381,KioskCasesDL-/api/visit/get,200,OK,KioskCasesDL 1-1,text,true,,10896,1013,1,1,https://192.168.192.172:8443/api/tpmadmin/visit/5039971246722771?_dc=1726498027146&id=5039971246722771,1381,0,547
+1727693848284,698,KioskCasesDL-/api/visit/get,400,Bad Request,KioskCasesDL 1-1,text,false,,673,1013,1,1,https://192.168.192.172:8443/api/tpmadmin/visit/6011487777723944?_dc=1726498027146&id=6011487777723944,698,0,0
+1727693848983,327,KioskCasesDL-/api/visit/get,401,Unauthorized,KioskCasesDL 1-1,text,false,,398,957,1,1,https://192.168.192.172:8443/api/tpmadmin/visit/5039971246722771?_dc=1726498027146&id=5039971246722771,327,0,0
+1727693849311,314,KioskCasesDL-/api/visit/get,401,Unauthorized,KioskCasesDL 1-1,text,false,,398,957,1,1,https://192.168.192.172:8443/api/tpmadmin/visit/6011487777723944?_dc=1726498027146&id=6011487777723944,314,0,0

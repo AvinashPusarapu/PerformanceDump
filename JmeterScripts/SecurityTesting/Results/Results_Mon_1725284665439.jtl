@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725284665464,5991,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,108946,818,1,1,https://hscperf69.alertenterprise.com/api/auth/token,5983,0,32
+1725284671463,1087,InvitationLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,98855,830,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1080,0,0
+1725284672781,1748,APIsAccessibiltiyWithEndUserToken-/api/tpmadmin/visitors/save,400,Bad Request,APIsAccessibiltiyWithEndUserToken 1-1,text,false,,604,1075,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visitors/save,1748,0,91
+1725284674530,2056,APIsAccessibiltiyWithEndUserToken-/api/tpmadmin/visitors/save,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,1020,1076,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visitors/save,2056,0,0

@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727443162693,948,RefinedVIMEndUserCases-/api/badgedesigner/getbadgetemplate,404,Not Found,RefinedVIMEndUserCases 1-1,text,false,,388,1447,1,1,https://192.168.192.172:8443/api/badgedesigner/getbadgetemplate,948,0,627

@@ -1,0 +1,14 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1711021460568,1298,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,51138,801,1,1,https://172.16.35.86/api/auth/token,1294,0,43
+1711021462184,433,AssetSave-Admin-api/asset/save,200,OK,AssetSave 1-1,text,true,,1101,1098,1,1,https://172.16.35.86/api/asset/save,433,0,43
+1711021462618,96,AssetSave-Admin-api/asset/save,200,OK,AssetSave 1-1,text,true,,1103,1098,1,1,https://172.16.35.86/api/asset/save,96,0,0
+1711021462715,169,AssetSave-Admin-api/asset/save,200,OK,AssetSave 1-1,text,true,,1100,1098,1,1,https://172.16.35.86/api/asset/save,169,0,0
+1711021462885,80,AssetSave-Admin-api/asset/save,200,OK,AssetSave 1-1,text,true,,1099,1098,1,1,https://172.16.35.86/api/asset/save,80,0,0
+1711021462967,132,AssetSave-Admin-api/asset/save,200,OK,AssetSave 1-1,text,true,,1102,1166,1,1,https://172.16.35.86/api/asset/save,132,0,0
+1711021463140,1020,IdentitySave-Admin-api/identity/save,200,OK,IdentitySave 2-1,text,true,,1008,1126,1,1,https://172.16.35.86/api/identity/save?,1020,0,45
+1711021464161,286,IdentitySave-Admin-api/identity/save,200,OK,IdentitySave 2-1,text,true,,1007,1128,1,1,https://172.16.35.86/api/identity/save?,286,0,0
+1711021464448,198,IdentitySave-Admin-api/identity/save,200,OK,IdentitySave 2-1,text,true,,1012,1107,1,1,https://172.16.35.86/api/identity/save?,198,0,0
+1711021464647,249,IdentitySave-Admin-api/identity/save,200,OK,IdentitySave 2-1,text,true,,1006,1085,1,1,https://172.16.35.86/api/identity/save?,249,0,0
+1711021464928,344,AccessSave-Admin-/api/access/save,200,OK,AccessSave 3-1,text,true,,1039,1153,1,1,https://172.16.35.86/api/access/save?,344,0,42
+1711021465273,360,AccessSave-Admin-/api/access/save,200,OK,AccessSave 3-1,text,true,,1037,1152,1,1,https://172.16.35.86/api/access/save?,360,0,0
+1711021465634,301,AccessSave-Admin-/api/access/save,200,OK,AccessSave 3-1,text,true,,1051,1148,1,1,https://172.16.35.86/api/access/save?,301,0,0

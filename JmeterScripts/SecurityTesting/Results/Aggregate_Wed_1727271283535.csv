@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727271283789,7691,VisitorImageUpload,201,Created,RefinedVIMEndUserCases 1-1,text,true,,788036,588025,1,1,https://192.168.192.172:8443/api/binaryresource/upload,6129,0,544
+1727271291483,1303,VisitorDocUpload,403,Forbidden,RefinedVIMEndUserCases 1-1,text,false,,392,263080,1,1,https://192.168.192.172:8443/api/binaryresource/upload,1303,0,0
+1727271292787,386,VisitorTextUpload,403,Forbidden,RefinedVIMEndUserCases 1-1,text,false,,392,7064,1,1,https://192.168.192.172:8443/api/binaryresource/upload,386,0,0

@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726483242766,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',setUp Thread Group 1-1,text,false,,874,0,1,1,null,0,0,0
+1726483243006,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',sceValidationsPastDate 1-1,text,false,,874,0,1,1,null,0,0,0
+1726483243007,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',sceValidationsPastDate 1-1,text,false,,874,0,1,1,null,0,0,0
+1726483243008,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',sceValidationsPastDate 1-1,text,false,,874,0,1,1,null,0,0,0
+1726483243009,0,,Non HTTP response code: java.net.MalformedURLException,Non HTTP response message: Illegal character found in host: '/',sceValidationsPastDate 1-1,text,false,,874,0,1,1,null,0,0,0

@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1717839724584,877,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,135257,809,1,1,https://coa-uat.alerthsc.com/api/auth/token,732,0,235
+1717839726788,336,VIM_dev/api/tpm/visitorsvisits/save,200,OK,VIM_dev 1-2,text,true,,660,1335,2,2,https://coa-uat.alerthsc.com/api/tpm/visitorsvisits/save,336,0,226
+1717839726843,331,VIM_dev/api/tpm/visitorsvisits/save,200,OK,VIM_dev 1-1,text,true,,660,1335,1,1,https://coa-uat.alerthsc.com/api/tpm/visitorsvisits/save,331,0,224
+1717839728651,332,VIM_dev/api/tpm/visitorsvisits/save,200,OK,VIM_dev 1-3,text,true,,660,1335,2,2,https://coa-uat.alerthsc.com/api/tpm/visitorsvisits/save,332,0,225
+1717839729555,327,VIM_dev/api/tpm/visitorsvisits/save,200,OK,VIM_dev 1-5,text,true,,660,1335,2,2,https://coa-uat.alerthsc.com/api/tpm/visitorsvisits/save,327,0,221
+1717839729801,344,VIM_dev/api/tpm/visitorsvisits/save,200,OK,VIM_dev 1-4,text,true,,660,1335,1,1,https://coa-uat.alerthsc.com/api/tpm/visitorsvisits/save,344,0,229
+1717839731268,328,VIM_dev/api/tpm/visitorsvisits/save,200,OK,VIM_dev 1-6,text,true,,660,1335,2,2,https://coa-uat.alerthsc.com/api/tpm/visitorsvisits/save,328,0,221
+1717839732811,336,VIM_dev/api/tpm/visitorsvisits/save,200,OK,VIM_dev 1-7,text,true,,660,1335,3,3,https://coa-uat.alerthsc.com/api/tpm/visitorsvisits/save,336,0,223

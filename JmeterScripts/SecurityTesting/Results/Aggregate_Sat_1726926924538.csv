@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726926924551,2831,AdminLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,114295,802,1,1,http://172.16.37.224/api/auth/token,2732,0,43
+1726926927634,215,api/getnewids,200,OK,VIMInvite 1-1,text,true,,739,1081,1,1,http://172.16.37.224/api/getnewids,215,0,3
+1726926927849,366,VIMInvite/api/tpmadmin/visitors/save,200,OK,VIMInvite 1-1,text,true,,975,1421,1,1,http://172.16.37.224/api/tpmadmin/visitors/save,366,0,0
+1726926928215,630,VIMInvite/api/tpmadmin/visit/save,200,OK,VIMInvite 1-1,text,true,,1121,1875,1,1,http://172.16.37.224/api/tpmadmin/visit/save,630,0,0

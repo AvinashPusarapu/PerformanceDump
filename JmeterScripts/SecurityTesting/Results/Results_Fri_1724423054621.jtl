@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1724423054796,1036,APIsAccessibiltiyWithEndUserTokenCheckIn-/api/tpm/visitorsvisits/save,500,Internal Server Error,APIsAccessibiltiyWithEndUserToken 1-1,text,false,,1521,1171,1,1,https://192.168.194.132/api/tpm/visitorsvisits/save,1036,0,591

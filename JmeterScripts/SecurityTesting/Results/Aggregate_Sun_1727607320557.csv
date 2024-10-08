@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727607320802,1121,KioskCases-/api/tpm/visitors/findby/email,200,OK,KioskCases 1-1,text,true,,1353,1099,1,1,https://192.168.192.172:8443/api/tpm/visitors/findby/email,1121,0,582
+1727607321923,321,KioskCases-/api/tpm/visitors/findby/email,401,Unauthorized,KioskCases 1-1,text,false,,399,1087,1,1,https://192.168.192.172:8443/api/tpm/visitors/findby/email,321,0,0
+1727607322244,566,KioskCases-/api/tpm/visitors/findby/email,200,OK,KioskCases 1-1,text,true,,1353,982,1,1,https://192.168.192.172:8443/api/tpm/visitors/findby/email,566,0,0

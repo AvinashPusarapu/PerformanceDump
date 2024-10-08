@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1724656946256,4194,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,107634,818,1,1,https://hscperf69.alertenterprise.com/api/auth/token,4181,0,33
+1724656950642,2391,changePass-/api/user/changePassword,200,OK,changePass 1-1,text,true,,690,1021,1,1,https://hscperf69.alertenterprise.com/api/user/changePassword,2391,0,34

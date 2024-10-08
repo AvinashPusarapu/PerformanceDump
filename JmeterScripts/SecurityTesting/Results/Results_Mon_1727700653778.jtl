@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727700653853,865,KioskCasesDLCheckIn-/api/tpm/visitorsvisits/save,401,Unauthorized,KioskCasesDL 1-1,text,false,,398,1168,1,1,https://192.168.192.172:8443/api/tpm/visitorsvisits/save,865,0,551

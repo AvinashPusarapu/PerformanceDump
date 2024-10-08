@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715751400406,1063,Login,200,OK,AllScreens 1-1,text,true,,136407,882,1,1,https://coa-dev.hsc.alertenterprisecloud.com/api/auth/token,918,0,264
+1715751402426,108,Access_AccessGroup-api/accessgrouptype/find,200,OK,AllScreens 1-1,text,true,,681,1214,1,1,https://coa-dev.hsc.alertenterprisecloud.com/api/accessgrouptype/find?_dc=1715751402425,108,0,0
+1715751404826,107,Access_AccessGroup-api/accessgroup/find,200,OK,AllScreens 1-1,text,true,,817,1447,1,1,https://coa-dev.hsc.alertenterprisecloud.com/api/accessgroup/find,107,0,0

@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727258865637,5188,RefinedVIMEndUserCases-/api/tpmadmin/visitors/save,200,OK,RefinedVIMEndUserCases 1-1,text,true,,4049,1157,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/save,5188,0,567
+1727258870825,1094,RefinedVIMEndUserCases-/api/tpmadmin/visitors/save,400,Bad Request,RefinedVIMEndUserCases 1-1,text,false,,601,1137,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/save,1094,0,0
+1727258871919,1045,RefinedVIMEndUserCases-/api/tpmadmin/visitors/save,400,Bad Request,RefinedVIMEndUserCases 1-1,text,false,,601,1157,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/save,1045,0,0

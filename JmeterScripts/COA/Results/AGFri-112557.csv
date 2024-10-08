@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1720175157670,449,PatientTagUpdate-A08_/api/Hl7Message,200,OK,PatientTagUpdate-A08 1-1,text,true,,584,3753,1,2,https://coa-agent-dev.hsc.alertenterprisecloud.com/api/Hl7Message,449,0,234
+1720175157672,449,PatientUnitUpdate-A06_/api/Hl7Message,200,OK,PatientUnitUpdate-A06 2-1,text,true,,586,1634,1,1,https://coa-agent-dev.hsc.alertenterprisecloud.com/api/Hl7Message,449,0,234

@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727692094916,2656,KioskCasesCheckIn-/api/kiosk/badgetemplate,200,OK,KioskCases 1-1,text,true,,74894,2990,1,1,https://192.168.192.172:8443/api/kiosk/badgetemplate,2379,0,571

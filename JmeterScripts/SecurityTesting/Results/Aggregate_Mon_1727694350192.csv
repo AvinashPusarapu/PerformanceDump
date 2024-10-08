@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727694350438,1679,KioskCasesDL-/api/tpmadmin/visitors/modify,200,OK,KioskCasesDL 1-1,text,true,,1589,1054,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/save,1679,0,539
+1727694352117,817,KioskCasesDL-/api/tpmadmin/visitors/modify,400,Bad Request,KioskCasesDL 1-1,text,false,,601,1054,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/save,817,0,0
+1727694352934,817,KioskCasesDL-/api/tpmadmin/visitors/modify,400,Bad Request,KioskCasesDL 1-1,text,false,,601,1068,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/save,817,0,0
+1727694353751,1230,KioskCasesDL-/api/tpmadmin/visitors/modify,200,OK,KioskCasesDL 1-1,text,true,,1589,1060,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/save,1229,0,0
+1727694354981,331,KioskCasesDL-/api/tpmadmin/visitors/modify,401,Unauthorized,KioskCasesDL 1-1,text,false,,398,999,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/save,330,0,0
+1727694355312,373,KioskCasesDL-/api/tpmadmin/visitors/modify,401,Unauthorized,KioskCasesDL 1-1,text,false,,398,999,1,1,https://192.168.192.172:8443/api/tpmadmin/visitors/save,373,0,0

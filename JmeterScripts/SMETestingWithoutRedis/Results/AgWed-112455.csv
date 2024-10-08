@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1712748295922,888,Login-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,209659,801,1,1,http://172.16.33.16/api/auth/token,868,0,3
+1712748297811,726,Login-Admin-/api/auth/token,200,OK,Request An Access Card 1-1,text,true,,209656,858,1,1,http://172.16.33.16/api/auth/token,699,0,3
+1712748298733,118,Request An Access Card_api/getnewids,200,OK,Request An Access Card 1-1,text,true,,739,1092,1,1,http://172.16.33.16/api/getnewids,117,0,0
+1712748300669,5353,Request An Access Card_api/request/save-RequestAnAccessCard,200,OK,Request An Access Card 1-1,text,true,,4644,1685,1,1,http://172.16.33.16/api/request/save,5352,0,0
+1712748308006,11970,Request An Access Card_api/request/ui/RequestId-workflowId,200,OK,Request An Access Card 1-1,text,true,,3717,1148,1,1,http://172.16.33.16/api/request/ui/4795105889608144?_dc=1712748308006&id=4795105889608144,2394,0,0
+1712748320755,10247,Request An Access Card_api/request/ui/RequestId-workflowId,200,OK,Request An Access Card 1-1,text,true,,3759,1148,1,1,http://172.16.33.16/api/request/ui/4795105889608144?_dc=1712748320754&id=4795105889608144,690,0,0
+1712748332883,399,Request An Access Card_api/asset/save,200,OK,Request An Access Card 1-1,text,true,,939,1291,1,1,http://172.16.33.16/api/asset/save?_dc=1712748332882,399,0,0
+1712748333634,469,Request An Access Card_api/request/save-Asset,200,OK,Request An Access Card 1-1,text,true,,4815,1359,1,1,http://172.16.33.16/api/request/save,469,0,0
+1712748334769,1584,Request An Access Card_api/workflow/setdocstatus1,200,OK,Request An Access Card 1-1,text,true,,1140,1260,1,1,http://172.16.33.16/api/workflow/setdocstatus,1583,0,0

@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1719518745222,25074,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,141661,801,1,1,http://172.16.33.16/api/auth/token,25028,0,19
+1719518770446,1068,PatientCreation-A01_/api/Hl7Message,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 172.16.33.16:9096 [/172.16.33.16] failed: Connection refused: connect,PatientCreation-A01 1-1,text,false,,2600,0,1,1,http://172.16.33.16:9096/api/Hl7Message,0,0,1068

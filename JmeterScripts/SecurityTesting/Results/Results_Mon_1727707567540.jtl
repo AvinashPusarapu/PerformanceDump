@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727707567837,1158,KioskCases-/api/tpm/visitui/findby/email,200,OK,KioskCases 1-1,text,true,,651,1337,1,1,https://192.168.192.172:8443/api/tpm/visitui/findby/email,1158,0,561
+1727707568995,312,KioskCases-/api/tpm/visitui/findby/email,401,Unauthorized,KioskCases 1-1,text,false,,399,1325,1,1,https://192.168.192.172:8443/api/tpm/visitui/findby/email,312,0,0

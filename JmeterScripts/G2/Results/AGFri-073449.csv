@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1718350489785,1660,AdminLogin-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,206774,820,1,1,https://uat.wf.alertenterprisecloud.com/api/auth/token,1462,0,194
+1718350491641,212,api/getnewids,200,OK,VIMOtherUseCases 1-1,text,true,,645,1215,1,1,https://uat.wf.alertenterprisecloud.com/api/getnewids,212,0,144
+1718350491858,381,CreatePermanentBadgeForIdentity,200,OK,VIMOtherUseCases 1-1,text,true,,1012,1342,1,1,https://uat.wf.alertenterprisecloud.com/api/asset/save,380,0,0
+1718350492244,186,CreateTempBadgeForIdentity,200,OK,VIMOtherUseCases 1-1,text,true,,1306,1361,1,1,https://uat.wf.alertenterprisecloud.com/api/asset/save,186,0,0
+1718350492432,4126,identityCreationForTempBadgeRequest,400,Bad Request,VIMOtherUseCases 1-1,text,false,,1007,1673,1,1,https://uat.wf.alertenterprisecloud.com/api/identity/save?,4126,0,0

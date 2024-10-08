@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727532884194,3082,AdminLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,114307,804,1,1,https://192.168.192.189/api/auth/token,2536,0,594
+1727532887285,292,setUp Thread Group-/api/visit/get,401,Unauthorized,setUp Thread Group 1-1,text,false,,410,190,1,1,https://192.168.192.189/api/tpmadmin/visit/6011487777723944?_dc=1726498027146&id=6011487777723944,292,0,0

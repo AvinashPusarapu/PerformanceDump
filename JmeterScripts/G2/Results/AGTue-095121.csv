@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1710841881171,389,BadgeAdminLogin-Admin-/api/auth/token,400,Bad Request,setUp Thread Group 1-1,text,false,,953,829,1,1,https://guardian2.alertenterprisecloud.com/api/auth/token,389,0,108
+1710841881560,269,AdminLogin-Admin-/api/auth/token,400,Bad Request,setUp Thread Group 1-1,text,false,,953,823,1,1,https://guardian2.alertenterprisecloud.com/api/auth/token,269,0,0
+1710841882096,127,api/getnewids,200,OK,VIMOtherUseCases 1-1,text,true,,747,740,1,1,https://guardian2.alertenterprisecloud.com/api/getnewids,127,0,95
+1710841882226,31,EmergencyNotification,401,Unauthorized,VIMOtherUseCases 1-1,text,false,,498,1137,1,1,https://guardian2.alertenterprisecloud.com/api/tpm/visitui/emergencynotification/save,31,0,0

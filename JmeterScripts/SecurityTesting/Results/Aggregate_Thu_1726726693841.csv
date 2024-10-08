@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726726693859,1907,AdminLogin-api/auth/token,400,Bad Request,setUp Thread Group 1-1,text,false,,683,809,1,1,https://192.168.192.172:8443/api/auth/token,1907,0,561
+1726726695823,1367,APIsAccessibiltiyWithEndUserTokenCheckIn-/api/tpm/visitorsvisits/save,400,Bad Request,APIsAccessibiltiyWithEndUserToken 1-1,text,false,,665,1317,1,1,https://192.168.192.172:8443/api/tpm/visitorsvisits/save,1367,0,560

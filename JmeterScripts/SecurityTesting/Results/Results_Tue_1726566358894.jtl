@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726566358909,1004,AdminLogin-api/auth/token,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 172.16.37.224:443 [/172.16.37.224] failed: Connection refused: connect,setUp Thread Group 1-1,text,false,,2736,0,1,1,https://172.16.37.224/api/auth/token,0,0,1004
+1726566360208,1002,api/getnewids,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 172.16.37.224:443 [/172.16.37.224] failed: Connection refused: connect,VIMInvite 1-1,text,false,,2736,0,1,1,https://172.16.37.224/api/getnewids,0,0,1002

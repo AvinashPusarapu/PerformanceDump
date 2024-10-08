@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1724916661990,110,APIsAccessibiltiyWithEndUserToken-/api/requesttype/find,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,617,977,1,1,https://hscperf187.alertenterprise.com/api/requesttype/find,110,0,19
+1724916662102,47,APIsAccessibiltiyWithEndUserToken-/api/accessrequesttype/find,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,618,1107,1,1,https://hscperf187.alertenterprise.com/api/accessrequesttype/find,47,0,0
+1724916662150,69,APIsAccessibiltiyWithEndUserToken-/api/identitytype/find,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,1796,997,1,1,https://hscperf187.alertenterprise.com/api/identitytype/find,69,0,0

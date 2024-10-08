@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725525870832,6328,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,114197,802,1,1,http://172.16.37.224/api/auth/token,6271,0,17
+1725525877167,859,InvitationLogin-api/auth/token,400,Bad Request,setUp Thread Group 1-1,text,false,,581,814,1,1,http://172.16.37.224/api/auth/token,859,0,0

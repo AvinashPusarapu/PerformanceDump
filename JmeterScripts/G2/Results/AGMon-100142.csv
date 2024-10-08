@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1710756102308,822,BadgeAdminLogin-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,209057,807,1,1,http://172.16.33.16/api/auth/token,762,0,2
+1710756103149,802,AdminLogin-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,193257,801,1,1,http://172.16.33.16/api/auth/token,758,0,0
+1710756104153,76,api/getnewids,200,OK,SingleRegistrationCases 1-1,text,true,,737,1176,1,1,http://172.16.33.16/api/getnewids,75,0,2
+1710756104231,130,VisitorImageUpload,201,Created,SingleRegistrationCases 1-1,text,true,,12525,11579,1,1,http://172.16.33.16/api/binaryresource/upload,130,0,0
+1710756104363,107,VisitorImageDownload,200,OK,SingleRegistrationCases 1-1,bin,true,,9962,1730,1,1,http://172.16.33.16/api/binaryresource/download/4762509023813951?dummy=1708432416755&Authorization=Bearer%20eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjo0MTI0Mzc5NDIyNTE1NjI0LCJ1c2VyX25hbWUiOiJiYWRnZS5hZG1pbiIsImlzcyI6IlRoZVBsYXlBcHAiLCJzYXZlTG9nVG9EQiI6ZmFsc2UsImxhc3RfbmFtZSI6IkFkbWluIiwiYWNjZXNzSWRzIjpbMzQ2NDI3Mzc2NTE1NTQwOSw0MjQ5MDU5MzM4NjA3ODc5LDQyNDkxODIwMDI3OTc5MzldLCJpZCI6ImJhZGdlLmFkbWluIiwibG9jYWxlIjoiZW4iLCJleHAiOjE3MTA3NjMzMDIsImZpcnN0X25hbWUiOiJCYWRnZSIsInRlbmFudCI6ImFsZXJ0In0.a4P-xrHNnXEdmYlnranyXUVLB9PFd7jkoe1AOd-UMBQck7RqDwOG-giGs_45qXjzjTPp2TFrWvS-kV1vBjjAQA,80,0,0
+1710756104472,212,VisitorCreation,200,OK,SingleRegistrationCases 1-1,text,true,,975,1487,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,212,0,0
+1710756104685,232,VisitCreation,200,OK,SingleRegistrationCases 1-1,text,true,,1210,2327,1,1,http://172.16.33.16/api/tpmadmin/visit/save?,232,0,0
+1710756104919,316,VisitorModifyBeforeCheckIn,200,OK,SingleRegistrationCases 1-1,text,true,,1069,1278,1,1,http://172.16.33.16/api/tpmadmin/visitors/save?,316,0,0
+1710756105236,113,VisitModifyBeforeCheckIn,200,OK,SingleRegistrationCases 1-1,text,true,,598,1326,1,1,http://172.16.33.16/api/tpmadmin/visit/save?,113,0,0
+1710756105350,78,VisitGet,404,Not Found,SingleRegistrationCases 1-1,text,false,,498,1218,1,1,http://172.16.33.16/api/tpmadmin/visit/4762509023813902,78,0,0

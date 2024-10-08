@@ -1,0 +1,22 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715193801975,921,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,137293,801,1,1,http://172.16.33.16/api/auth/token,885,0,3
+1715193808103,6315,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-1,text,true,,127507,1688,10,10,http://172.16.33.16/api/tpm/visitui/find,6280,0,2
+1715193808198,6576,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-2,text,true,,127507,1688,10,10,http://172.16.33.16/api/tpm/visitui/find,6539,0,1
+1715193808417,7356,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-4,text,true,,127507,1688,10,10,http://172.16.33.16/api/tpm/visitui/find,7314,0,3
+1715193808309,7556,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-3,text,true,,127507,1688,10,10,http://172.16.33.16/api/tpm/visitui/find,7519,0,10
+1715193808502,7952,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-5,text,true,,127507,1688,10,10,http://172.16.33.16/api/tpm/visitui/find,7915,0,2
+1715193808701,7846,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-7,text,true,,127507,1688,10,10,http://172.16.33.16/api/tpm/visitui/find,7814,0,1
+1715193808604,8026,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-6,text,true,,127507,1688,10,10,http://172.16.33.16/api/tpm/visitui/find,7988,0,2
+1715193808903,7829,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-9,text,true,,127507,1688,10,10,http://172.16.33.16/api/tpm/visitui/find,7790,0,2
+1715193808999,7791,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-10,text,true,,127507,1688,10,10,http://172.16.33.16/api/tpm/visitui/find,7739,0,3
+1715193808800,7992,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-8,text,true,,127507,1688,10,10,http://172.16.33.16/api/tpm/visitui/find,7944,0,3
+1715193819419,3497,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-1,text,true,,127507,1688,10,10,http://172.16.33.16/api/tpm/visitui/find,3462,0,0
+1715193819774,3700,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-2,text,true,,127507,1688,9,9,http://172.16.33.16/api/tpm/visitui/find,3653,0,0
+1715193820774,5587,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-4,text,true,,127507,1688,8,8,http://172.16.33.16/api/tpm/visitui/find,5551,0,0
+1715193820868,5923,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-3,text,true,,127507,1688,7,7,http://172.16.33.16/api/tpm/visitui/find,5888,0,0
+1715193821455,5842,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-5,text,true,,127507,1688,6,6,http://172.16.33.16/api/tpm/visitui/find,5789,0,0
+1715193821547,5903,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-7,text,true,,127507,1688,5,5,http://172.16.33.16/api/tpm/visitui/find,5859,0,0
+1715193821631,5825,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-6,text,true,,127507,1688,4,4,http://172.16.33.16/api/tpm/visitui/find,5782,0,0
+1715193821791,5812,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-10,text,true,,127507,1688,3,3,http://172.16.33.16/api/tpm/visitui/find,5749,0,0
+1715193821732,5882,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-9,text,true,,127507,1688,2,2,http://172.16.33.16/api/tpm/visitui/find,5816,0,0
+1715193821792,5825,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-8,text,true,,127507,1688,1,1,http://172.16.33.16/api/tpm/visitui/find,5758,0,0

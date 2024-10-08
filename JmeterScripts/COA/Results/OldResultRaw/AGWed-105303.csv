@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715770384430,451,PatientDischarge-A03_/api/Hl7Message,200,OK,PatientDischarge-A03 1-1,text,true,,582,1564,1,1,https://coa-agent-dev.hsc.alertenterprisecloud.com/api/Hl7Message,451,0,307

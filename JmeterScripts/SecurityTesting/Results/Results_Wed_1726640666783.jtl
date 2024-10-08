@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726640666798,1695,AdminLogin-api/auth/token,400,Bad Request,setUp Thread Group 1-1,text,false,,683,809,1,1,https://192.168.192.172:8443/api/auth/token,1695,0,565
+1726640668590,1895,APIsAccessibiltiyWithEndUserToken-/api/tpmadmin/visit/save,400,Bad Request,APIsAccessibiltiyWithEndUserToken 1-1,text,false,,610,1182,1,1,https://192.168.192.172:8443/api/tpmadmin/visit/save,1895,0,555
+1726640670485,1194,APIsAccessibiltiyWithEndUserToken-/api/tpmadmin/visit/save,400,Bad Request,APIsAccessibiltiyWithEndUserToken 1-1,text,false,,610,1182,1,1,https://192.168.192.172:8443/api/tpmadmin/visit/save,1194,0,0

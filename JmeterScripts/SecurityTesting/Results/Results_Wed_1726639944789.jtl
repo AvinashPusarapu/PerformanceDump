@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726639944805,1676,AdminLogin-api/auth/token,400,Bad Request,setUp Thread Group 1-1,text,false,,683,809,1,1,https://192.168.192.172:8443/api/auth/token,1676,0,556
+1726639946754,913,APIsAccessibiltiyWithEndUserToken-api/location/find,400,Bad Request,APIsAccessibiltiyWithEndUserToken 1-1,text,false,,725,1206,1,1,https://192.168.192.172:8443/api/location/find,913,0,577
+1726639947668,552,APIsAccessibiltiyWithEndUserToken-/api/tpm/visitui/find,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,1880,1538,1,1,https://192.168.192.172:8443/api/tpm/visitui/find,552,0,0

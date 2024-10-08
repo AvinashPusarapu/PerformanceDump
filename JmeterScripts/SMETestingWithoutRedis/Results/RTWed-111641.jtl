@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1712747801163,1123,Login-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,209654,801,1,1,http://172.16.33.16/api/auth/token,1101,0,11
+1712747802506,78,api/getnewids,200,OK,IdentityProvisioningToAPAC 1-1,text,true,,742,1092,1,1,http://172.16.33.16/api/getnewids,78,0,2
+1712747802586,268,IdentitySaveOnHSC,400,Bad Request,IdentityProvisioningToAPAC 1-1,text,false,,459,1389,1,1,http://172.16.33.16/api/identity/save,268,0,0

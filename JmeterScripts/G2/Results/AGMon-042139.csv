@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1710778899951,891,BadgeAdminLogin-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,209046,807,1,1,http://172.16.33.16/api/auth/token,851,0,3
+1710778900861,789,AdminLogin-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,193230,801,1,1,http://172.16.33.16/api/auth/token,744,0,0
+1710778901695,307,EmergencyNotification,200,OK,VIMOtherUseCases 1-1,text,true,,698,1573,1,1,http://172.16.33.16/api/tpm/visitui/emergencynotification/save,307,0,3

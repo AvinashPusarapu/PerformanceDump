@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727270443211,893,RefinedVIMEndUserCases-/api/tpmadmin/visit/find,404,Not Found,RefinedVIMEndUserCases 1-1,text,false,,388,1282,1,1,https://192.168.192.172:8443/api/tpmadmin/visit/find,893,0,556

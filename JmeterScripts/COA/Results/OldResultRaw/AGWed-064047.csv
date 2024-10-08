@@ -1,0 +1,12 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715193647083,786,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,137295,801,1,1,http://172.16.33.16/api/auth/token,750,0,2
+1715193652892,6767,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-1,text,true,,127507,1688,10,10,http://172.16.33.16/api/tpm/visitui/find,6717,0,3
+1715193652994,7485,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-2,text,true,,127507,1688,9,9,http://172.16.33.16/api/tpm/visitui/find,7451,0,3
+1715193653093,7526,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-3,text,true,,127507,1688,8,8,http://172.16.33.16/api/tpm/visitui/find,7494,0,3
+1715193653294,7560,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-5,text,true,,127507,1688,7,7,http://172.16.33.16/api/tpm/visitui/find,7525,0,2
+1715193653194,7824,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-4,text,true,,127507,1688,6,6,http://172.16.33.16/api/tpm/visitui/find,7684,0,3
+1715193653492,7530,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-7,text,true,,127507,1688,5,5,http://172.16.33.16/api/tpm/visitui/find,7384,0,2
+1715193653394,7694,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-6,text,true,,127507,1688,4,4,http://172.16.33.16/api/tpm/visitui/find,7538,0,2
+1715193653792,7299,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-10,text,true,,127507,1688,3,3,http://172.16.33.16/api/tpm/visitui/find,7142,0,3
+1715193653592,7501,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-8,text,true,,127507,1688,2,2,http://172.16.33.16/api/tpm/visitui/find,7344,0,2
+1715193653692,7409,visitUIAPI/api/tpm/visitui/find,200,OK,visitUIAPI 1-9,text,true,,127507,1688,1,1,http://172.16.33.16/api/tpm/visitui/find,7252,0,3

@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1718516303345,862,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,134475,801,1,1,http://172.16.33.16/api/auth/token,822,0,10
+1718516324372,133,visitUIAPI/api/tpm/visitui/findInpatientFilter,200,OK,visitUIAPI 1-1,text,true,,600,2123,1,1,http://172.16.33.16/api/tpm/visitui/find,133,0,10

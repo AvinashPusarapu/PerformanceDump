@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715533092645,761,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,134665,801,1,1,http://172.16.33.16/api/auth/token,724,0,24
+1715533093416,653,PGIRLogin,200,OK,setUp Thread Group 1-1,text,true,,134737,798,1,1,http://172.16.33.16/api/auth/token,615,0,0
+1715533094080,668,SecurityAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,134221,807,1,1,http://172.16.33.16/api/auth/token,620,0,0
+1715533095013,79,AssetCreationOnDev_getnewids,200,OK,AssetCreationOnDev 1-1,text,true,,737,1101,1,1,http://172.16.33.16/api/getnewids,79,0,3
+1715533095093,180,AssetCreationOnDev/api/asset/save,200,OK,AssetCreationOnDev 1-1,text,true,,999,1324,1,1,http://172.16.33.16/api/asset/save,180,0,0

@@ -1,0 +1,12 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1714549026174,1004,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,198673,831,1,1,https://alertgolddemo.alertenterprisecloud.com/api/auth/token,905,0,123
+1714549027507,241,/api/request/save?,500,Internal Server Error,RequestSave 1-1,text,false,,1066,1440,1,1,https://alertgolddemo.alertenterprisecloud.com/api/request/save?,241,0,105
+1714549027750,42,/api/request/save?,500,Internal Server Error,RequestSave 1-1,text,false,,1075,1438,1,1,https://alertgolddemo.alertenterprisecloud.com/api/request/save?,42,0,0
+1714549027794,97,/api/request/save?,400,Bad Request,RequestSave 1-1,text,false,,489,1432,1,1,https://alertgolddemo.alertenterprisecloud.com/api/request/save?,97,0,0
+1714549027893,43,/api/request/save?,500,Internal Server Error,RequestSave 1-1,text,false,,1217,1440,1,1,https://alertgolddemo.alertenterprisecloud.com/api/request/save?,43,0,0
+1714549027938,712,/api/request/save?,200,OK,RequestSave 1-1,text,true,,3517,1427,1,1,https://alertgolddemo.alertenterprisecloud.com/api/request/save?,712,0,0
+1714549028652,45,/api/request/save?,500,Internal Server Error,RequestSave 1-1,text,false,,1225,1438,1,1,https://alertgolddemo.alertenterprisecloud.com/api/request/save?,45,0,0
+1714549028699,46,/api/request/save?,500,Internal Server Error,RequestSave 1-1,text,false,,1217,1440,1,1,https://alertgolddemo.alertenterprisecloud.com/api/request/save?,46,0,0
+1714549028748,403,/api/request/save?,200,OK,RequestSave 1-1,text,true,,3508,1442,1,1,https://alertgolddemo.alertenterprisecloud.com/api/request/save?,403,0,0
+1714549029153,338,/api/request/save?,200,OK,RequestSave 1-1,text,true,,3511,1447,1,1,https://alertgolddemo.alertenterprisecloud.com/api/request/save?,338,0,0
+1714549029522,341,/api/request/save?,200,OK,RequestSave 1-1,text,true,,3506,1463,1,1,https://alertgolddemo.alertenterprisecloud.com/api/request/save?,341,0,0

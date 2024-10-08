@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726846254913,3891,SelfRegLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,1055203,833,1,1,https://hscperf187.alertenterprise.com/api/auth/token,3793,0,45

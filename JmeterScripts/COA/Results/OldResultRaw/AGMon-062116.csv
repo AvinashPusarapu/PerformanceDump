@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715581276191,799,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,134680,801,1,1,http://172.16.33.16/api/auth/token,761,0,25
+1715581276999,689,PGIRLogin,200,OK,setUp Thread Group 1-1,text,true,,134736,798,1,1,http://172.16.33.16/api/auth/token,649,0,0
+1715581277699,740,SecurityAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,134219,807,1,1,http://172.16.33.16/api/auth/token,693,0,0
+1715581279936,115,VIM_getnewids,200,OK,VIM 1-1,text,true,,740,1101,1,1,http://172.16.33.16/api/getnewids,115,0,32
+1715581281713,238,VIM/api/tpmadmin/visitors/save,200,OK,VIM 1-1,text,true,,1014,1490,1,1,http://172.16.33.16/api/tpmadmin/visitors/save,238,0,0
+1715581282869,374,VIM/api/tpmadmin/visit/save,200,OK,VIM 1-1,text,true,,1173,1839,1,1,http://172.16.33.16/api/tpmadmin/visit/save,374,0,0
+1715581284550,14911,VIM/api/tpm/visitorsvisits/save,200,OK,VIM 1-1,text,true,,1999,1324,1,1,http://172.16.33.16/api/tpm/visitorsvisits/save,14911,0,0

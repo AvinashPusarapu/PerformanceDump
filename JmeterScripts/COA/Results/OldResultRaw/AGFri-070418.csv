@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715324658624,1396,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,137639,802,1,1,http://172.16.32.247/api/auth/token,1356,0,2
+1715324660030,1127,PGIRLogin,200,OK,setUp Thread Group 1-1,text,true,,137718,799,1,1,http://172.16.32.247/api/auth/token,1094,0,0
+1715324661167,832,SecurityAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,137280,808,1,1,http://172.16.32.247/api/auth/token,795,0,0
+1715324662222,86,IDMSAve_getnewids,200,OK,IDMSAve 1-1,text,true,,734,1062,1,1,http://172.16.32.247/api/getnewids,86,0,2
+1715324662610,575,IDMSAve_api/identity/save-1,200,OK,IDMSAve 1-1,text,true,,988,1397,1,1,http://172.16.32.247/api/identity/save?_dc=1715324662610,575,0,0
+1715324663486,245,IDMSAve_api/asset/save,200,OK,IDMSAve 1-1,text,true,,910,1293,1,1,http://172.16.32.247/api/asset/save?_dc=1715324663486,245,0,0
+1715324664033,1311,IDMSAve_api/identity/save-2,400,Bad Request,IDMSAve 1-1,text,false,,828,1263,1,1,http://172.16.32.247/api/identity/save?_dc=1715324664032,1311,0,0
+1715324662222,2217,Data creation,,"Number of samples in transaction : 4, number of failing samples : 1",IDMSAve 1-1,,false,,3460,5015,1,1,null,2217,905,2

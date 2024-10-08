@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1724848812699,305,APIsAccessibiltiyWithEndUserToken-/api/requesttype/find,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,618,978,1,1,https://hscperf187.alertenterprise.com/api/requesttype/find,305,0,49
+1724848813006,89,APIsAccessibiltiyWithEndUserToken-/api/accessrequesttype/find,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,618,1108,1,1,https://hscperf187.alertenterprise.com/api/accessrequesttype/find,89,0,0

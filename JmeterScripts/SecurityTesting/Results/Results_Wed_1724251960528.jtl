@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1724251960716,839,other-/api/access/save,203,,other 1-1,text,true,,288,1058,1,1,https://192.168.192.172/api/access/save,839,0,574

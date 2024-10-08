@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1724657053125,2962,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,42086,801,1,1,https://172.16.35.86/api/auth/token,2958,0,97
+1724657056285,1815,changePass-/api/user/changePassword,200,OK,changePass 1-1,text,true,,764,978,1,1,https://172.16.35.86/api/user/changePassword,1814,0,42

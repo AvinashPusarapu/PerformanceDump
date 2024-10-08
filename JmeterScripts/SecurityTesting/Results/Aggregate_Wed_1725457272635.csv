@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725457272662,5454,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,108452,818,1,1,https://hscperf69.alertenterprise.com/api/auth/token,5445,0,34
+1725457278126,1283,InvitationLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,98368,830,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1276,0,0
+1725457279652,49,ARBITRARY CODE EXECUTION CreateFile-/api/rule/5000692503540231?_dc=1725457037081&id=5000692503540231,400,Bad Request,ARBITRARY CODE EXECUTION  1-1,text,false,,688,1010,1,1,https://hscperf69.alertenterprise.com/api/rule/5000692503540231?_dc=1725457037081&id=5000692503540231,49,0,33

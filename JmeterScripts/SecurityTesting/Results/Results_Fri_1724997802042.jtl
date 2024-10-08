@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1724997802216,110,APIsAccessibiltiyWithEndUserToken-/api/system/get,400,Bad Request,APIsAccessibiltiyWithEndUserToken 1-1,text,false,,456,989,1,1,https://hscperf69.alertenterprise.com/api/system/4637898009276458?_dc=1724997221636&id=4637898009276458,110,0,34

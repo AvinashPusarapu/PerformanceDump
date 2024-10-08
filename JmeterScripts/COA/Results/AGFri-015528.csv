@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1720184128912,10445,PatientCreation-A01_/api/Hl7Message,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,PatientCreation-A01 1-1,text,false,,3116,0,1,1,https://coa-agent-dev.hsc.alertenterprisecloud.com/api/Hl7Message,0,0,270

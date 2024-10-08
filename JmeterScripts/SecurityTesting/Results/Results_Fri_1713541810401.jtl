@@ -1,0 +1,21 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1713541810624,1333,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,196185,832,1,1,https://alertgolddemo.alertenterprisecloud.com/api/auth/token,1087,0,293
+1713541812447,283,/api/visitor/save,500,Internal Server Error,VIMSave 1-1,text,false,,1061,1319,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visitors/save,280,0,197
+1713541812733,272,/api/visitor/save,200,OK,VIMSave 1-1,text,true,,1086,1329,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visitors/save,272,0,0
+1713541813009,215,/api/visitor/save,200,OK,VIMSave 1-1,text,true,,751,1331,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visitors/save,215,0,0
+1713541813228,186,/api/visitor/save,200,OK,VIMSave 1-1,text,true,,1083,1324,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visitors/save,186,0,0
+1713541813418,188,/api/visitor/save,200,OK,VIMSave 1-1,text,true,,1085,1328,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visitors/save,188,0,0
+1713541813609,191,/api/visitor/save,200,OK,VIMSave 1-1,text,true,,1088,1328,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visitors/save,191,0,0
+1713541813809,208,/api/visitor/save,200,OK,VIMSave 1-1,text,true,,1073,1313,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visitors/save,208,0,0
+1713541814022,170,/api/visitor/save,200,OK,VIMSave 1-1,text,true,,1077,1321,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visitors/save,170,0,0
+1713541814203,172,/api/visitor/save,200,OK,VIMSave 1-1,text,true,,1079,1327,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visitors/save,172,0,0
+1713541814377,80,/api/visit/save,500,Internal Server Error,VIMSave 1-1,text,false,,1059,1794,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visit/save,80,0,0
+1713541814459,280,/api/visit/save,400,Bad Request,VIMSave 1-1,text,false,,722,1788,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visit/save,280,0,0
+1713541814743,309,/api/visit/save,200,OK,VIMSave 1-1,text,true,,1246,1799,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visit/save,309,0,0
+1713541815054,78,/api/visit/save,500,Internal Server Error,VIMSave 1-1,text,false,,1592,1782,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visit/save,78,0,0
+1713541815135,299,/api/visit/save,200,OK,VIMSave 1-1,text,true,,1242,1800,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visit/save,299,0,0
+1713541815439,39,/api/visit/save,500,Internal Server Error,VIMSave 1-1,text,false,,1067,1792,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visit/save,39,0,0
+1713541815480,57,/api/visit/save,500,Internal Server Error,VIMSave 1-1,text,false,,1183,1822,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visit/save,57,0,0
+1713541815539,82,/api/visit/save,500,Internal Server Error,VIMSave 1-1,text,false,,1194,1792,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visit/save,82,0,0
+1713541815623,119,/api/visit/save,500,Internal Server Error,VIMSave 1-1,text,false,,1068,1792,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visit/save,119,0,0
+1713541815749,449,/api/visit/save,200,OK,VIMSave 1-1,text,true,,1241,1793,1,1,https://alertgolddemo.alertenterprisecloud.com/api/tpmadmin/visit/save,449,0,0

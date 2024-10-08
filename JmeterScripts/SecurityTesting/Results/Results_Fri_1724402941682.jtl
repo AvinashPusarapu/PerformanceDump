@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1724402941698,4197,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,98906,804,1,1,https://192.168.192.172/api/auth/token,3649,0,636
+1724402946163,855,APIsAccessibiltiyWithEndUserToken-/api/watchlist/find,203,,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,288,1128,1,1,https://192.168.192.172/api/watchlist/find,855,0,573
+1724402947020,467,APIsAccessibiltiyWithEndUserToken-/api/tpmadmin/visit/find,401,Unauthorized,APIsAccessibiltiyWithEndUserToken 1-1,text,false,,480,1162,1,1,https://192.168.192.172/api/tpmadmin/visit/find,467,0,0
+1724402947488,414,APIsAccessibiltiyWithEndUserToken-/api/tpmadmin/visitors/find,401,Unauthorized,APIsAccessibiltiyWithEndUserToken 1-1,text,false,,480,1042,1,1,https://192.168.192.172/api/tpmadmin/visitors/find,414,0,0
+1724402947904,414,APIsAccessibiltiyWithEndUserToken-/api/identity/find,401,Unauthorized,APIsAccessibiltiyWithEndUserToken 1-1,text,false,,480,1150,1,1,https://192.168.192.172/api/identity/find,413,0,0
+1724402948318,328,APIsAccessibiltiyWithEndUserToken-/api/identity/find,401,Unauthorized,APIsAccessibiltiyWithEndUserToken 1-1,text,false,,480,1010,1,1,https://192.168.192.172/api/identity/find,328,0,0
+1724402948647,422,APIsAccessibiltiyWithEndUserToken-/api/me,401,Unauthorized,APIsAccessibiltiyWithEndUserToken 1-1,text,false,,480,894,1,1,https://192.168.192.172/api/me,422,0,0

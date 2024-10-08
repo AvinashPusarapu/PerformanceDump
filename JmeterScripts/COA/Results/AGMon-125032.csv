@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1719233432649,13241,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,141385,801,1,1,http://172.16.33.16/api/auth/token,13168,0,4
+1719233446032,1421,PatientCreation-A01_/api/Hl7Message,200,OK,PatientCreation-A01 1-1,text,true,,565,2873,1,1,http://172.16.33.16:9096/api/Hl7Message,1420,0,3

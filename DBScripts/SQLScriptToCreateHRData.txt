@@ -1,0 +1,107 @@
+-- Create a temporary table to hold the generated data
+CREATE TABLE #TempUser (
+    RowNum INT,
+    SourceID NVARCHAR(20),
+    SystemID NVARCHAR(20),
+    ValidFrom DATETIME,
+    DisplayName NVARCHAR(50),
+    Email NVARCHAR(100),
+    EmploymentStatus NVARCHAR(50),
+    FirstName NVARCHAR(50),
+    HireDate DATE,
+    JobTitle NVARCHAR(50),
+    LastName NVARCHAR(50),
+    SSN NVARCHAR(20),
+    YearOfBirth INT,
+    DateOfBirth DATE,
+    WorkLocation NVARCHAR(50),
+    UserID NVARCHAR(20),
+    DepartmentID NVARCHAR(20),
+    ManagerSourceID NVARCHAR(20),
+    MasterIdentityID NVARCHAR(20),
+    JobCode NVARCHAR(20),
+    ECJobTitle NVARCHAR(50),
+    SCStatus NVARCHAR(50),
+    PrimaryID NVARCHAR(20),
+    DepartmentDescription NVARCHAR(50),
+    PerPersonUUID NVARCHAR(50),
+    PersonSubtype INT
+)
+
+-- Generate unique data
+;WITH UniqueData AS (
+    SELECT 
+        ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS RowNum,
+        CAST(ABS(CHECKSUM(NEWID())) AS NVARCHAR(20)) AS SourceID,
+        CAST(ABS(CHECKSUM(NEWID())) AS NVARCHAR(20)) AS SystemID,
+        DATEADD(DAY, -1 * ABS(CHECKSUM(NEWID())) % 365, GETDATE()) AS ValidFrom,
+        'DisplayName' + CAST(ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS NVARCHAR(10)) AS DisplayName,
+        'email' + CAST(ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS NVARCHAR(10)) + '@example.com' AS Email,
+        'EmploymentStatus' + CAST(ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS NVARCHAR(10)) AS EmploymentStatus,
+        'FirstName' + CAST(ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS NVARCHAR(10)) AS FirstName,
+        DATEADD(DAY, -1 * ABS(CHECKSUM(NEWID())) % 365, GETDATE()) AS HireDate,
+        'JobTitle' + CAST(ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS NVARCHAR(10)) AS JobTitle,
+        'LastName' + CAST(ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS NVARCHAR(10)) AS LastName,
+        'SSN' + CAST(ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS NVARCHAR(10)) AS SSN,
+        ABS(CHECKSUM(NEWID())) % 60 + 1960 AS YearOfBirth,
+        DATEADD(YEAR, -1 * (ABS(CHECKSUM(NEWID())) % 60), GETDATE()) AS DateOfBirth,
+        'WorkLocation' + CAST(ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS NVARCHAR(10)) AS WorkLocation,
+        CAST(ABS(CHECKSUM(NEWID())) AS NVARCHAR(20)) AS UserID,
+        'DepartmentID' + CAST(ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS NVARCHAR(10)) AS DepartmentID,
+        CAST(ABS(CHECKSUM(NEWID())) AS NVARCHAR(20)) AS ManagerSourceID,
+        CAST(ABS(CHECKSUM(NEWID())) AS NVARCHAR(20)) AS MasterIdentityID,
+        'JobCode' + CAST(ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS NVARCHAR(10)) AS JobCode,
+        'ECJobTitle' + CAST(ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS NVARCHAR(10)) AS ECJobTitle,
+        'SCStatus' + CAST(ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS NVARCHAR(10)) AS SCStatus,
+        CAST(ABS(CHECKSUM(NEWID())) AS NVARCHAR(20)) AS PrimaryID,
+        'DepartmentDescription' + CAST(ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS NVARCHAR(10)) AS DepartmentDescription,
+        NEWID() AS PerPersonUUID,
+        ABS(CHECKSUM(NEWID())) % 30 + 1 AS PersonSubtype
+    FROM 
+        sys.all_columns ac1
+    CROSS JOIN 
+        sys.all_columns ac2
+)
+INSERT INTO #TempUser (
+    RowNum, SourceID, SystemID, ValidFrom, DisplayName, Email, EmploymentStatus, 
+    FirstName, HireDate, JobTitle, LastName, SSN, YearOfBirth, DateOfBirth, 
+    WorkLocation, UserID, DepartmentID, ManagerSourceID, MasterIdentityID, 
+    JobCode, ECJobTitle, SCStatus, PrimaryID, DepartmentDescription, PerPersonUUID, PersonSubtype
+)
+SELECT 
+    RowNum, SourceID, SystemID, ValidFrom, DisplayName, Email, EmploymentStatus, 
+    FirstName, HireDate, JobTitle, LastName, SSN, YearOfBirth, DateOfBirth, 
+    WorkLocation, UserID, DepartmentID, ManagerSourceID, MasterIdentityID, 
+    JobCode, ECJobTitle, SCStatus, PrimaryID, DepartmentDescription, PerPersonUUID, PersonSubtype
+FROM 
+    UniqueData
+WHERE 
+    RowNum <= 35000 -- Change this to the number of rows you want to generate
+
+-- Display the generated data
+SELECT * FROM #TempUser;
+
+-- Cleanup
+DROP TABLE #TempUser
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+To update source id execute below script 
+
+DECLARE @StartSourceID INT = 300000;
+
+WITH CTE AS (
+    SELECT 
+        *,
+        ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) - 1 AS RowNumToUpdate
+    FROM 
+        #TempUser
+)
+
+UPDATE CTE
+SET SourceID = CAST(@StartSourceID + RowNumToUpdate AS NVARCHAR(20));
+
+
+
+

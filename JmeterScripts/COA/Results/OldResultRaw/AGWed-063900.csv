@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715193540761,10893,AdminLogin,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,setUp Thread Group 1-5,text,false,,2227,0,10,10,http://172.16.32.16/api/auth/token,0,0,10893
+1715193541059,10597,AdminLogin,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,setUp Thread Group 1-8,text,false,,2227,0,9,9,http://172.16.32.16/api/auth/token,0,0,10597
+1715193540560,11098,AdminLogin,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,setUp Thread Group 1-3,text,false,,2227,0,8,8,http://172.16.32.16/api/auth/token,0,0,11098
+1715193540661,10999,AdminLogin,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,setUp Thread Group 1-4,text,false,,2227,0,7,7,http://172.16.32.16/api/auth/token,0,0,10999
+1715193540359,11302,AdminLogin,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,setUp Thread Group 1-1,text,false,,2227,0,6,6,http://172.16.32.16/api/auth/token,0,0,11302
+1715193541158,10504,AdminLogin,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,setUp Thread Group 1-9,text,false,,2227,0,5,5,http://172.16.32.16/api/auth/token,0,0,10504
+1715193541261,10403,AdminLogin,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,setUp Thread Group 1-10,text,false,,2227,0,4,4,http://172.16.32.16/api/auth/token,0,0,10403
+1715193540959,10710,AdminLogin,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,setUp Thread Group 1-7,text,false,,2227,0,3,3,http://172.16.32.16/api/auth/token,0,0,10710
+1715193540859,10812,AdminLogin,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,setUp Thread Group 1-6,text,false,,2227,0,2,2,http://172.16.32.16/api/auth/token,0,0,10812
+1715193540459,11214,AdminLogin,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,setUp Thread Group 1-2,text,false,,2227,0,1,1,http://172.16.32.16/api/auth/token,0,0,11214

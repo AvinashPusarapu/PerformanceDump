@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1710841956758,1354,BadgeAdminLogin-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,208885,826,1,1,https://guardian2.alertenterprisecloud.com/api/auth/token,1248,0,127
+1710841958157,1011,AdminLogin-Admin-/api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,193085,825,1,1,https://guardian2.alertenterprisecloud.com/api/auth/token,975,0,0
+1710841959441,154,api/getnewids,200,OK,VIMOtherUseCases 1-1,text,true,,746,1203,1,1,https://guardian2.alertenterprisecloud.com/api/getnewids,154,0,116
+1710841959596,270,EmergencyNotification,200,OK,VIMOtherUseCases 1-1,text,true,,707,1600,1,1,https://guardian2.alertenterprisecloud.com/api/tpm/visitui/emergencynotification/save,270,0,0
+1710841959868,139,CreatePermanentBadgeForIdentity,200,OK,VIMOtherUseCases 1-1,text,true,,1117,1328,1,1,https://guardian2.alertenterprisecloud.com/api/asset/save,139,0,0
+1710841960008,163,CreateTempBadgeForIdentity,200,OK,VIMOtherUseCases 1-1,text,true,,1125,1328,1,1,https://guardian2.alertenterprisecloud.com/api/asset/save,163,0,0
+1710841960172,1185,identityCreationForTempBadgeRequest,400,Bad Request,VIMOtherUseCases 1-1,text,false,,648,1659,1,1,https://guardian2.alertenterprisecloud.com/api/identity/save?,1185,0,0

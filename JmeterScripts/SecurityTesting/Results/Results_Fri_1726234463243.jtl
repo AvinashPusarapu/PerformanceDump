@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1726234463484,2334,APIsAccessibiltiyWithEndUserToken-/api/tpmadmin/visit/find,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,5760,1155,1,1,https://192.168.192.189/api/tpmadmin/visit/find,2334,0,688
+1726234465821,1490,APIsAccessibiltiyWithEndUserToken-/api/tpmadmin/visitors/find,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,4308,1035,1,1,https://192.168.192.189/api/tpmadmin/visitors/find,1490,0,0
+1726234467311,1339,APIsAccessibiltiyWithEndUserToken-/api/tpmadmin/visitors/save,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,998,1023,1,1,https://192.168.192.189/api/tpmadmin/visitors/save,1339,0,0
+1726234468650,1543,APIsAccessibiltiyWithEndUserToken-/api/tpmadmin/visit/save,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,1955,1060,1,1,https://192.168.192.189/api/tpmadmin/visit/save,1543,0,0
+1726234470194,444,APIsAccessibiltiyWithEndUserToken-/api/badgedesigner/find,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,10142,955,1,1,https://192.168.192.189/api/badgedesigner/find,444,0,0
+1726234470639,385,APIsAccessibiltiyWithEndUserToken-/api/badgedesigner/find,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,10141,955,1,1,https://192.168.192.189/api/badgedesigner/find,384,0,0
+1726234471024,2023,APIsAccessibiltiyWithEndUserToken-/api/badgedesigner/getbadgetemplate,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,42130,1340,1,1,https://192.168.192.189/api/badgedesigner/getbadgetemplate,2021,0,0
+1726234473047,486,APIsAccessibiltiyWithEndUserToken-/api/binaryresource/getBase64,200,OK,APIsAccessibiltiyWithEndUserToken 1-1,text,true,,40873,987,1,1,https://192.168.192.189/api/binaryresource/getBase64,483,0,0

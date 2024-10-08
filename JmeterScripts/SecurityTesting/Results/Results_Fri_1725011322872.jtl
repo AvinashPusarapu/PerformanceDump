@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725011322897,1348,Login-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,107670,818,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1340,0,31
+1725011324458,54,api/getnewids,200,OK,VIMInvite 1-1,text,true,,740,1097,1,1,https://hscperf69.alertenterprise.com/api/getnewids,54,0,40
+1725011324513,372,VIMInvite/api/tpmadmin/visitors/save,200,OK,VIMInvite 1-1,text,true,,976,1437,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visitors/save,371,0,0
+1725011324886,930,VIMInvite/api/tpmadmin/visit/save,200,OK,VIMInvite 1-1,text,true,,1117,1891,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visit/save,930,0,0

@@ -1,0 +1,12 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1732266943970,1248,AdminLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,263617,824,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1213,0,41
+1732266945270,1176,SecurityAdmin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,257234,820,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1142,0,0
+1732266946723,1063,Login-api/auth/token,200,OK,WFVIM 1-1,text,true,,255528,1229,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1031,0,39
+1732266947838,10,WFVIM-/api/getnewids,200,OK,WFVIM 1-1,text,true,,733,1081,1,1,https://hscperf69.alertenterprise.com/api/getnewids,10,0,0
+1732266947850,164,WFVIM-/api/watchlist/save,200,OK,WFVIM 1-1,text,true,,1031,1434,1,1,https://hscperf69.alertenterprise.com/api/watchlist/save?_dc=1732266947849,164,0,0
+1732266948018,59,WFVIM-/api/binaryresource/upload,201,Created,WFVIM 1-1,text,true,,10567,8284,1,1,https://hscperf69.alertenterprise.com/api/binaryresource/upload,58,0,0
+1732266948078,590,WFVIM-/api/tpmadmin/visitors/save,200,OK,WFVIM 1-1,text,true,,982,1390,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visitors/save,590,0,0
+1732266948669,951,WFVIM-/api/tpmadmin/visit/save,200,OK,WFVIM 1-1,text,true,,1210,2089,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visit/save,951,0,0
+1732266949649,412,WFVIM-/api/tpmadmin/visit/visitId,200,OK,WFVIM 1-1,text,true,,4213,1141,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visit/5115005561631327?_dc=1732266949648&id=5115005561631327,412,0,0
+1732266950124,203,WFVIM-/api/tpmadmin/visit/visitId,200,OK,WFVIM 1-1,text,true,,4211,1141,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visit/5115005561631327?_dc=1732266950123&id=5115005561631327,203,0,0
+1732266950361,396,WFVIMWS-/api/workflow/setdocstatus,200,OK,WFVIM 1-1,text,true,,1192,1253,1,1,https://hscperf69.alertenterprise.com/api/workflow/setdocstatus,396,0,0

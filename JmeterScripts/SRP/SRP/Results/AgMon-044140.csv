@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725295300822,1651,adminLogin,200,OK,setUp Thread Group 1-1,text,true,,113893,802,1,1,http://172.16.37.224/api/auth/token,1608,0,10
+1725295302479,1143,lobbyAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,119967,808,1,1,http://172.16.37.224/api/auth/token,1106,0,0
+1725295305293,1031,Login-Admin-/api/auth/token,200,OK,VIMGroupOperationsAuto 1-1,text,true,,113905,859,1,1,http://172.16.37.224/api/auth/token,973,0,7
+1725295306555,124,VIMGroupOperationsAuto/api/getnewids,200,OK,VIMGroupOperationsAuto 1-1,text,true,,736,1081,1,1,http://172.16.37.224/api/getnewids,124,0,0
+1725295308395,40,JSR223 Sampler,200,OK,VIMGroupOperationsAuto 1-1,text,true,,0,0,1,1,null,0,0,0
+1725295309997,1375,VIMGroupOperationsAutoGroupVisitCreation10,200,OK,VIMGroupOperationsAuto 1-1,text,true,,1331,3090,1,1,http://172.16.37.224/api/tpmadmin/visit/save,1375,0,0
+1725295312455,1686,VIMGroupOperationsAutoMassCheckIn10,200,OK,VIMGroupOperationsAuto 1-1,text,true,,832,2809,1,1,http://172.16.37.224/api/tpm/visitorsvisits/save,1686,0,0

@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1730793609427,278,VIM_getnewids,200,OK,VIM 1-1,text,true,,739,715,1,1,http://172.16.16.70/api/getnewids,277,0,3
+1730793609878,113,VIM/api/tpmadmin/visitors/save,401,Unauthorized,VIM 1-1,text,false,,489,1104,1,1,http://172.16.16.70/api/tpmadmin/visitors/save,112,0,0

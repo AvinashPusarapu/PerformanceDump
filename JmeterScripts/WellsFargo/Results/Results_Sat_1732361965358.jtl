@@ -1,0 +1,20 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1732361965382,1261,AdminLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,263839,824,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1240,0,34
+1732361966694,1053,SecurityAdmin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,257457,820,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1032,0,0
+1732361968103,43,WatchlistSave-Admin-/api/watchlist/save,500,Internal Server Error,WatchlistSave 1-1,text,false,,1070,1201,1,1,https://hscperf69.alertenterprise.com/api/watchlist/save,43,0,32
+1732361968147,44,WatchlistSave-Admin-/api/watchlist/save,400,Bad Request,WatchlistSave 1-1,text,false,,489,1205,1,1,https://hscperf69.alertenterprise.com/api/watchlist/save,44,0,0
+1732361968191,156,WatchlistSave-Admin-/api/watchlist/save,200,OK,WatchlistSave 1-1,text,true,,1066,1209,1,1,https://hscperf69.alertenterprise.com/api/watchlist/save,156,0,0
+1732361968349,102,WatchlistSave-Admin-/api/watchlist/save,200,OK,WatchlistSave 1-1,text,true,,1063,1209,1,1,https://hscperf69.alertenterprise.com/api/watchlist/save,102,0,0
+1732361968452,96,WatchlistSave-Admin-/api/watchlist/save,200,OK,WatchlistSave 1-1,text,true,,1065,1209,1,1,https://hscperf69.alertenterprise.com/api/watchlist/save,96,0,0
+1732361968548,120,WatchlistSave-Admin-/api/watchlist/save,200,OK,WatchlistSave 1-1,text,true,,1059,1203,1,1,https://hscperf69.alertenterprise.com/api/watchlist/save,120,0,0
+1732361968669,112,WatchlistSave-Admin-/api/watchlist/save,200,OK,WatchlistSave 1-1,text,true,,1063,1209,1,1,https://hscperf69.alertenterprise.com/api/watchlist/save,112,0,0
+1732361968782,147,WatchlistSave-Admin-/api/watchlist/save,200,OK,WatchlistSave 1-1,text,true,,1065,1209,1,1,https://hscperf69.alertenterprise.com/api/watchlist/save,147,0,0
+1732361968930,54,WatchlistSave-Admin-/api/watchlist/save,400,Bad Request,WatchlistSave 1-1,text,false,,505,1209,1,1,https://hscperf69.alertenterprise.com/api/watchlist/save,53,0,0
+1732361968990,41,WatchlistSave-Admin-/api/watchlist/save,400,Bad Request,WatchlistSave 1-1,text,false,,495,1209,1,1,https://hscperf69.alertenterprise.com/api/watchlist/save,41,0,0
+1732361969032,158,WatchlistSave-Admin-/api/watchlist/save,200,OK,WatchlistSave 1-1,text,true,,1062,1209,1,1,https://hscperf69.alertenterprise.com/api/watchlist/save,158,0,0
+1732361969191,7,WatchlistSave-Admin-/api/watchlist/save,500,Internal Server Error,WatchlistSave 1-1,text,false,,1070,1201,1,1,https://hscperf69.alertenterprise.com/api/watchlist/save,7,0,0
+1732361969217,1119,Login-api/auth/token,200,OK,WFAPIs 2-1,text,true,,253312,880,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1099,0,34
+1732361970387,5,WFAPIs-/api/getnewids,200,OK,WFAPIs 2-1,text,true,,813,1101,1,1,https://hscperf69.alertenterprise.com/api/getnewids,5,0,0
+1732361970394,1310,WFAPIs-/api/binaryresource/upload,201,Created,WFAPIs 2-1,text,true,,10639,8332,1,1,https://hscperf69.alertenterprise.com/api/binaryresource/upload,1310,0,0
+1732361971705,690,WFAPIs-/api/tpmadmin/visitors/save,400,Bad Request,WFAPIs 2-1,text,false,,592,1410,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visitors/save,690,0,0
+1732361972396,316,WFAPIs-/api/tpmadmin/visit/save,400,Bad Request,WFAPIs 2-1,text,false,,598,2109,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visit/save,316,0,0

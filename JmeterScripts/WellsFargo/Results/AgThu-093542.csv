@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1729157742927,1665,AdminLogin-/api/auth/token,200,OK,setUp Thread Group-Login 1-1,text,true,,258868,828,1,1,https://hsc.perf.alertenterprisecloud.com/api/auth/token,1478,0,200
+1729157744606,966,SecurityAdminLogin-/api/auth/token,200,OK,setUp Thread Group-Login 1-1,text,true,,265104,824,1,1,https://hsc.perf.alertenterprisecloud.com/api/auth/token,907,0,0
+1729157745587,809,ApproverLogin-/api/auth/token,200,OK,setUp Thread Group-Login 1-1,text,true,,255597,825,1,1,https://hsc.perf.alertenterprisecloud.com/api/auth/token,787,0,0

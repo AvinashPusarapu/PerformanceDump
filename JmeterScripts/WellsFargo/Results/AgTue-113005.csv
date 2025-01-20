@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1729596605416,932,AdminLogin-/api/auth/token,200,OK,setUp Thread Group-Login 1-1,text,true,,258203,807,1,1,http://172.16.16.70/api/auth/token,922,0,1
+1729596606362,825,SecurityAdminLogin-/api/auth/token,200,OK,setUp Thread Group-Login 1-1,text,true,,264350,803,1,1,http://172.16.16.70/api/auth/token,815,0,0
+1729596607201,787,ApproverLogin-/api/auth/token,200,OK,setUp Thread Group-Login 1-1,text,true,,254957,804,1,1,http://172.16.16.70/api/auth/token,777,0,0

@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1737127433204,1488,Login,200,OK,setUp Thread Group-Login 1-1,text,true,,219285,833,1,1,https://guardian-nfcdev.hsc.alertenterprisecloud.com/api/auth/token,1217,0,283
+1737127434943,310,DeactivateMobCred-/api/getnewids,200,OK,DeactivateMobCred 1-1,text,true,,643,1097,1,1,https://guardian-nfcdev.hsc.alertenterprisecloud.com/api/getnewids,310,0,237
+1737127435253,343,DeactivateMobCred-/api/request/save,200,OK,DeactivateMobCred 1-1,text,true,,2765,1379,1,1,https://guardian-nfcdev.hsc.alertenterprisecloud.com/api/request/save,343,0,0

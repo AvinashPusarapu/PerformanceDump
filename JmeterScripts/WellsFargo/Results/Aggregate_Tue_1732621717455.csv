@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1732621717479,3710,AdminLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,264331,824,1,1,https://hscperf69.alertenterprise.com/api/auth/token,3688,0,32
+1732621721239,1239,SecurityAdmin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,258568,820,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1218,0,0
+1732621722773,1222,Login-api/auth/token,200,OK,WFAPIs 1-1,text,true,,253910,880,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1201,0,35
+1732621724048,7,api/getnewids,200,OK,WFAPIs 1-1,text,true,,809,1101,1,1,https://hscperf69.alertenterprise.com/api/getnewids,7,0,0
+1732621724056,353,WFAPIs_/api/access/find,200,OK,WFAPIs 1-1,text,true,,3622,1371,1,1,https://hscperf69.alertenterprise.com/api/access/find,353,0,0

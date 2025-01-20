@@ -16,7 +16,7 @@
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
-        <stringProp name="HTTPSampler.domain">coa-agent-dev.hsc.alertenterprisecloud.com</stringProp>
+        <stringProp name="HTTPSampler.domain">coa-dev.hsc.alertenterprisecloud.com</stringProp>
         <stringProp name="HTTPSampler.port"></stringProp>
         <stringProp name="HTTPSampler.protocol">https</stringProp>
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -52,7 +52,7 @@
           </elementProp>
           <elementProp name="hostId" elementType="Argument">
             <stringProp name="Argument.name">hostId</stringProp>
-            <stringProp name="Argument.value">4807498860292036</stringProp>
+            <stringProp name="Argument.value">5026471326515777</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="requestorPGIR" elementType="Argument">
@@ -63,12 +63,12 @@
           </elementProp>
           <elementProp name="Result" elementType="Argument">
             <stringProp name="Argument.name">Result</stringProp>
-            <stringProp name="Argument.value">C:\Users\pusarapu.avinash\Desktop\2024\COA\COA\Results</stringProp>
+            <stringProp name="Argument.value">C:\Users\pusarapu.avinash\Desktop\AE\Scripts\JmeterScripts\COA\Results</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="CSV" elementType="Argument">
             <stringProp name="Argument.name">CSV</stringProp>
-            <stringProp name="Argument.value">C:\Users\pusarapu.avinash\Desktop\2024\COA\COA\CSV</stringProp>
+            <stringProp name="Argument.value">C:\Users\pusarapu.avinash\Desktop\AE\Scripts\JmeterScripts\COA\CSV</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="rampUp" elementType="Argument">
@@ -91,7 +91,7 @@
         <stringProp name="TestPlan.comments">12,6</stringProp>
       </Arguments>
       <hashTree/>
-      <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="setUp Thread Group" enabled="false">
+      <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="setUp Thread Group" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -532,7 +532,7 @@ ${__setProperty(refresh_token, ${refresh_token})};</stringProp>
         </HeaderManager>
         <hashTree/>
         <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="id" enabled="true">
-          <stringProp name="CounterConfig.start">358</stringProp>
+          <stringProp name="CounterConfig.start">1006</stringProp>
           <stringProp name="CounterConfig.end"></stringProp>
           <stringProp name="CounterConfig.incr">1</stringProp>
           <stringProp name="CounterConfig.name">id</stringProp>
@@ -541,7 +541,7 @@ ${__setProperty(refresh_token, ${refresh_token})};</stringProp>
         </CounterConfig>
         <hashTree/>
         <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="MRN" enabled="true">
-          <stringProp name="CounterConfig.start">30041358</stringProp>
+          <stringProp name="CounterConfig.start">8930041006</stringProp>
           <stringProp name="CounterConfig.end"></stringProp>
           <stringProp name="CounterConfig.incr">1</stringProp>
           <stringProp name="CounterConfig.name">MRN</stringProp>
@@ -550,7 +550,7 @@ ${__setProperty(refresh_token, ${refresh_token})};</stringProp>
         </CounterConfig>
         <hashTree/>
         <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="CSN" enabled="true">
-          <stringProp name="CounterConfig.start">3000100358</stringProp>
+          <stringProp name="CounterConfig.start">983000101006</stringProp>
           <stringProp name="CounterConfig.end"></stringProp>
           <stringProp name="CounterConfig.incr">1</stringProp>
           <stringProp name="CounterConfig.name">CSN</stringProp>
@@ -616,7 +616,7 @@ vars.put(&quot;CSN&quot;,&quot;${__time(dhmssSSSS,)}&quot;);</stringProp>
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">MSH|^~\&amp;|EPIC|COA||Primary|20240315154831|KEKYNEARD|ADT^A01|150560|T|2.3&#xd;
 EVN|A01|20240315154831||ADT_EVENT|KEKYNEARD^KYNEARD^KEOSHIA^^^^^^TCHOA^^^^^BRH|20240315154800&#xd;
-PID|||${MRN}^^^EPI^MR||PerfIUser${id}^PatIUser${id}^^^^^L||20210111|||White|5005 CHILDRENS WAY^^BIRMINGHAM^AL^35233^US^P^^JEFFERSON|JEFFERSON|(205)638-3994^P^H^^^205^6383994^^^^^^^^^^^1~^NET^Internet^cindy.tompkins@childrensal.org||ENG|SINGLE||${CSN}|999-88-1000||testguarantor^mix^^|NOT HISPANIC||||||||N&#xd;
+PID|||${MRN}^^^EPI^MR||PerfJUser${id}^PatJUser${id}^^^^^L||20210111|||White|5005 CHILDRENS WAY^^BIRMINGHAM^AL^35233^US^P^^JEFFERSON|JEFFERSON|(205)638-3994^P^H^^^205^6383994^^^^^^^^^^^1~^NET^Internet^cindy.tompkins@childrensal.org||ENG|SINGLE||${CSN}|999-88-1000||testguarantor^mix^^|NOT HISPANIC||||||||N&#xd;
 ZPD||MYCH|||||N||N|||||||||N|||||N|F&#xd;
 PD1|||BENJAMIN RUSSELL HOSPITAL^^10111|1121^WALL^TERRY^CRAFT^^^^^PROVID^^^^PROVID~1912927070^WALL^TERRY^CRAFT^^^^^NPI^^^^NPI~CHS401121^WALL^TERRY^CRAFT^^^^^COA ID^^^^&#xd;
 ROL|1|UP|GENERAL|1121^WALL^TERRY^CRAFT^^^^^PROVID^^^^PROVID~1912927070^WALL^TERRY^CRAFT^^^^^NPI^^^^NPI~CHS401121^WALL^TERRY^CRAFT^^^^^COA ID^^^^|20220518||||GENERAL||1600 7TH AVE. S., CPPI SUITE 302^^BIRMINGHAM^AL^35233-1711^|(205)638-9585^^W^^^205^6389585~(205)638-6349^^FAX^^^205^6386349&#xd;
@@ -830,7 +830,7 @@ vars.put(&quot;CSN&quot;,&quot;${__time(dhmssSSSS,)}&quot;);</stringProp>
         </UniformRandomTimer>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="RoomTransfer-A02" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="RoomTransfer-A02" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">startnextloop</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -1003,7 +1003,7 @@ ZIF</stringProp>
         </UniformRandomTimer>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="PatientTagUpdate-A08" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="PatientTagUpdate-A08" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">startnextloop</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -1160,6 +1160,145 @@ IN1|2|10999901^GENERIC COMMERCIAL|109999|GENERIC COMMERCIAL|100 QUEEN CITY AVE^^
         </CSVDataSet>
         <hashTree/>
       </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="PatientDischarge-A03" enabled="false">
+        <stringProp name="ThreadGroup.on_sample_error">startnextloop</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${rampUp}</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration">${rampUp}</stringProp>
+        <stringProp name="ThreadGroup.delay">5</stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+          <collectionProp name="HeaderManager.headers">
+            <elementProp name="Accept" elementType="Header">
+              <stringProp name="Header.name">Accept</stringProp>
+              <stringProp name="Header.value">*/*</stringProp>
+            </elementProp>
+            <elementProp name="Accept-Encoding" elementType="Header">
+              <stringProp name="Header.name">Accept-Encoding</stringProp>
+              <stringProp name="Header.value">gzip, deflate, br</stringProp>
+            </elementProp>
+            <elementProp name="Accept-Language" elementType="Header">
+              <stringProp name="Header.name">Accept-Language</stringProp>
+              <stringProp name="Header.value">en-US,en;q=0.9</stringProp>
+            </elementProp>
+            <elementProp name="Cache-Control" elementType="Header">
+              <stringProp name="Header.name">Cache-Control</stringProp>
+              <stringProp name="Header.value">no-cache</stringProp>
+            </elementProp>
+            <elementProp name="Connection" elementType="Header">
+              <stringProp name="Header.name">Connection</stringProp>
+              <stringProp name="Header.value">keep-alive</stringProp>
+            </elementProp>
+            <elementProp name="Content-Type" elementType="Header">
+              <stringProp name="Header.name">Content-Type</stringProp>
+              <stringProp name="Header.value">application/hl7-v2</stringProp>
+            </elementProp>
+            <elementProp name="Pragma" elementType="Header">
+              <stringProp name="Header.name">Pragma</stringProp>
+              <stringProp name="Header.value">no-cache</stringProp>
+            </elementProp>
+            <elementProp name="Sec-Fetch-Dest" elementType="Header">
+              <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+              <stringProp name="Header.value">empty</stringProp>
+            </elementProp>
+            <elementProp name="Sec-Fetch-Mode" elementType="Header">
+              <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+              <stringProp name="Header.value">cors</stringProp>
+            </elementProp>
+            <elementProp name="Sec-Fetch-Site" elementType="Header">
+              <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+              <stringProp name="Header.value">same-origin</stringProp>
+            </elementProp>
+            <elementProp name="User-Agent" elementType="Header">
+              <stringProp name="Header.name">User-Agent</stringProp>
+              <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36</stringProp>
+            </elementProp>
+            <elementProp name="X-ClientTimeZone" elementType="Header">
+              <stringProp name="Header.name">X-ClientTimeZone</stringProp>
+              <stringProp name="Header.value">America/Los_Angeles</stringProp>
+            </elementProp>
+            <elementProp name="X-Requested-With" elementType="Header">
+              <stringProp name="Header.name">X-Requested-With</stringProp>
+              <stringProp name="Header.value">XMLHttpRequest</stringProp>
+            </elementProp>
+            <elementProp name="sec-ch-ua" elementType="Header">
+              <stringProp name="Header.name">sec-ch-ua</stringProp>
+              <stringProp name="Header.value">&quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;</stringProp>
+            </elementProp>
+            <elementProp name="sec-ch-ua-mobile" elementType="Header">
+              <stringProp name="Header.name">sec-ch-ua-mobile</stringProp>
+              <stringProp name="Header.value">?0</stringProp>
+            </elementProp>
+            <elementProp name="sec-ch-ua-platform" elementType="Header">
+              <stringProp name="Header.name">sec-ch-ua-platform</stringProp>
+              <stringProp name="Header.value">&quot;Windows&quot;</stringProp>
+            </elementProp>
+          </collectionProp>
+        </HeaderManager>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${__threadGroupName}_/api/Hl7Message" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">MSH|^~\&amp;|EPIC|COA||Primary|20240317003016|ESEOD|ADT^A03|150630|T|2.3&#xd;
+EVN|A03|20240317003016||ADT_EVENT|ESEOD^CADENCE^EOD^PROCESSING^^^^^TCHOA^^^^^|20240316235900&#xd;
+PID|1||${MRN}^^^EPI^MR||${LN}^${FN}^^^^L||19830109||||^^^^^US^P|||||||${CSN}|293-48-3292|||||||||||N&#xd;
+ZPD||MYCH||ACTIVATED|||N||N|||||||||N|||||Y|F&#xd;
+PD1|||EHS HOSPITAL^^10101&#xd;
+PV1|1|O-OUTPATIENT|CMLAB^^^10331^^^^^MWB LAB^^DEPID||||||||||||||||2000023549|SELF||||||||||||||||1|||||HOV Comp|||20240313145931|20240316235900|||||2000023549&#xd;
+PV2||||||||20240313145931||||||||||||||N||||||||||N&#xd;
+ZPV||||||||||||20240313145900||||||||||||||||||||||||||Hospital Encounter|(205)638-9100^^^^^205^6389100&#xd;
+ZIF&#xd;
+AL1|1|SYSTEMIC|^ALLERGIES NOT ON FILE^&#xd;
+OBX|1|TX|APPT-STATUS-EPT-7020^APPT STATUS|1|6|||||||||20240313&#xd;
+GT1|1|2012|TEST^JANICE^^^^^L||^^^^^US|||19830109|F|P/F|SLF|293-48-3292</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain"></stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/api/Hl7Message</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="TestPlan.comments">9095</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+          <stringProp name="filename">${CSV}/A03.csv</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="variableNames">MRN,LN,FN,CSN</stringProp>
+          <boolProp name="ignoreFirstLine">false</boolProp>
+          <stringProp name="delimiter">,</stringProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+        </CSVDataSet>
+        <hashTree/>
+        <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="false">
+          <stringProp name="ConstantTimer.delay">1000.0</stringProp>
+          <stringProp name="RandomTimer.range">2000.0</stringProp>
+        </UniformRandomTimer>
+        <hashTree/>
+      </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="PatientUnitUpdate-A06" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">startnextloop</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -1302,7 +1441,7 @@ PV2||Semi|||||||||||||||||||y|N||||||||||N||||||||ICU</stringProp>
         </CSVDataSet>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="PatientDetailsUpdate-A31" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="PatientDetailsUpdate-A31" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">startnextloop</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -1528,7 +1667,7 @@ PV1|1|N</stringProp>
         </HeaderManager>
         <hashTree/>
         <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="id" enabled="true">
-          <stringProp name="CounterConfig.start">54</stringProp>
+          <stringProp name="CounterConfig.start">02</stringProp>
           <stringProp name="CounterConfig.end"></stringProp>
           <stringProp name="CounterConfig.incr">1</stringProp>
           <stringProp name="CounterConfig.name">id</stringProp>
@@ -1537,7 +1676,7 @@ PV1|1|N</stringProp>
         </CounterConfig>
         <hashTree/>
         <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="MRN" enabled="true">
-          <stringProp name="CounterConfig.start">5547054</stringProp>
+          <stringProp name="CounterConfig.start">985547055</stringProp>
           <stringProp name="CounterConfig.end"></stringProp>
           <stringProp name="CounterConfig.incr">1</stringProp>
           <stringProp name="CounterConfig.name">MRN</stringProp>
@@ -1546,7 +1685,7 @@ PV1|1|N</stringProp>
         </CounterConfig>
         <hashTree/>
         <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="CSN" enabled="true">
-          <stringProp name="CounterConfig.start">555070054</stringProp>
+          <stringProp name="CounterConfig.start">98555070055</stringProp>
           <stringProp name="CounterConfig.end"></stringProp>
           <stringProp name="CounterConfig.incr">1</stringProp>
           <stringProp name="CounterConfig.name">CSN</stringProp>
@@ -1644,7 +1783,7 @@ ZPV||||||||||||||||||||||||||||||||||||||Appointment|(205)870-7292^^^^^205^87072
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">MSH|^~\&amp;|EPIC|COA||Primary|20240305092951|CHS107714|ADT^A05|149624|T|2.3&#xd;
 EVN|A01|20240305092951||ADT_EVENT|CHS107714^SLOAN^MAUREEN^^^^^^TCHOA^^^^^EXTEC|20240305092900&#xd;
-PID|1||${MRN}^^^EPI^MR||PerfCP${id}^PatientCP${id}^^^^^LTEST^KIKI^^^^^N||20061031|F|King^Steve^^~TEST^KIKI^^|Black|1234 TEST DRIVE^^MARGARET^AL^35112^US^P||(205)456-7897^P^H^^^205^4567897^^^^^^^^^^^1^NET^Internet^keoshia.kyneard@childrensal.org~(205)362-1499^P^M^^^205^3621499^^^^^^^^^^^2||ENG|SINGLE||650000044|123-45-6654||Test^keoshia^^|DECLINE||||||||N&#xd;
+PID|1||${MRN}^^^EPI^MR||PerfJCP${id}^PatientJCP${id}^^^^^LTEST^KIKI^^^^^N||20061031|F|King^Steve^^~TEST^KIKI^^|Black|1234 TEST DRIVE^^MARGARET^AL^35112^US^P||(205)456-7897^P^H^^^205^4567897^^^^^^^^^^^1^NET^Internet^keoshia.kyneard@childrensal.org~(205)362-1499^P^M^^^205^3621499^^^^^^^^^^^2||ENG|SINGLE||650000044|123-45-6654||Test^keoshia^^|DECLINE||||||||N&#xd;
 ZPD||Email~MYCH||ACTIVATED|||N||N|||||||||N|||||Y|F&#xd;
 PD1|||CHILDREN&apos;S SOUTH^^10441|1121^WALL^TERRY^CRAFT^^^^^PROVID^^^^PROVID1912927070^WALL^TERRY^CRAFT^^^^^NPI^^^^NPICHS401121^WALL^TERRY^CRAFT^^^^^COA ID^^^^&#xd;
 ROL|1|UP|GENERAL|1121^WALL^TERRY^CRAFT^^^^^PROVID^^^^PROVID1912927070^WALL^TERRY^CRAFT^^^^^NPI^^^^NPICHS401121^WALL^TERRY^CRAFT^^^^^COA ID^^^^|20220414||||GENERAL||1600 7TH AVE. S., CPPI SUITE 302^^BIRMINGHAM^AL^35233-1711^|(205)638-9585^^W^^^205^6389585~(205)638-6349^^FAX^^^205^6386349&#xd;
@@ -1685,145 +1824,6 @@ IN1|2|10006006^UHC|100060|UNITED HEALTHCARE|PO BOX 740800^^ATLANTA^GA^30374-0800
           </BeanShellPreProcessor>
           <hashTree/>
         </hashTree>
-        <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="false">
-          <stringProp name="ConstantTimer.delay">1000.0</stringProp>
-          <stringProp name="RandomTimer.range">2000.0</stringProp>
-        </UniformRandomTimer>
-        <hashTree/>
-      </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="PatientDischarge-A03" enabled="false">
-        <stringProp name="ThreadGroup.on_sample_error">startnextloop</stringProp>
-        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
-          <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
-        </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">${rampUp}</stringProp>
-        <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration">${rampUp}</stringProp>
-        <stringProp name="ThreadGroup.delay">5</stringProp>
-        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
-      </ThreadGroup>
-      <hashTree>
-        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
-          <collectionProp name="HeaderManager.headers">
-            <elementProp name="Accept" elementType="Header">
-              <stringProp name="Header.name">Accept</stringProp>
-              <stringProp name="Header.value">*/*</stringProp>
-            </elementProp>
-            <elementProp name="Accept-Encoding" elementType="Header">
-              <stringProp name="Header.name">Accept-Encoding</stringProp>
-              <stringProp name="Header.value">gzip, deflate, br</stringProp>
-            </elementProp>
-            <elementProp name="Accept-Language" elementType="Header">
-              <stringProp name="Header.name">Accept-Language</stringProp>
-              <stringProp name="Header.value">en-US,en;q=0.9</stringProp>
-            </elementProp>
-            <elementProp name="Cache-Control" elementType="Header">
-              <stringProp name="Header.name">Cache-Control</stringProp>
-              <stringProp name="Header.value">no-cache</stringProp>
-            </elementProp>
-            <elementProp name="Connection" elementType="Header">
-              <stringProp name="Header.name">Connection</stringProp>
-              <stringProp name="Header.value">keep-alive</stringProp>
-            </elementProp>
-            <elementProp name="Content-Type" elementType="Header">
-              <stringProp name="Header.name">Content-Type</stringProp>
-              <stringProp name="Header.value">application/hl7-v2</stringProp>
-            </elementProp>
-            <elementProp name="Pragma" elementType="Header">
-              <stringProp name="Header.name">Pragma</stringProp>
-              <stringProp name="Header.value">no-cache</stringProp>
-            </elementProp>
-            <elementProp name="Sec-Fetch-Dest" elementType="Header">
-              <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
-              <stringProp name="Header.value">empty</stringProp>
-            </elementProp>
-            <elementProp name="Sec-Fetch-Mode" elementType="Header">
-              <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
-              <stringProp name="Header.value">cors</stringProp>
-            </elementProp>
-            <elementProp name="Sec-Fetch-Site" elementType="Header">
-              <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
-              <stringProp name="Header.value">same-origin</stringProp>
-            </elementProp>
-            <elementProp name="User-Agent" elementType="Header">
-              <stringProp name="Header.name">User-Agent</stringProp>
-              <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36</stringProp>
-            </elementProp>
-            <elementProp name="X-ClientTimeZone" elementType="Header">
-              <stringProp name="Header.name">X-ClientTimeZone</stringProp>
-              <stringProp name="Header.value">America/Los_Angeles</stringProp>
-            </elementProp>
-            <elementProp name="X-Requested-With" elementType="Header">
-              <stringProp name="Header.name">X-Requested-With</stringProp>
-              <stringProp name="Header.value">XMLHttpRequest</stringProp>
-            </elementProp>
-            <elementProp name="sec-ch-ua" elementType="Header">
-              <stringProp name="Header.name">sec-ch-ua</stringProp>
-              <stringProp name="Header.value">&quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;</stringProp>
-            </elementProp>
-            <elementProp name="sec-ch-ua-mobile" elementType="Header">
-              <stringProp name="Header.name">sec-ch-ua-mobile</stringProp>
-              <stringProp name="Header.value">?0</stringProp>
-            </elementProp>
-            <elementProp name="sec-ch-ua-platform" elementType="Header">
-              <stringProp name="Header.name">sec-ch-ua-platform</stringProp>
-              <stringProp name="Header.value">&quot;Windows&quot;</stringProp>
-            </elementProp>
-          </collectionProp>
-        </HeaderManager>
-        <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${__threadGroupName}_/api/Hl7Message" enabled="true">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">MSH|^~\&amp;|EPIC|COA||Primary|20240317003016|ESEOD|ADT^A03|150630|T|2.3&#xd;
-EVN|A03|20240317003016||ADT_EVENT|ESEOD^CADENCE^EOD^PROCESSING^^^^^TCHOA^^^^^|20240316235900&#xd;
-PID|1||${MRN}^^^EPI^MR||${LN}^${FN}^^^^L||19830109||||^^^^^US^P|||||||${CSN}|293-48-3292|||||||||||N&#xd;
-ZPD||MYCH||ACTIVATED|||N||N|||||||||N|||||Y|F&#xd;
-PD1|||EHS HOSPITAL^^10101&#xd;
-PV1|1|O-OUTPATIENT|CMLAB^^^10331^^^^^MWB LAB^^DEPID||||||||||||||||2000023549|SELF||||||||||||||||1|||||HOV Comp|||20240313145931|20240316235900|||||2000023549&#xd;
-PV2||||||||20240313145931||||||||||||||N||||||||||N&#xd;
-ZPV||||||||||||20240313145900||||||||||||||||||||||||||Hospital Encounter|(205)638-9100^^^^^205^6389100&#xd;
-ZIF&#xd;
-AL1|1|SYSTEMIC|^ALLERGIES NOT ON FILE^&#xd;
-OBX|1|TX|APPT-STATUS-EPT-7020^APPT STATUS|1|6|||||||||20240313&#xd;
-GT1|1|2012|TEST^JANICE^^^^^L||^^^^^US|||19830109|F|P/F|SLF|293-48-3292</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain"></stringProp>
-          <stringProp name="HTTPSampler.port"></stringProp>
-          <stringProp name="HTTPSampler.protocol"></stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/api/Hl7Message</stringProp>
-          <stringProp name="HTTPSampler.method">POST</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-          <stringProp name="TestPlan.comments">9095</stringProp>
-        </HTTPSamplerProxy>
-        <hashTree/>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-          <stringProp name="filename">${CSV}/A03.csv</stringProp>
-          <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="variableNames">MRN,LN,FN,CSN</stringProp>
-          <boolProp name="ignoreFirstLine">false</boolProp>
-          <stringProp name="delimiter">,</stringProp>
-          <boolProp name="quotedData">false</boolProp>
-          <boolProp name="recycle">true</boolProp>
-          <boolProp name="stopThread">false</boolProp>
-          <stringProp name="shareMode">shareMode.all</stringProp>
-        </CSVDataSet>
-        <hashTree/>
         <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="false">
           <stringProp name="ConstantTimer.delay">1000.0</stringProp>
           <stringProp name="RandomTimer.range">2000.0</stringProp>
@@ -3455,7 +3455,7 @@ if(!s1.isEmpty()){
           </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${__threadGroupName}/api/tpm/visitui/findInpatientFilter" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${__threadGroupName}/api/tpm/visitui/findInpatientFilter" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -3484,6 +3484,40 @@ if(!s1.isEmpty()){
           <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="false">
             <stringProp name="ConstantTimer.delay">20000</stringProp>
           </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${__threadGroupName}/api/tpmadmin/visitors/save" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&quot;id&quot;:5109263686153873,&quot;extId&quot;:&quot;VSTR-00035792&quot;,&quot;visitorAssets&quot;:[{&quot;id&quot;:5109263686203126,&quot;assetId&quot;:5014890910980953,&quot;validFrom&quot;:&quot;2024-11-18T12:53:32-0000&quot;,&quot;validTo&quot;:&quot;2025-11-18T12:53:32-0000&quot;,&quot;assetStatus&quot;:&quot;OPEN&quot;,&quot;systemId&quot;:4783924587398387,&quot;clientSequenceID&quot;:6549}]}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain"></stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/api/tpmadmin/visitors/save</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="true">
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="script">vars.put(&quot;random&quot;,&quot;${__Random(1000,9999,)}&quot;);</stringProp>
+          </BeanShellPreProcessor>
           <hashTree/>
         </hashTree>
       </hashTree>
@@ -3781,13 +3815,13 @@ if(!s1.isEmpty()){
         </UniformRandomTimer>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="VIM" enabled="false">
-        <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="VIM" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">100</stringProp>
+          <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">5</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration">5</stringProp>
@@ -3869,7 +3903,7 @@ if(!s1.isEmpty()){
         </HeaderManager>
         <hashTree/>
         <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter" enabled="true">
-          <stringProp name="CounterConfig.start">3</stringProp>
+          <stringProp name="CounterConfig.start">16</stringProp>
           <stringProp name="CounterConfig.end"></stringProp>
           <stringProp name="CounterConfig.incr">1</stringProp>
           <stringProp name="CounterConfig.name">count</stringProp>
@@ -3910,7 +3944,7 @@ if(!s1.isEmpty()){
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;id&quot;:&quot;${visitorId}&quot;,&quot;extId&quot;:&quot;&quot;,&quot;type&quot;:&quot;Caregiver&quot;,&quot;photo&quot;:&quot;4825878004719905&quot;,&quot;firstName&quot;:&quot;PerfFC${count}&quot;,&quot;lastName&quot;:&quot;VisitorFC${count}&quot;,&quot;email&quot;:&quot;pusarapu.avinash@alertenterprise.com&quot;,&quot;phone&quot;:&quot;90000${random}&quot;,&quot;dateOfBirth&quot;:&quot;${dob}&quot;,&quot;fullName&quot;:&quot;PerfFC${count} VisitorFC${count}&quot;,&quot;extCompany&quot;:&quot;One${random}&quot;,&quot;drivingLicense&quot;:&quot;License${random}&quot;,&quot;isReplaceEntityWhenFound&quot;:true}</stringProp>
+                <stringProp name="Argument.value">{&quot;id&quot;:&quot;${visitorId}&quot;,&quot;extId&quot;:&quot;&quot;,&quot;type&quot;:&quot;Parent&quot;,&quot;photo&quot;:&quot;5109263686137400&quot;,&quot;firstName&quot;:&quot;PerfA${count}&quot;,&quot;lastName&quot;:&quot;UserA${count}&quot;,&quot;email&quot;:&quot;pusarapu.avinash@alertenterprise.com&quot;,&quot;phone&quot;:&quot;(900)009-0000&quot;,&quot;city&quot;:&quot;Goa&quot;,&quot;address&quot;:&quot;India&quot;,&quot;country&quot;:&quot;Goa&quot;,&quot;fullName&quot;:&quot;PerfA${count} UserA${count}&quot;,&quot;zip&quot;:&quot;123234&quot;,&quot;passport&quot;:&quot;ad22ssd${count}&quot;,&quot;drivingLicense&quot;:&quot;q2asd2${count}&quot;,&quot;isInvite&quot;:false,&quot;isReplaceEntityWhenFound&quot;:true}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
@@ -3938,13 +3972,13 @@ if(!s1.isEmpty()){
           </BeanShellPreProcessor>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${__threadGroupName}/api/tpmadmin/visit/save" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${__threadGroupName}/api/tpmadmin/visit/save" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;id&quot;:&quot;${visitId}&quot;,&quot;type&quot;:&quot;Visit_Registration&quot;,&quot;visitPurpose&quot;:&quot;Meeting&quot;,&quot;visitStartDate&quot;:&quot;${validFrom}&quot;,&quot;visitTypeCode&quot;:&quot;single&quot;,&quot;visitEndDate&quot;:&quot;${validTo}&quot;,&quot;locationId&quot;:&quot;${locationId}&quot;,&quot;visitHosts&quot;:[{&quot;hostId&quot;:&quot;${hostId}&quot;,&quot;visitId&quot;:&quot;${visitId}&quot;}],&quot;visitorsVisits&quot;:[{&quot;visitId&quot;:&quot;${visitId}&quot;,&quot;visitorId&quot;:&quot;${visitorId}&quot;,&quot;visitStatus&quot;:60}],&quot;requestorId&quot;:&quot;${requestorPGIR}&quot;,&quot;requestor&quot;:&quot;${requestor}&quot;,&quot;visitRecurrenceStartDateTime&quot;:&quot;${validFrom}&quot;,&quot;visitRecurrenceEndTimeForDay&quot;:&quot;${validTo}&quot;,&quot;visitRecurrenceEndDateTimeForPattern&quot;:&quot;${validTo}&quot;,&quot;recurringTypeId&quot;:1,&quot;isAllDayEvent&quot;:true,&quot;visitRecurrencePattern&quot;:[],&quot;apiSource&quot;:&quot;web&quot;}</stringProp>
+                <stringProp name="Argument.value">{&quot;id&quot;:&quot;${visitId}&quot;,&quot;type&quot;:&quot;Visit_Walkin&quot;,&quot;visitPurpose&quot;:&quot;Meeting&quot;,&quot;visitStartDate&quot;:&quot;2024-11-18T11:34:00-0000&quot;,&quot;visitTypeCode&quot;:&quot;single&quot;,&quot;visitEndDate&quot;:&quot;2024-11-19T06:00:00-0000&quot;,&quot;locationId&quot;:4782282168091679,&quot;visitHosts&quot;:[{&quot;hostId&quot;:5001960760109653,&quot;visitId&quot;:&quot;${visitId}&quot;}],&quot;visitorsVisits&quot;:[{&quot;visitId&quot;:&quot;${visitId}&quot;,&quot;visitorId&quot;:&quot;${visitorId}&quot;,&quot;visitStatus&quot;:60}],&quot;requestorId&quot;:1,&quot;requestor&quot;:&quot;admin&quot;,&quot;visitRecurrenceStartDateTime&quot;:&quot;2024-11-18T11:34:00-0000&quot;,&quot;visitRecurrenceEndTimeForDay&quot;:&quot;2024-11-19T06:00:00-0000&quot;,&quot;visitRecurrenceEndDateTimeForPattern&quot;:&quot;2024-11-19T06:00:00-0000&quot;,&quot;recurringTypeId&quot;:1,&quot;isAllDayEvent&quot;:true,&quot;isOperationCheckin&quot;:false,&quot;visitRecurrencePattern&quot;:[],&quot;apiSource&quot;:&quot;web&quot;,&quot;clientSequenceID&quot;:421388}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
@@ -3971,8 +4005,51 @@ if(!s1.isEmpty()){
             <stringProp name="JSONPostProcessor.defaultValues">NA;NA</stringProp>
           </JSONPostProcessor>
           <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${__threadGroupName}/api/tpm/visitorsvisits/save" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${__threadGroupName}/api/tpmadmin/visit/save" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&quot;id&quot;:&quot;${visitId}&quot;,&quot;type&quot;:&quot;Visit_Walkin&quot;,&quot;createdBy&quot;:1,&quot;createdOn&quot;:&quot;2024-11-14T19:37:16-0000&quot;,&quot;changedBy&quot;:1,&quot;changedOn&quot;:&quot;2024-11-14T19:37:16-0000&quot;,&quot;visitPurpose&quot;:&quot;Meeting&quot;,&quot;visitStartDate&quot;:&quot;2024-11-18T13:57:00-0000&quot;,&quot;visitTypeCode&quot;:&quot;single&quot;,&quot;visitEndDate&quot;:&quot;2025-11-18T15:30:00-0000&quot;,&quot;locationId&quot;:4782282168091679,&quot;visitHosts&quot;:[{&quot;hostId&quot;:5102404087240964,&quot;visitId&quot;:&quot;${visitId}&quot;}],&quot;visitorsVisits&quot;:[{&quot;visitId&quot;:&quot;${visitId}&quot;,&quot;visitorId&quot;:&quot;${visitorId}&quot;,&quot;visitStatus&quot;:60}],&quot;requestorId&quot;:1,&quot;requestor&quot;:&quot;admin&quot;,&quot;visitRecurrenceStartDateTime&quot;:&quot;2024-11-18T13:57:00-0000&quot;,&quot;visitRecurrenceEndTimeForDay&quot;:&quot;2025-11-18T15:30:00-0000&quot;,&quot;visitRecurrenceEndDateTimeForPattern&quot;:&quot;2025-11-18T15:30:00-0000&quot;,&quot;recurringTypeId&quot;:1,&quot;isAllDayEvent&quot;:true,&quot;isOperationCheckin&quot;:true,&quot;visitRecurrencePattern&quot;:[],&quot;apiSource&quot;:&quot;web&quot;,&quot;customProperties&quot;:{&quot;patientDepartment&quot;:&quot;BRH 06 QB NICU&quot;,&quot;medicalRecordNumber&quot;:&quot;215756&quot;,&quot;patientRoom&quot;:&quot;611Q&quot;,&quot;controlSequenceNumber&quot;:&quot;2000027122&quot;,&quot;patientUnit&quot;:&quot;06QNICU&quot;},&quot;clientSequenceID&quot;:142656}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain"></stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/api/tpmadmin/visit/save</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="TestPlan.comments">WithCheckIn</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">visitorsVisitsId;visitorsVisitsExtId</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.data[0].visitorsVisits[0].id;$.data[0].visitorsVisits[0].extId</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+            <stringProp name="JSONPostProcessor.defaultValues">NA;NA</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${__threadGroupName}/api/tpm/visitorsvisits/save" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -3998,9 +4075,36 @@ if(!s1.isEmpty()){
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
-          <stringProp name="ConstantTimer.delay">1000.0</stringProp>
-          <stringProp name="RandomTimer.range">2000.0</stringProp>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="${__threadGroupName}/api/tpm/visitorsvisits/save" enabled="false">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&quot;operation&quot;:69,&quot;extId&quot;:&quot;${visitorsVisitsExtId}&quot;,&quot;id&quot;:&quot;${visitorsVisitsId}&quot;,&quot;visitId&quot;:&quot;${visitId}&quot;,&quot;visitorId&quot;:&quot;${visitorId}&quot;,&quot;isDocumentVerified&quot;:false,&quot;documentType&quot;:&quot;manual&quot;,&quot;documentExpiryDate&quot;:null,&quot;customFields&quot;:{},&quot;visitorAssets&quot;:[{&quot;id&quot;:5109263686203129,&quot;assetId&quot;:5014890910980951,&quot;validFrom&quot;:&quot;2024-11-18T12:53:32-0000&quot;,&quot;validTo&quot;:&quot;2025-11-18T12:53:32-0000&quot;,&quot;assetStatus&quot;:&quot;OPEN&quot;,&quot;systemId&quot;:4783924587398387,&quot;clientSequenceID&quot;:6549}],&quot;apiSource&quot;:&quot;web&quot;}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain"></stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/api/tpm/visitorsvisits/save</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="TestPlan.comments">WithManualAsset</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="false">
+          <stringProp name="ConstantTimer.delay">2000.0</stringProp>
+          <stringProp name="RandomTimer.range">5000.0</stringProp>
         </UniformRandomTimer>
         <hashTree/>
       </hashTree>

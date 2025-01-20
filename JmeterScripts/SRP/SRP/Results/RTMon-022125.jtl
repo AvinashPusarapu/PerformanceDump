@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1716819685794,6042,adminLogin,200,OK,setUp Thread Group 1-1,text,true,,122992,801,1,1,http://172.16.16.69/api/auth/token,3438,0,2
+1716819691968,4663,lobbyAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,134487,807,1,1,http://172.16.16.69/api/auth/token,2349,0,0
+1716819697425,38,api/getnewids,200,OK,#DataCreationForCancel 2-1,text,true,,739,1213,1,2,http://172.16.16.69/api/getnewids,38,0,3
+1716819698035,856,#DataCreationForCancel/api/binaryresource/upload,201,Created,#DataCreationForCancel 2-1,text,true,,27419,26761,1,2,http://172.16.16.69/api/binaryresource/upload,855,0,0
+1716819699023,1994,#DataCreationForCancel/api/tpmadmin/visitors/save,200,OK,#DataCreationForCancel 2-1,text,true,,1031,1556,1,2,http://172.16.16.69/api/tpmadmin/visitors/save,1994,0,0
+1716819698835,5084,Login-Admin-/api/auth/token,200,OK,VIMCancel 1-1,text,true,,134494,864,1,2,http://172.16.16.69/api/auth/token,2684,0,2
+1716819703592,851,#DataCreationForCancel/api/tpmadmin/visit/save,200,OK,#DataCreationForCancel 2-1,text,true,,731,2044,1,2,http://172.16.16.69/api/tpmadmin/visit/save,851,0,0
+1716819704057,4063,VIMCancel/api/tpmadmin/visit/update,200,OK,VIMCancel 1-1,text,true,,1991,1482,1,1,http://172.16.16.69/api/tpmadmin/visit/update,4063,0,0

@@ -1,0 +1,14 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1732264202637,2487,AdminLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,263606,824,1,1,https://hscperf69.alertenterprise.com/api/auth/token,2283,0,880
+1732264205376,1087,SecurityAdmin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,257208,820,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1051,0,0
+1732264206710,1109,Login-api/auth/token,200,OK,WFVIM 1-1,text,true,,255108,1229,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1072,0,54
+1732264207902,7,WFVIM-/api/getnewids,200,OK,WFVIM 1-1,text,true,,750,1081,1,1,https://hscperf69.alertenterprise.com/api/getnewids,7,0,0
+1732264207986,348,WFVIM-/api/watchlist/save,200,OK,WFVIM 1-1,text,true,,1029,1430,1,1,https://hscperf69.alertenterprise.com/api/watchlist/save?_dc=1732264207985,348,0,0
+1732264208338,120,WFVIM-/api/binaryresource/upload,201,Created,WFVIM 1-1,text,true,,10564,8340,1,1,https://hscperf69.alertenterprise.com/api/binaryresource/upload,120,0,0
+1732264208462,584,WFVIM-/api/tpmadmin/visitors/save,200,OK,WFVIM 1-1,text,true,,984,1386,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visitors/save,584,0,0
+1732264209048,934,WFVIM-/api/tpmadmin/visit/save,200,OK,WFVIM 1-1,text,true,,1207,2089,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visit/save,934,0,0
+1732264211961,165,WFVIM-/api/tpmadmin/visit/visitId,200,OK,WFVIM 1-1,text,true,,4255,1141,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visit/5114972646453973?_dc=1732264211960&id=5114972646453973,165,0,0
+1732264212710,471,WFVIMWS-/api/workflow/setdocstatus,200,OK,WFVIM 1-1,text,true,,1017,1250,1,1,https://hscperf69.alertenterprise.com/api/workflow/setdocstatus,471,0,0
+1732264213183,219,WFVIM-/api/asset/save,200,OK,WFVIM 1-1,text,true,,985,1364,1,1,https://hscperf69.alertenterprise.com/api/asset/save?_dc=1732264213181,219,0,0
+1732264213405,589,WFVIMModify-/api/tpmadmin/visit/save,200,OK,WFVIM 1-1,text,true,,5348,1291,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visit/save?_dc=1732264213404,589,0,0
+1732264213997,5342,WFVIMCIn-/api/tpm/visitorsvisits/save,200,OK,WFVIM 1-1,text,true,,726,1495,1,1,https://hscperf69.alertenterprise.com/api/tpm/visitorsvisits/save,5342,0,0

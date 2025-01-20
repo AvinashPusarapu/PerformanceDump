@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1716970417986,1696,adminLogin,200,OK,setUp Thread Group 1-1,text,true,,123099,801,1,1,http://172.16.16.69/api/auth/token,1229,0,3
+1716970419792,1429,lobbyAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,134605,807,1,1,http://172.16.16.69/api/auth/token,892,0,0
+1716970422431,22,api/getnewids,200,OK,#FCDataCreation 1-1,text,true,,733,1213,1,1,http://172.16.16.69/api/getnewids,22,0,3
+1716970422521,139,#FCDataCreation/api/binaryresource/upload,201,Created,#FCDataCreation 1-1,text,true,,27415,26789,1,1,http://172.16.16.69/api/binaryresource/upload,138,0,0
+1716970422725,170,#FCDataCreation/api/tpmadmin/visitors/save,200,OK,#FCDataCreation 1-1,text,true,,1021,1560,1,1,http://172.16.16.69/api/tpmadmin/visitors/save,170,0,0
+1716970423773,279,#FCDataCreation/api/tpmadmin/visit/save,200,OK,#FCDataCreation 1-1,text,true,,1139,2044,1,1,http://172.16.16.69/api/tpmadmin/visit/save,279,0,0
+1716970424854,2443,#FCDataCreationCheckIn-/api/tpm/visitorsvisits/save,200,OK,#FCDataCreation 1-1,text,true,,1645,1462,1,1,http://172.16.16.69/api/tpm/visitorsvisits/save,2443,0,0

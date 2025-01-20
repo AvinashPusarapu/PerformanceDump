@@ -1,0 +1,20 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1729186554453,2190,AdminLogin-/api/auth/token,200,OK,setUp Thread Group-Login 1-1,text,true,,258904,828,1,1,https://hsc.perf.alertenterprisecloud.com/api/auth/token,1133,0,238
+1729186556657,1490,SecurityAdminLogin-/api/auth/token,200,OK,setUp Thread Group-Login 1-1,text,true,,265122,824,1,1,https://hsc.perf.alertenterprisecloud.com/api/auth/token,712,0,0
+1729186558162,1157,ApproverLogin-/api/auth/token,200,OK,setUp Thread Group-Login 1-1,text,true,,255621,825,1,1,https://hsc.perf.alertenterprisecloud.com/api/auth/token,616,0,0
+1729186561515,249,SingleRegCases1-/api/getnewids,200,OK,SingleRegCases1 2-1,text,true,,638,1164,1,2,https://hsc.perf.alertenterprisecloud.com/api/getnewids,249,0,184
+1729186561515,257,SingleRegCases-/api/getnewids,200,OK,SingleRegCases 1-1,text,true,,644,1164,1,2,https://hsc.perf.alertenterprisecloud.com/api/getnewids,257,0,189
+1729186563761,132,SingleRegCases1-/api/binaryresource/upload,201,Created,SingleRegCases1 2-1,text,true,,10467,8364,1,2,https://hsc.perf.alertenterprisecloud.com/api/binaryresource/upload,132,0,0
+1729186563777,133,SingleRegCases-/api/binaryresource/upload,201,Created,SingleRegCases 1-1,text,true,,10468,8371,1,2,https://hsc.perf.alertenterprisecloud.com/api/binaryresource/upload,133,0,0
+1729186565917,424,SingleRegCases1-/api/tpmadmin/visitors/save,200,OK,SingleRegCases1 2-1,text,true,,889,1485,1,2,https://hsc.perf.alertenterprisecloud.com/api/tpmadmin/visitors/save,424,0,0
+1729186565917,465,SingleRegCases-/api/tpmadmin/visitors/save,200,OK,SingleRegCases 1-1,text,true,,888,1485,1,2,https://hsc.perf.alertenterprisecloud.com/api/tpmadmin/visitors/save,465,0,0
+1729186568355,255,SingleRegCases1-/api/tpmadmin/visit/save,200,OK,SingleRegCases1 2-1,text,true,,1145,2318,1,2,https://hsc.perf.alertenterprisecloud.com/api/tpmadmin/visit/save,255,0,0
+1729186568386,267,SingleRegCases-/api/tpmadmin/visit/save,200,OK,SingleRegCases 1-1,text,true,,1143,2318,1,2,https://hsc.perf.alertenterprisecloud.com/api/tpmadmin/visit/save,267,0,0
+1729186570605,201,SingleRegCases1-/api/asset/save,200,OK,SingleRegCases1 2-1,text,true,,887,1450,1,2,https://hsc.perf.alertenterprisecloud.com/api/asset/save?_dc=1729186570605,201,0,0
+1729186570652,201,SingleRegCases-/api/asset/save,200,OK,SingleRegCases 1-1,text,true,,886,1447,1,2,https://hsc.perf.alertenterprisecloud.com/api/asset/save?_dc=1729186570653,201,0,0
+1729186572808,384,SingleRegCases1Modify-/api/tpmadmin/visit/save,200,OK,SingleRegCases1 2-1,text,true,,3123,1374,1,2,https://hsc.perf.alertenterprisecloud.com/api/tpmadmin/visit/save?_dc=1729186572808,384,0,0
+1729186572855,417,SingleRegCasesModify-/api/tpmadmin/visit/save,200,OK,SingleRegCases 1-1,text,true,,3121,1374,1,2,https://hsc.perf.alertenterprisecloud.com/api/tpmadmin/visit/save?_dc=1729186572855,417,0,0
+1729186575200,1045,SingleRegCases1CIn-/api/tpm/visitorsvisits/save,200,OK,SingleRegCases1 2-1,text,true,,9942,1579,1,2,https://hsc.perf.alertenterprisecloud.com/api/tpm/visitorsvisits/save,1045,0,0
+1729186575278,1055,SingleRegCasesCIn-/api/tpm/visitorsvisits/save,200,OK,SingleRegCases 1-1,text,true,,9936,1579,1,2,https://hsc.perf.alertenterprisecloud.com/api/tpm/visitorsvisits/save,1054,0,0
+1729186578244,432,SingleRegCases1COut-/api/tpm/visitorsvisits/save,200,OK,SingleRegCases1 2-1,text,true,,831,1457,1,2,https://hsc.perf.alertenterprisecloud.com/api/tpm/visitorsvisits/save,432,0,0
+1729186578337,487,SingleRegCasesCOut-/api/tpm/visitorsvisits/save,200,OK,SingleRegCases 1-1,text,true,,830,1457,1,1,https://hsc.perf.alertenterprisecloud.com/api/tpm/visitorsvisits/save,487,0,0

@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1730204150758,1331,ClinicPatient-A05_/api/Hl7Message,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,ClinicPatient-A05 1-1,text,false,,2699,0,1,1,http://coa-agent-qa.alertenterprise.com/api/Hl7Message,0,0,259

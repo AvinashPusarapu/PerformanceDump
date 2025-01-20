@@ -1,0 +1,38 @@
+select * from users
+update users set password = '$2a$11$VJG2DoTQAO1DhnSZnihefu8oP6jMFoR8Br7tKnki3R4VcO4KzDbTi' 
+select * from identity_user
+select * from visitors_visits where ext_id = '4857526754177738'
+select * from visit_log order by 3 desc
+select * from visitor where id = 4857555376452324
+
+select * from visit_log where changed_on > '2024-05-29 10:55:00.000' order by changed_on desc
+--Checkout data:
+select ext_id, id as visitorVisitsId, visitor_id, visit_id from visitors_visits vv where visit_status = 69
+
+--GroupVisit:
+WITH NumberedVisitors AS (
+    SELECT 
+        distinct visitor_id,
+        ROW_NUMBER() OVER (ORDER BY visitor_id) AS rn
+    FROM visitors_visits
+    WHERE visit_status NOT IN ('69')
+)
+SELECT STRING_AGG(visitor_id, ',') AS visitor_ids
+FROM (
+    SELECT distinct visitor_id, (rn - 1) / 50 AS group_num
+    FROM NumberedVisitors
+) AS numbered
+GROUP BY group_num
+ORDER BY group_num;
+
+
+--Moveout:
+select visitor_id,visit_id,* from visitors_visits where visit_id in (select id from visit where visit_type_code = 'group' 
+and group_name like 'moveout%')
+
+--CancelVisit:
+select visit_id from visitors_visits where visitor_id in (select id from visitor where first_name like '%cancel%') and visit_id in
+(select id from visit where int_status = 0) and int_status = 0
+
+--FinalCheckoutJobStats:
+select * from visit_log where operation = 'Final Checked-Out success' and changed_on > '2024-05-29 10:55:00.000' order by changed_on desc

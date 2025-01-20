@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1729164879187,1359,AdminLogin-/api/auth/token,200,OK,setUp Thread Group-Login 1-1,text,true,,258912,828,1,1,https://hsc.perf.alertenterprisecloud.com/api/auth/token,1176,0,271
+1729164880559,619,SecurityAdminLogin-/api/auth/token,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,setUp Thread Group-Login 1-1,text,false,,3017,0,1,1,https://hsc.perf.alertenterprisecloud.com/api/auth/token,0,0,0

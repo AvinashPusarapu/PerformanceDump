@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1730203858561,1993,ClinicPatient-A05_/api/Hl7Message,200,OK,ClinicPatient-A05 1-1,text,true,,692,2861,1,1,http://coa-agent-qa.alertenterprise.com/api/Hl7Message,1993,0,283

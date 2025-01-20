@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1732362049279,1206,AdminLogin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,263845,824,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1186,0,30
+1732362050535,1005,SecurityAdmin-api/auth/token,200,OK,setUp Thread Group 1-1,text,true,,257455,820,1,1,https://hscperf69.alertenterprise.com/api/auth/token,985,0,0
+1732362051818,1009,Login-api/auth/token,200,OK,WFAPIs 1-1,text,true,,253319,880,1,1,https://hscperf69.alertenterprise.com/api/auth/token,989,0,34
+1732362052877,11,WFAPIs-/api/getnewids,200,OK,WFAPIs 1-1,text,true,,804,1101,1,1,https://hscperf69.alertenterprise.com/api/getnewids,11,0,0
+1732362052889,115,WFAPIs-/api/binaryresource/upload,201,Created,WFAPIs 1-1,text,true,,10637,8332,1,1,https://hscperf69.alertenterprise.com/api/binaryresource/upload,115,0,0
+1732362053011,468,WFAPIs-/api/tpmadmin/visitors/save,400,Bad Request,WFAPIs 1-1,text,false,,592,1410,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visitors/save,468,0,0
+1732362053480,289,WFAPIs-/api/tpmadmin/visit/save,400,Bad Request,WFAPIs 1-1,text,false,,598,2109,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visit/save,289,0,0

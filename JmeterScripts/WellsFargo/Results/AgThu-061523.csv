@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1729145723567,1002,AdminLogin-/api/auth/token,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 172.16.16.70:443 [/172.16.16.70] failed: Connection refused: connect,setUp Thread Group-Login 1-1,text,false,,2853,0,1,1,https://172.16.16.70/api/auth/token,0,0,1001

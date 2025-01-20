@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1716813569868,11725,Login-Admin-/api/auth/token,200,OK,VIMModify 1-1,text,true,,134495,864,1,1,http://172.16.16.69/api/auth/token,11241,0,2
+1716813581668,24,api/getnewids,200,OK,VIMModify 1-1,text,true,,736,1213,1,1,http://172.16.16.69/api/getnewids,24,0,0
+1716813581692,21,VIMModify/api/tpmadmin/visitors/find,400,Bad Request,VIMModify 1-1,text,false,,674,1411,1,1,http://172.16.16.69/api/tpmadmin/visitors/find?,21,0,0

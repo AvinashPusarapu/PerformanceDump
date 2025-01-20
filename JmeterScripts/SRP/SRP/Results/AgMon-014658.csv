@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1716817619516,29,api/getnewids,200,OK,VIMRegCases 1-1,text,true,,745,1213,1,1,http://172.16.16.69/api/getnewids,29,0,3

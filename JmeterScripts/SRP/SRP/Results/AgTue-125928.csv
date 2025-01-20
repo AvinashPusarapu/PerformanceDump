@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1716901168302,3502,adminLogin,200,OK,setUp Thread Group 1-1,text,true,,123095,801,1,1,http://172.16.16.69/api/auth/token,3014,0,3
+1716901171917,1202,lobbyAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,134615,807,1,1,http://172.16.16.69/api/auth/token,890,0,0
+1716901173811,22,api/getnewids,200,OK,VIMRegCases 1-1,text,true,,741,1213,1,1,http://172.16.16.69/api/getnewids,22,0,2
+1716901175272,182,VIMRegCases/api/binaryresource/upload,201,Created,VIMRegCases 1-1,text,true,,27419,26726,1,1,http://172.16.16.69/api/binaryresource/upload,181,0,0
+1716901176946,200,VIMRegCases/api/tpmadmin/visitors/save,200,OK,VIMRegCases 1-1,text,true,,1025,1560,2,3,http://172.16.16.69/api/tpmadmin/visitors/save,200,0,0
+1716901177321,273,VIMRegCases/api/tpmadmin/visit/save,200,OK,VIMRegCases 1-1,text,true,,1136,2044,2,3,http://172.16.16.69/api/tpmadmin/visit/save,272,0,0
+1716901177876,27,api/getnewids,200,OK,VIMRegCases 1-2,text,true,,737,1213,2,3,http://172.16.16.69/api/getnewids,27,0,2
+1716901177351,658,Login-Admin-/api/auth/token,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,VIMMoveOut 3-1,text,false,,2606,0,1,1,http://172.16.16.69/api/auth/token,0,0,2

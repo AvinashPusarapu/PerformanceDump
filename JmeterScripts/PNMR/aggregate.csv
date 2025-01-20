@@ -1,0 +1,264 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+Login,570,1442,1363,1697,1896,4278,1055,4391,0.000%,.94931,123.74,0.75
+Access_AccessGroup-api/accessgrouptype/find,9,142,132,170,245,245,99,245,0.000%,.01549,0.02,0.02
+Access_AccessGrouptype-api/accessgrouptype/find,9,155,150,184,257,257,108,257,0.000%,.01548,0.02,0.02
+Access_AccessGroup-api/accessgroup/find,9,188,194,218,220,220,123,220,0.000%,.01549,0.02,0.02
+Access_AccessReview-api/lists/find,9,190,188,223,283,283,123,283,0.000%,.01547,0.01,0.02
+Access_AccessReview-api/accessreview/find,9,817,814,879,905,905,717,905,0.000%,.01545,2.60,0.02
+Access_ManageAccess-api/access/find,9,582,546,657,774,774,481,774,0.000%,.01546,0.21,0.02
+Access_ManageAccessType-api/accesstype/find,9,170,172,204,219,219,121,219,0.000%,.01547,0.02,0.02
+Login-Admin-/api/auth/token,430,1401,1359,1653,1791,1946,1044,4744,0.000%,.70015,91.26,0.59
+Access_Prerequisite-api/getnewids,9,119,116,158,173,173,79,173,0.000%,.01547,0.01,0.02
+Access_AnalyticsMasterConfig-api/getnewids,9,111,107,133,151,151,76,151,0.000%,.01555,0.01,0.02
+Access_Prerequisite-api/lists/find,9,187,175,268,309,309,121,309,0.000%,.01547,0.01,0.02
+Extend Validity_getnewids,30,135,120,206,211,265,85,265,0.000%,.05156,0.04,0.05
+Access_Prerequisite-api/prerequisite/find,9,201,207,248,249,249,146,249,0.000%,.01547,0.03,0.02
+Access_PrerequisiteType-api/prerequisitetype/find,9,176,183,235,258,258,117,258,0.000%,.01546,0.02,0.02
+Access_ReviewType-api/reviewtype/find,9,961,954,1048,1188,1188,822,1188,0.000%,.01545,2.78,0.02
+Contingent Worker Hiring_getnewids,10,113,110,128,128,161,86,161,0.000%,.01847,0.01,0.02
+Access_UserProfile-api/classdef/find,9,230,235,291,295,295,150,295,0.000%,.01548,0.11,0.02
+Access_UserProfile-api/assetsubtype/find,9,187,168,288,298,298,103,298,0.000%,.01547,0.02,0.02
+Access_UserProfile-api/lists/find,27,186,157,269,347,433,97,433,0.000%,.04634,0.04,0.05
+Home_AccessRequest-request/findRequests,18,323,316,398,406,467,230,467,0.000%,.03093,0.18,0.04
+Admin_CompanySetup-api/classdef/find,9,215,185,303,469,469,107,469,0.000%,.01547,0.01,0.02
+Admin_CompanySetup-api/configsetting/find,9,206,178,263,291,291,133,291,0.000%,.01547,0.27,0.02
+Access_UserProfile-api/getnewids,9,121,109,150,195,195,80,195,0.000%,.01548,0.01,0.02
+Home_AccessRequest-api/request/findRequests,9,377,364,404,490,490,313,490,0.000%,.01547,0.09,0.02
+NERC Built-in-Account_getnewids,10,156,146,228,228,233,92,233,0.000%,.01852,0.01,0.02
+Extend Validity_RequestSave,30,921,805,1101,1104,3215,576,3215,0.000%,.05147,0.14,0.07
+Contingent Worker Hiring_RequestSave,10,719,610,952,952,1362,420,1362,0.000%,.01847,0.04,0.03
+Admin_ConfigureSetting-api/configsetting/find,9,161,149,232,279,279,85,279,0.000%,.01547,0.27,0.02
+Access_UserProfile-api/country/find,9,214,202,277,285,285,148,285,0.000%,.01548,0.01,0.02
+Access_UserProfile-api/system/find,9,195,179,265,289,289,152,289,0.000%,.01548,0.02,0.02
+Admin_Delegation-api/classdef/find,9,164,147,205,308,308,109,308,0.000%,.01549,0.01,0.02
+NERC Built-in-Account_api/messagelog/save,10,205,179,240,240,417,143,417,0.000%,.01847,0.02,0.02
+Admin_Delegation-api/lists/find,9,193,200,225,235,235,159,235,0.000%,.01548,0.01,0.02
+NERC Service Account_getnewids,10,155,137,190,190,285,95,285,0.000%,.01850,0.01,0.02
+Admin_LoggingDetails-api/logging/loggingdetails/find,9,154,123,231,233,233,99,233,0.000%,.01548,0.01,0.02
+Contingent Worker Hiring_WorkflowId,10,295,265,344,344,424,230,424,0.000%,.01855,0.04,0.02
+NERC Service Account_api/messagelog/save,10,180,182,211,211,252,118,252,0.000%,.01850,0.02,0.02
+Admin_ManageJob-api/jobtype/find,9,192,161,238,337,337,130,337,0.000%,.01549,0.05,0.02
+NERC Shared Account_getnewids,10,138,140,166,166,179,93,179,0.000%,.01854,0.01,0.02
+Admin_ManagePasswordPolicy-api/passsecpolicy/find,9,158,146,186,245,245,103,245,0.000%,.01548,0.02,0.02
+Admin_ManageJob-api/job/find,18,389,391,464,466,475,315,475,0.000%,.03094,0.22,0.04
+NERC Built-in-Account_RequestSave,10,603,546,729,729,926,489,926,0.000%,.01844,0.04,0.03
+Admin_ProvisioningMonitor-api/getnewids,9,125,125,153,157,157,89,157,0.000%,.01548,0.01,0.02
+Contingent Worker Hiring_SetDoc-1,10,487,470,594,594,749,346,749,0.000%,.01856,0.02,0.02
+Request_New_Modify_Remove_Business_Application_Access_getnewids,50,140,131,245,252,291,68,291,0.000%,.08504,0.06,0.09
+NERC Shared Account_api/messagelog/save,10,183,174,203,203,318,118,318,0.000%,.01856,0.02,0.02
+NERC Service Account_RequestSave,10,608,590,757,757,798,462,798,0.000%,.01849,0.04,0.03
+NERC Built-in-Account_WorkflowId,10,253,247,275,275,310,210,310,0.000%,.01844,0.04,0.02
+Admin_ProvisioningMonitor-api/action/find,9,686,684,751,815,815,553,815,0.000%,.01547,0.10,0.02
+Admin_Recipient-api/recipient/find,8,172,141,248,257,257,101,257,0.000%,.01573,0.07,0.02
+Admin_Recipient-api/access/5049884013106966,8,239,192,320,425,425,141,425,0.000%,.01573,0.03,0.02
+Admin_ProvisioningMonitor-api/provisioninglog/find-1,9,287,251,399,417,417,199,417,0.000%,.01548,0.05,0.02
+Request AD Service Account_getnewids,10,122,99,151,151,234,85,234,0.000%,.01850,0.01,0.02
+Admin_WorkflowActor-api/getnewids,8,118,112,146,155,155,84,155,0.000%,.01573,0.01,0.02
+Admin_ProvisioningMonitor-api/provisioninglog/find-2,9,236,238,269,283,283,188,283,0.000%,.01548,0.04,0.02
+Admin_WorkflowActor-api/recipient/find,16,146,114,226,238,272,65,272,0.000%,.03143,0.12,0.04
+Request_New_Modify_Remove_Business_Application_Access_api/messagelog/save-1,50,195,182,264,282,370,114,370,0.000%,.08505,0.08,0.11
+NERC Built-in-Account_SetDoc-1,10,666,630,794,794,1038,520,1038,0.000%,.01837,0.02,0.02
+Contingent Worker Hiring_SetDoc-2,10,490,439,583,583,600,420,600,0.000%,.01861,0.02,0.02
+Admin_ProvisioningMonitor-api/system/4,9,474,476,613,629,629,288,629,0.000%,.01547,0.10,0.02
+NERC Service Account_WorkflowId,10,238,233,271,271,293,196,293,0.000%,.01852,0.04,0.02
+NERC Shared Account_RequestSave,10,569,527,710,710,775,429,775,0.000%,.01855,0.04,0.03
+Email ID Change_getnewids,20,144,129,210,214,250,69,250,0.000%,.03509,0.03,0.04
+Card_ManageCard-api/asset/find-1,8,173,150,241,275,275,111,275,0.000%,.01574,0.01,0.02
+Admin_WorkflowActor-api/access/5049884013106966,8,236,174,251,610,610,137,610,0.000%,.01573,0.03,0.02
+Card_ManageCard-api/asset/find-2,8,182,161,255,315,315,119,315,0.000%,.01574,0.01,0.02
+Card_ManageCardSubType-api/assetsubtype/find,8,167,168,187,216,216,135,216,0.000%,.01572,0.02,0.02
+NERC Built-in-Account_SetDoc-2,10,706,677,873,873,1062,461,1062,0.000%,.01835,0.02,0.02
+Card_ManageCard-api/lists/find-1,8,180,168,236,295,295,106,295,0.000%,.01574,0.01,0.02
+Card_ManageCard-api/lists/find-2,8,169,146,244,261,261,100,261,0.000%,.01574,0.01,0.02
+Card_ManageCardType-api/assettype/find,8,206,227,257,279,279,118,279,0.000%,.01572,0.01,0.02
+Request AD Service Account_RequestSave,10,657,577,866,866,875,378,875,0.000%,.01851,0.06,0.03
+Request_New_Modify_Remove_Business_Application_Access_RequestSave,50,707,677,930,973,1263,461,1263,0.000%,.08493,0.33,0.15
+NERC Shared Account_WorkflowId,10,280,249,355,355,409,181,409,0.000%,.01854,0.04,0.02
+Card_ManageCard-api/lists/find-3,8,177,156,225,265,265,124,265,0.000%,.01574,0.01,0.02
+Request_New_Email_Access_getnewids,30,128,114,158,185,308,79,308,0.000%,.05169,0.04,0.05
+NERC Service Account_SetDoc-1,10,699,672,911,911,917,505,917,0.000%,.01851,0.02,0.02
+Email ID Change_api/messagelog/save,20,184,155,242,307,435,114,435,0.000%,.03505,0.03,0.04
+Card_ManageCard-api/asset/find-3,8,164,155,194,217,217,111,217,0.000%,.01574,0.01,0.02
+Home_Dashboard-api/classdef/find,16,158,155,179,185,284,107,284,0.000%,.03142,0.02,0.04
+Request AD Service Account_WorkflowId,10,269,251,323,323,429,177,429,0.000%,.01852,0.04,0.02
+IDM_LocationHierarchy-api/classdef/find,8,179,143,210,315,315,131,315,0.000%,.01571,0.03,0.02
+Request_New_Modify_Remove_PhysicalAccess_getnewids,50,125,124,172,181,229,68,229,0.000%,.08491,0.06,0.09
+Request_New_Modify_Remove_Business_Application_Access_WorkflowId,64,255,243,347,391,406,161,447,0.000%,.11126,0.27,0.12
+Home_Dashboard-api/analyticsdashboard/find,8,195,153,294,303,303,122,303,0.000%,.01573,0.02,0.02
+NERC Shared Account_SetDoc-1,10,740,743,916,916,962,547,962,0.000%,.01852,0.02,0.02
+IDM_LocationHierarchy-api/lists/find-1,8,204,176,269,310,310,103,310,0.000%,.01570,0.01,0.02
+Email ID Change_RequestSave,20,389,365,519,532,544,241,544,0.000%,.03505,0.05,0.05
+NERC Built-in-Account_SetDoc-3,10,931,855,1161,1161,1346,721,1346,0.000%,.01838,0.02,0.02
+Home_Dashboard-api/configsetting/find,8,147,159,184,186,186,84,186,0.000%,.01573,0.01,0.02
+IDM_LocationHierarchy-api/lists/find-2,8,186,161,239,323,323,116,323,0.000%,.01571,0.01,0.02
+Request_New_Email_Access_RequestSave,30,412,396,526,549,750,224,750,0.000%,.05158,0.09,0.08
+NERC Service Account_SetDoc-2,10,747,711,883,883,934,561,934,0.000%,.01851,0.02,0.02
+IDM_LocationType-api/locationtype/find,8,164,147,257,266,266,99,266,0.000%,.01575,0.01,0.02
+IDM_ManageIdentity-api/country/find,8,210,215,250,259,259,136,259,0.000%,.01573,0.11,0.02
+Request_New_Modify_Remove_PhysicalAccess_api/messagelog/save-1,50,206,202,277,283,432,104,432,0.000%,.08483,0.08,0.11
+NERC Shared Account_SetDoc-2,10,649,629,782,782,839,430,839,0.000%,.01851,0.02,0.02
+Request AD Service Account_SetDoc-1,10,662,619,808,808,833,534,833,0.000%,.01853,0.02,0.02
+IDM_ManageIdentity-api/identity/find-1,8,494,480,542,543,543,441,543,0.000%,.01572,0.04,0.03
+Request_New_Modify_Remove_Active_Directory_Access_getnewids,50,126,117,181,202,357,71,357,0.000%,.08512,0.06,0.09
+IDM_ManageIdentityType-api/lists/find,8,164,164,199,238,238,96,238,0.000%,.01574,0.01,0.02
+IDM_ManageIdentity-api/lists/find,8,185,161,238,280,280,127,280,0.000%,.01573,0.01,0.02
+Request_New_Modify_Remove_Business_Application_Access_SetDoc-1,49,595,584,701,773,984,426,984,0.000%,.08540,0.08,0.10
+IDM_ManageIdentity-api/getnewids,8,134,129,161,238,238,71,238,0.000%,.01572,0.01,0.02
+IDM_ManageIdentityType-api/identitytype/find,8,193,181,226,280,280,122,280,0.000%,.01574,0.02,0.02
+IDM_OrganizationHierarchy-api/getnewids,8,139,101,201,231,231,76,231,0.000%,.01574,0.01,0.02
+Request_New_Email_Access_WorkflowId,30,284,261,385,391,412,183,412,0.000%,.05169,0.11,0.06
+Request_New_Modify_Remove_PhysicalAccess_RequestSave,50,542,531,703,709,943,358,943,0.000%,.08461,0.19,0.15
+IDM_OrganizationHierarchy-api/classdef/find,8,188,151,246,319,319,130,319,0.000%,.01574,0.03,0.02
+Request_New_Modify_Remove_Active_Directory_Access_api/messagelog/save-1,50,207,201,287,311,449,110,449,0.000%,.08520,0.08,0.11
+NERC Service Account_SetDoc-3,10,836,805,955,955,1030,613,1030,0.000%,.01854,0.02,0.02
+NERC Shared Account_SetDoc-3,10,851,844,974,974,1153,616,1153,0.000%,.01850,0.02,0.02
+IDM_OrganizationType-api/lists/find,8,177,146,214,315,315,107,315,0.000%,.01573,0.01,0.02
+IDM_OrganizationHierarchy-api/lists/find,8,166,153,195,196,196,131,196,0.000%,.01575,0.01,0.02
+Request_New_Modify_Remove_Database_Access_getnewids,20,134,118,162,195,311,86,311,0.000%,.03509,0.03,0.04
+IDM_OrganizationType-api/organisationtype/find,8,144,141,162,185,185,101,185,0.000%,.01574,0.01,0.02
+Request AD Service Account_SetDoc-2,10,755,665,941,941,1065,578,1065,0.000%,.01853,0.02,0.02
+Request_New_Modify_Remove_Business_Application_Access_SetDoc-2,49,611,583,762,837,1103,466,1103,0.000%,.08535,0.10,0.12
+login_Inbox-api/activity/find,8,220,166,301,346,346,149,346,0.000%,.01574,0.09,0.02
+Request_New_Modify_Remove_Active_Directory_Access_RequestSave,50,726,678,1001,1013,1078,475,1078,0.000%,.08519,0.31,0.20
+login_Inbox-api/classdef/find,8,177,141,202,360,360,125,360,0.000%,.01574,0.01,0.02
+Home_MyRequests-api/getnewids,8,111,95,151,168,168,79,168,0.000%,.01574,0.01,0.02
+Request_New_Modify_Remove_Database_Access_api/messagelog/save-1,20,194,178,262,312,325,111,325,0.000%,.03500,0.03,0.04
+login_Inbox-api/country/find,8,206,170,283,324,324,136,324,0.000%,.01573,0.01,0.02
+Request_New_Modify_Remove_PhysicalAccess_WorkflowId,49,253,235,389,423,526,128,526,0.000%,.08486,0.17,0.09
+Home_MyRequests-api/request/findRequests-1,8,357,366,425,436,436,215,436,0.000%,.01573,0.09,0.02
+Request_New_Email_Access_SetDoc-1,30,1015,1016,1269,1282,1390,713,1390,0.000%,.05174,0.05,0.06
+login_Inbox-api/configsetting/find,8,119,88,130,296,296,57,296,0.000%,.01574,0.01,0.02
+Request AD Service Account_SetDoc-3,10,745,705,909,909,990,587,990,0.000%,.01854,0.02,0.02
+Primary Share Information_getnewids,100,135,128,191,212,287,72,344,0.000%,.16990,0.12,0.17
+login_Inbox-api/docnumberrange/find,8,302,300,397,424,424,195,424,0.000%,.01574,0.04,0.02
+Recon_ReconMonitor-api/reconmonitor/find-1,8,857,849,1002,1044,1044,693,1044,0.000%,.01571,0.37,0.02
+login_Inbox-api/lists/find-1,8,177,179,234,247,247,102,247,0.000%,.01574,0.01,0.02
+Recon_ReconRemediation-api/getnewids,8,135,119,169,193,193,82,193,0.000%,.01574,0.01,0.02
+Request_New_Modify_Remove_Business_Application_Access_SetDoc-3,49,892,894,1086,1225,1415,587,1415,0.000%,.08520,0.09,0.11
+Request_New_Modify_Remove_Active_Directory_Access_WorkflowId,79,268,258,354,422,567,133,581,0.000%,.13442,0.34,0.14
+login_Inbox-api/lists/find-2,8,147,139,182,200,200,93,200,0.000%,.01575,0.01,0.02
+login_Inbox-api/lists/find-3,8,183,168,213,290,290,116,290,0.000%,.01575,0.01,0.02
+Recon_ReconMonitor-api/reconmonitor/find-2,8,860,780,976,1021,1021,737,1021,0.000%,.01572,0.37,0.02
+CIP: Information Access_getnewids,20,122,127,154,160,160,81,160,0.000%,.03517,0.03,0.04
+Recon_ReconSetup-api/getnewids,8,149,118,147,339,339,107,339,0.000%,.01575,0.01,0.02
+Recon_ReconMonitor-api/classdef/find,8,301,311,357,380,380,224,380,0.000%,.01575,0.27,0.02
+Request_New_Modify_Remove_PhysicalAccess_SetDoc-1,49,940,930,1192,1215,1224,594,1224,0.000%,.08481,0.09,0.12
+login_Inbox-api/lists/find-4,8,228,221,266,320,320,142,320,0.000%,.01575,0.01,0.02
+Request_New_Modify_Remove_Database_Access_RequestSave,20,567,513,729,740,829,425,829,0.000%,.03499,0.08,0.06
+Recon_ReconSetup-api/classdef/find,8,172,175,205,247,247,118,247,0.000%,.01575,0.01,0.02
+Non CIP: ELECTRONIC ACCESS_getnewids,20,126,119,155,167,190,81,190,0.000%,.03692,0.03,0.04
+Request AD Service Account_SetDoc-4,10,1104,1030,1422,1422,1471,784,1471,0.000%,.01851,0.02,0.02
+login_Inbox-api/lists/find-5,8,152,123,186,234,234,99,234,0.000%,.01576,0.01,0.02
+CIP: Information Access_api/messagelog/save,20,203,200,259,262,325,131,325,0.000%,.03512,0.03,0.04
+Settings_CardDesigner-api/badgedesigner/find,8,197,199,223,238,238,149,238,0.000%,.01573,0.09,0.02
+Primary Share Information_RequestSave,50,474,458,557,632,781,272,781,0.000%,.08516,0.19,0.14
+Settings_ConfigureProvisioningAction-api/getnewids,8,116,107,137,185,185,68,185,0.000%,.01573,0.01,0.02
+login_Inbox-api/accessrequesttype/find,8,1449,1463,1523,1661,1661,1207,1661,0.000%,.01574,0.78,0.02
+Revoke_CIP_Access_getnewids,10,118,112,142,142,171,78,171,0.000%,.01851,0.01,0.02
+Request_New_Modify_Remove_Database_Access_WorkflowId,20,237,219,284,322,322,172,322,0.000%,.03499,0.07,0.04
+Request_New_Modify_Remove_Active_Directory_Access_SetDoc-1,49,377,361,473,530,653,234,653,0.000%,.08490,0.09,0.10
+Settings_ConfigureProvisioningAction-api/provisioninaction/find,8,184,157,238,315,315,112,315,0.000%,.01573,0.02,0.02
+login_Inbox-api/lists/find-28,8,194,180,240,243,243,115,243,0.000%,.01579,0.02,0.02
+Request_New_Modify_Remove_Business_Application_Access_SetDoc-4,49,2051,2002,2335,2623,3184,1577,3184,0.000%,.08512,0.09,0.12
+Request_New_Modify_Remove_PhysicalAccess_SetDoc-2,49,889,889,1027,1111,2045,618,2045,0.000%,.08493,0.09,0.11
+CIP: Information Access_RequestSave,20,460,440,580,594,656,251,656,0.000%,.03509,0.07,0.05
+Settings_ConfigureProvisioningAction-api/lists/find-1,8,144,119,196,209,209,98,209,0.000%,.01574,0.01,0.02
+Settings_ConfigureProvisioningAction-api/lists/find-2,8,189,159,271,345,345,125,345,0.000%,.01573,0.01,0.02
+login_Inbox-api/messagelog/groupbyworkflowstep/detail,8,415,424,459,510,510,299,510,0.000%,.01579,0.02,0.02
+Request_New_Modify_Remove_Active_Directory_Access_SetDoc-2,49,378,365,467,519,736,247,736,0.000%,.08482,0.09,0.10
+Disable All Access_getnewids,10,126,124,152,152,213,79,213,0.000%,.01845,0.01,0.02
+Settings_ConfigureProvisioningAction-api/lists/find-3,8,195,188,284,288,288,101,288,0.000%,.01574,0.02,0.02
+CIP: Information Access_WorkflowId,22,345,319,431,479,679,218,679,0.000%,.03861,0.19,0.04
+Settings_DocumentNumberRange-api/docnumberrange/find,8,342,253,576,636,636,206,636,0.000%,.01572,0.04,0.02
+Revoke_CIP_Access_api/messagelog/save,10,215,173,294,294,387,118,387,0.000%,.01848,0.02,0.02
+Non CIP: ELECTRONIC ACCESS_api/messagelog/save,10,182,175,247,247,258,106,258,0.000%,.01855,0.02,0.02
+Request_New_Modify_Remove_Active_Directory_Access_SetDoc-3,49,370,362,465,504,536,251,536,0.000%,.08457,0.09,0.10
+Request_New_Modify_Remove_Database_Access_SetDoc-1,20,887,889,1064,1065,1382,517,1382,0.000%,.03498,0.04,0.05
+Settings_Jobtype-api/getnewids,8,155,120,232,318,318,80,318,0.000%,.01574,0.01,0.02
+Settings_Deligation-api/classdef/find-1,8,171,140,236,274,274,120,274,0.000%,.01582,0.01,0.02
+login_Inbox-api/messagelog/header/status/count,8,1662,1627,2017,2145,2145,1261,2145,0.000%,.01576,0.01,0.02
+Request Unix Linux Service Account_getnewids,10,136,119,192,192,204,82,204,0.000%,.01850,0.01,0.02
+Settings_Jobtype-api/jobtype/find,8,185,190,232,259,259,121,259,0.000%,.01574,0.06,0.02
+Disable All Access_RequestSave,10,746,724,957,957,1055,573,1055,0.000%,.01838,0.06,0.02
+Settings_Deligation-api/lists/find,8,255,234,365,393,393,128,393,0.000%,.01582,0.01,0.02
+login_Inbox-api/messagemaster/find,8,188,177,216,332,332,126,332,0.000%,.01582,0.01,0.02
+Recon_ReconSetup-api/reconconfig/find,8,6329,6223,6832,7031,7031,5649,7031,0.000%,.01557,1.42,0.02
+Non CIP: ELECTRONIC ACCESS_RequestSave,10,614,585,645,645,815,526,815,0.000%,.01854,0.07,0.04
+Request_New_Modify_Remove_PhysicalAccess_SetDoc-3,49,1757,1724,2012,2221,2388,1409,2388,0.000%,.08489,0.09,0.12
+Settings_Deligation-api/classdef/find-2,8,265,200,384,490,490,171,490,0.000%,.01583,0.11,0.02
+Settings_ManageClassDefinition-api/classdeftype/find,8,203,205,238,277,277,119,277,0.000%,.01573,0.01,0.02
+login_Inbox-api/messagelog/header/find-1,8,539,532,557,645,645,456,645,0.000%,.01582,0.07,0.02
+Recon_ReconSetup-api/lists/find-1,8,163,153,242,242,242,90,242,0.000%,.01578,0.01,0.02
+Settings_ListEntries-api/lists/find,8,1264,1200,1533,1553,1553,1012,1553,0.000%,.01569,1.32,0.02
+Revoke_CIP_Access_RequestSave,10,621,510,795,795,1164,427,1164,0.000%,.01846,0.04,0.02
+Request Unix Linux Service Account_RequestSave,10,711,626,896,896,952,511,952,0.000%,.01845,0.04,0.03
+Settings_Deligation-api/identity/find,8,266,245,308,402,402,185,402,0.000%,.01583,0.03,0.02
+Request_New_Modify_Remove_Database_Access_SetDoc-2,20,616,561,678,902,1287,452,1287,0.000%,.03499,0.04,0.05
+Recon_ReconSetup-api/lists/find-2,8,164,129,258,299,299,104,299,0.000%,.01578,0.01,0.02
+Settings_ManageScreenControlSet-api/activity/find,8,224,203,269,395,395,139,395,0.000%,.01573,0.08,0.02
+Recon_ReconSetup-api/lists/find-3,8,165,156,190,246,246,108,246,0.000%,.01578,0.01,0.02
+Settings_ManageScreenControlSet-api/screencontrolset/find,8,127,119,154,157,157,95,157,0.000%,.01573,0.04,0.02
+Request Server Admin Access_getnewids,10,146,144,192,192,221,79,221,0.000%,.01852,0.01,0.02
+Settings_MessageMaster-api/getnewids,8,116,112,126,150,150,98,150,0.000%,.01573,0.01,0.02
+Non CIP: ELECTRONIC ACCESS_WorkflowId,10,375,343,411,411,611,295,611,0.000%,.01854,0.12,0.02
+login_Inbox-api/requesttype/find,8,1526,1518,1763,1777,1777,1218,1777,0.000%,.01579,0.78,0.02
+Request Unix Linux Service Account_WorkflowId,10,287,263,345,345,472,193,472,0.000%,.01844,0.04,0.02
+CIP: Information Access_SetDoc-1,20,946,927,1094,1153,1180,790,1180,0.000%,.03525,0.04,0.04
+login_Inbox-api/assettype/find,8,199,200,226,272,272,124,272,0.000%,.01585,0.02,0.02
+Revoke_CIP_Access_WorkflowId,10,259,276,303,303,372,155,372,0.000%,.01850,0.03,0.02
+login_Inbox-api/identitytype/find,8,172,128,232,347,347,117,347,0.000%,.01584,0.02,0.02
+Request_Workstation_Admin_Access_getnewids,10,138,144,160,160,163,85,163,0.000%,.01855,0.01,0.02
+login_Inbox-api/prerequisite/find,8,195,168,220,404,404,107,404,0.000%,.01585,0.03,0.02
+Settings_RequestType-api/accessrequesttype/find,8,1411,1388,1582,1757,1757,1060,1757,0.000%,.01568,0.78,0.02
+Request Server Admin Access_api/messagelog/save,10,211,184,306,306,426,108,426,0.000%,.01851,0.02,0.02
+Settings_System-api/system/find,8,527,490,625,714,714,375,714,0.000%,.01572,0.12,0.02
+login_Inbox-api/getnewids,8,124,123,143,161,161,92,161,0.000%,.01586,0.01,0.02
+Settings_SystemType-api/getnewids,8,142,117,171,267,267,86,267,0.000%,.01572,0.01,0.02
+login_Inbox-api/asset/find,8,206,187,257,328,328,110,328,0.000%,.01587,0.01,0.02
+CIP: Information Access_SetDoc-2,20,884,891,1035,1052,1107,709,1107,0.000%,.03531,0.04,0.04
+Request_Workstation_Admin_Access_api/messagelog/save,10,238,215,297,297,395,150,395,0.000%,.01852,0.02,0.02
+Non CIP: ELECTRONIC ACCESS_SetDoc-1,10,1938,1847,2191,2191,2236,1693,2236,0.000%,.01848,0.02,0.03
+Request Unix Linux Service Account_SetDoc-1,10,775,683,859,859,1176,617,1176,0.000%,.01844,0.02,0.02
+Settings_System-api/systemtype/find,8,740,724,827,906,906,575,906,0.000%,.01573,0.14,0.02
+Settings_SystemType-api/lists/find,8,161,159,186,200,200,118,200,0.000%,.01573,0.01,0.02
+login_Inbox-api/lists/find-36,8,197,186,223,330,330,130,330,0.000%,.01586,0.06,0.02
+Revoke_CIP_Access_SetDoc-1,10,778,760,860,860,1060,616,1060,0.000%,.01849,0.02,0.02
+Settings_WorkflowDesigner-api/workflow/find,8,178,162,223,261,261,135,261,0.000%,.01575,0.05,0.02
+Settings_MessageMaster-api/messagemaster/find,8,4145,4063,4261,4651,4651,3819,4651,0.000%,.01561,1.01,0.02
+Inbox-api/messagelog/header/find?_dc=1698502753503,8,570,558,619,653,653,484,653,0.000%,.01585,0.07,0.02
+Settings_MessageMaster-api/lists/find,8,159,161,175,233,233,108,233,0.000%,.01573,0.02,0.02
+PolicyEngine_ManageMitigation-api/configsetting/find,8,131,116,196,209,209,63,209,0.000%,.01574,0.01,0.02
+Settings_SystemType-api/systemtype/find,8,754,727,902,904,904,624,904,0.000%,.01572,0.14,0.02
+Inbox-api/workflow/getdocstatus/workflowId,8,355,319,420,489,489,257,489,0.000%,.01587,0.02,0.02
+PolicyEngine_ManageMitigation-api/getnewids,8,107,93,133,148,148,71,148,0.000%,.01573,0.01,0.02
+Request_Workstation_Admin_Access_RequestSave,10,654,656,718,718,831,450,831,0.000%,.01848,0.05,0.03
+Request Server Admin Access_RequestSave,10,525,460,671,671,841,391,841,0.000%,.01853,0.04,0.03
+PolicyEngine_ManagePolicy-api/getnewids,8,115,118,131,143,143,74,143,0.000%,.01574,0.01,0.02
+PolicyEngine_ManageMitigation-api/mitigationcontrol/find,8,151,139,179,218,218,120,218,0.000%,.01573,0.01,0.02
+PolicyEngine_ManagePolicy-api/lists/find,8,173,152,209,230,230,127,230,0.000%,.01574,0.01,0.02
+Request Unix Linux Service Account_SetDoc-2,10,506,479,582,582,649,413,649,0.000%,.01847,0.02,0.02
+PolicyEngine_ManagePolicy-api/policy/find,8,388,351,434,534,534,315,534,0.000%,.01573,0.18,0.02
+CIP: Information Access_SetDoc-3,20,1060,1048,1199,1295,1348,880,1348,0.000%,.03538,0.04,0.04
+Request_Workstation_Admin_Access_WorkflowId,10,328,283,523,523,557,215,557,0.000%,.01844,0.05,0.02
+PolicyEngine_ManagePolicyGroup-api/policygroup/find,8,166,137,217,324,324,102,324,0.000%,.01575,0.02,0.02
+Revoke_CIP_Access_SetDoc-2,10,990,961,1121,1121,1266,733,1266,0.000%,.01850,0.02,0.02
+Request Server Admin Access_WorkflowId,10,267,264,331,331,351,193,351,0.000%,.01854,0.04,0.02
+PolicyEngine_ManagePolicyType-0,8,177,119,231,463,463,106,463,0.000%,.01573,0.01,0.02
+Non CIP: ELECTRONIC ACCESS_SetDoc-2,10,2055,2053,2170,2170,2344,1789,2344,0.000%,.01853,0.02,0.03
+Request Unix Linux Service Account_SetDoc-3,10,698,675,848,848,905,505,905,0.000%,.01844,0.02,0.02
+PolicyEngine_ManageResponse-api/lists/find-1,8,200,195,229,286,286,138,286,0.000%,.01574,0.01,0.02
+PolicyEngine_ManageResponse-api/lists/find-2,8,146,130,186,188,188,109,188,0.000%,.01575,0.01,0.02
+Request Server Admin Access_SetDoc-1,10,617,621,667,667,670,482,670,0.000%,.01850,0.02,0.02
+Request_Workstation_Admin_Access_SetDoc-1,10,712,677,854,854,892,585,892,0.000%,.01844,0.02,0.02
+PolicyEngine_ManageRisk-api/risk/find,8,185,152,293,327,327,99,327,0.000%,.01573,0.01,0.02
+PolicyEngine_ManageRule-api/getnewids,8,114,112,122,219,219,73,219,0.000%,.01574,0.01,0.02
+PolicyEngine_ManageRule-api/lists/find,8,170,144,230,251,251,108,251,0.000%,.01573,0.01,0.02
+Request Unix Linux Service Account_SetDoc-4,10,1107,1009,1276,1276,1292,838,1292,0.000%,.01843,0.02,0.02
+Request Server Admin Access_SetDoc-2,10,1060,1030,1319,1319,1356,768,1356,0.000%,.01848,0.02,0.02
+PolicyEngine_ManageRule-api/ruletype/find,8,150,143,192,197,197,105,197,0.000%,.01574,0.02,0.02
+PolicyEngine_ManageRuleSet-api/rule-set/find-1,8,573,529,717,726,726,445,726,0.000%,.01573,0.27,0.02
+PolicyEngine_ManageRule-api/rule/find-1,8,359,346,424,453,453,289,453,0.000%,.01573,0.09,0.02
+PolicyEngine_ManageRuleType-api/ruletype/find,8,165,155,201,244,244,104,244,0.000%,.01573,0.02,0.02
+Request_Workstation_Admin_Access_SetDoc-2,10,1012,938,1138,1138,1245,845,1245,0.000%,.01844,0.02,0.02
+Non CIP: ELECTRONIC ACCESS_SetDoc-3,10,3274,3173,3606,3606,3828,2908,3828,0.000%,.01850,0.02,0.03
+TOTAL,4727,667,421,1453,1668,2292,57,7031,0.000%,7.53249,228.77,8.52

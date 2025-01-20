@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1737127114631,1522,Login,200,OK,setUp Thread Group-Login 1-1,text,true,,219290,833,1,1,https://guardian-nfcdev.hsc.alertenterprisecloud.com/api/auth/token,1239,0,316
+1737127116439,314,newBadgecontractorwavelynx-/api/getnewids,200,OK,newBadgecontractorwavelynx 1-1,text,true,,643,1097,1,1,https://guardian-nfcdev.hsc.alertenterprisecloud.com/api/getnewids,314,0,239
+1737127116753,265,newBadgecontractorwavelynx-/api/request/save,200,OK,newBadgecontractorwavelynx 1-1,text,true,,1335,1547,1,1,https://guardian-nfcdev.hsc.alertenterprisecloud.com/api/request/save,265,0,0

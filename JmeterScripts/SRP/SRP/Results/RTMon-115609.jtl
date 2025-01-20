@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1716810971666,2812,Login-Admin-/api/auth/token,200,OK,VIMMoveOut 1-1,text,true,,134496,864,1,1,http://172.16.16.69/api/auth/token,2305,0,2
+1716810974709,16609,VIMMoveOut/api/tpmadmin/visit/moveout,200,OK,VIMMoveOut 1-1,text,true,,711,1402,1,1,http://172.16.16.69/api/tpmadmin/visit/moveout,16609,0,0

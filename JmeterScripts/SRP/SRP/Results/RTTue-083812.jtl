@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725352692942,3700,adminLogin,200,OK,setUp Thread Group 1-1,text,true,,113491,802,1,1,http://172.16.37.224/api/auth/token,3637,0,8
+1725352696651,1462,lobbyAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,119517,808,1,1,http://172.16.37.224/api/auth/token,1431,0,0
+1725352699857,173,api/getnewids,200,OK,VIMRegCases 1-1,text,true,,735,1105,1,1,http://172.16.37.224/api/getnewids,173,0,63
+1725352700355,510,VIMRegCases/api/tpmadmin/visitors/save,200,OK,VIMRegCases 1-1,text,true,,1057,1554,1,1,http://172.16.37.224/api/tpmadmin/visitors/save,510,0,0
+1725352702577,841,VIMRegCases/api/tpmadmin/visit/save,200,OK,VIMRegCases 1-1,text,true,,1176,1958,1,1,http://172.16.37.224/api/tpmadmin/visit/save,840,0,0

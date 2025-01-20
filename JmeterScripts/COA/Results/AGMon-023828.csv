@@ -1,0 +1,17 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1731940708222,1381,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,155810,825,1,1,https://coa-dev.hsc.alertenterprisecloud.com/api/auth/token,1175,0,321
+1731940709822,301,VIM_getnewids,200,OK,VIM 1-1,text,true,,639,1105,2,2,https://coa-dev.hsc.alertenterprisecloud.com/api/getnewids,301,0,229
+1731940710124,154,VIM/api/tpmadmin/visitors/save,200,OK,VIM 1-1,text,true,,946,1524,3,3,https://coa-dev.hsc.alertenterprisecloud.com/api/tpmadmin/visitors/save,154,0,0
+1731940710022,294,VIM_getnewids,200,OK,VIM 1-2,text,true,,639,1105,3,3,https://coa-dev.hsc.alertenterprisecloud.com/api/getnewids,294,0,223
+1731940710317,134,VIM/api/tpmadmin/visitors/save,200,OK,VIM 1-2,text,true,,946,1524,4,4,https://coa-dev.hsc.alertenterprisecloud.com/api/tpmadmin/visitors/save,133,0,0
+1731940710222,293,VIM_getnewids,200,OK,VIM 1-3,text,true,,634,1105,4,4,https://coa-dev.hsc.alertenterprisecloud.com/api/getnewids,293,0,223
+1731940710516,131,VIM/api/tpmadmin/visitors/save,200,OK,VIM 1-3,text,true,,945,1524,5,5,https://coa-dev.hsc.alertenterprisecloud.com/api/tpmadmin/visitors/save,131,0,0
+1731940710423,316,VIM_getnewids,200,OK,VIM 1-4,text,true,,641,1105,5,5,https://coa-dev.hsc.alertenterprisecloud.com/api/getnewids,316,0,246
+1731940710740,133,VIM/api/tpmadmin/visitors/save,200,OK,VIM 1-4,text,true,,944,1524,5,5,https://coa-dev.hsc.alertenterprisecloud.com/api/tpmadmin/visitors/save,133,0,0
+1731940710622,302,VIM_getnewids,200,OK,VIM 1-5,text,true,,649,1105,5,5,https://coa-dev.hsc.alertenterprisecloud.com/api/getnewids,302,0,230
+1731940710925,135,VIM/api/tpmadmin/visitors/save,200,OK,VIM 1-5,text,true,,944,1524,5,5,https://coa-dev.hsc.alertenterprisecloud.com/api/tpmadmin/visitors/save,135,0,0
+1731940715649,25361,VIM/api/tpmadmin/visit/save,200,OK,VIM 1-3,text,true,,1124,2155,5,5,https://coa-dev.hsc.alertenterprisecloud.com/api/tpmadmin/visit/save,25361,0,0
+1731940715279,33608,VIM/api/tpmadmin/visit/save,200,OK,VIM 1-1,text,true,,1124,2155,4,4,https://coa-dev.hsc.alertenterprisecloud.com/api/tpmadmin/visit/save,33608,0,0
+1731940716062,37787,VIM/api/tpmadmin/visit/save,200,OK,VIM 1-5,text,true,,1122,2155,3,3,https://coa-dev.hsc.alertenterprisecloud.com/api/tpmadmin/visit/save,37787,0,0
+1731940715451,43539,VIM/api/tpmadmin/visit/save,200,OK,VIM 1-2,text,true,,1124,2155,2,2,https://coa-dev.hsc.alertenterprisecloud.com/api/tpmadmin/visit/save,43539,0,0
+1731940715873,44532,VIM/api/tpmadmin/visit/save,200,OK,VIM 1-4,text,true,,1122,2155,1,1,https://coa-dev.hsc.alertenterprisecloud.com/api/tpmadmin/visit/save,44532,0,0

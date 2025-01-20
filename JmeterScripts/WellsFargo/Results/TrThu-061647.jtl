@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1729145807583,11109,AdminLogin-/api/auth/token,200,OK,setUp Thread Group-Login 1-1,text,true,,258244,807,1,1,http://172.16.16.70/api/auth/token,11083,0,1
+1729145818705,1229,SecurityAdminLogin-/api/auth/token,200,OK,setUp Thread Group-Login 1-1,text,true,,264356,803,1,1,http://172.16.16.70/api/auth/token,1204,0,0
+1729145819948,275,ApproverLogin-/api/auth/token,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,setUp Thread Group-Login 1-1,text,false,,2606,0,1,1,http://172.16.16.70/api/auth/token,0,0,0

@@ -1,0 +1,21 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1730795949109,1877,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,154193,801,1,1,http://172.16.16.70/api/auth/token,903,0,4
+1730795956164,102,VIM_getnewids,200,OK,VIM 1-1,text,true,,733,1083,1,1,http://172.16.16.70/api/getnewids,102,0,3
+1730795961268,196,VIM/api/tpmadmin/visitors/save,200,OK,VIM 1-1,text,true,,1030,1480,1,1,http://172.16.16.70/api/tpmadmin/visitors/save,196,0,0
+1730795966464,324,VIM/api/tpmadmin/visit/save,200,OK,VIM 1-1,text,true,,1219,1821,1,1,http://172.16.16.70/api/tpmadmin/visit/save,324,0,0
+1730795971792,138,VIM_getnewids,200,OK,VIM 1-1,text,true,,741,1083,1,1,http://172.16.16.70/api/getnewids,138,0,0
+1730795976934,212,VIM/api/tpmadmin/visitors/save,200,OK,VIM 1-1,text,true,,1030,1480,1,1,http://172.16.16.70/api/tpmadmin/visitors/save,212,0,0
+1730795982161,412,VIM/api/tpmadmin/visit/save,200,OK,VIM 1-1,text,true,,1219,1821,1,1,http://172.16.16.70/api/tpmadmin/visit/save,412,0,0
+1730795987572,151,VIM_getnewids,200,OK,VIM 1-1,text,true,,741,1083,1,1,http://172.16.16.70/api/getnewids,151,0,0
+1730795992726,221,VIM/api/tpmadmin/visitors/save,200,OK,VIM 1-1,text,true,,1030,1480,1,1,http://172.16.16.70/api/tpmadmin/visitors/save,221,0,0
+1730795997948,378,VIM/api/tpmadmin/visit/save,200,OK,VIM 1-1,text,true,,1219,1821,1,1,http://172.16.16.70/api/tpmadmin/visit/save,376,0,0
+1730796003328,142,VIM_getnewids,200,OK,VIM 1-1,text,true,,738,1083,1,1,http://172.16.16.70/api/getnewids,142,0,0
+1730796008471,209,VIM/api/tpmadmin/visitors/save,200,OK,VIM 1-1,text,true,,1030,1480,1,1,http://172.16.16.70/api/tpmadmin/visitors/save,209,0,0
+1730796013685,519,VIM/api/tpmadmin/visit/save,200,OK,VIM 1-1,text,true,,1220,1821,1,1,http://172.16.16.70/api/tpmadmin/visit/save,518,0,0
+1730796019204,104,VIM_getnewids,200,OK,VIM 1-1,text,true,,733,1083,1,1,http://172.16.16.70/api/getnewids,104,0,3
+1730796024310,243,VIM/api/tpmadmin/visitors/save,200,OK,VIM 1-1,text,true,,1028,1480,1,1,http://172.16.16.70/api/tpmadmin/visitors/save,243,0,0
+1730796029554,682,VIM/api/tpmadmin/visit/save,200,OK,VIM 1-1,text,true,,1218,1821,1,1,http://172.16.16.70/api/tpmadmin/visit/save,682,0,0
+1730796035239,141,VIM_getnewids,200,OK,VIM 1-1,text,true,,740,1083,1,1,http://172.16.16.70/api/getnewids,140,0,0
+1730796040380,241,VIM/api/tpmadmin/visitors/save,200,OK,VIM 1-1,text,true,,1031,1480,1,1,http://172.16.16.70/api/tpmadmin/visitors/save,241,0,0
+1730796045623,457,VIM/api/tpmadmin/visit/save,200,OK,VIM 1-1,text,true,,1217,1821,1,1,http://172.16.16.70/api/tpmadmin/visit/save,456,0,0
+1730796051083,145,VIM_getnewids,200,OK,VIM 1-1,text,true,,738,1083,1,1,http://172.16.16.70/api/getnewids,144,0,0

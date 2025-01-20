@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1716891355925,1658,adminLogin,200,OK,setUp Thread Group 1-1,text,true,,123006,801,1,1,http://172.16.16.69/api/auth/token,1183,0,2
+1716891357680,1388,lobbyAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,134495,807,1,1,http://172.16.16.69/api/auth/token,902,0,0
+1716891361332,24,api/getnewids,200,OK,VIMRegCases 1-1,text,true,,736,1213,1,1,http://172.16.16.69/api/getnewids,24,0,2
+1716891361423,291,VIMRegCases/api/binaryresource/upload,201,Created,VIMRegCases 1-1,text,true,,27419,26726,1,1,http://172.16.16.69/api/binaryresource/upload,290,0,0
+1716891362968,265,VIMRegCases/api/tpmadmin/visitors/save,200,OK,VIMRegCases 1-1,text,true,,1022,1560,1,1,http://172.16.16.69/api/tpmadmin/visitors/save,265,0,0
+1716891364789,234,VIMRegCases/api/tpmadmin/visit/save,200,OK,VIMRegCases 1-1,text,true,,1127,2044,1,1,http://172.16.16.69/api/tpmadmin/visit/save,234,0,0
+1716891365243,2679,VIMRegCasesCheckIn-/api/tpm/visitorsvisits/save,200,OK,VIMRegCases 1-1,text,true,,1646,1462,1,1,http://172.16.16.69/api/tpm/visitorsvisits/save,2679,0,0
+1716891369836,88,VIMRegCases/api/badgedesigner/find,200,OK,VIMRegCases 1-1,text,true,,3390,1365,1,1,http://172.16.16.69/api/badgedesigner/find,88,0,0
+1716891371869,404,VIMRegCases/api/badgedesigner/getbadgetemplate,200,OK,VIMRegCases 1-1,text,true,,29745,1632,1,1,http://172.16.16.69/api/badgedesigner/getbadgetemplate,404,0,0
+1716891373754,66,VIMRegCases/api/binaryresource/getBase64,200,OK,VIMRegCases 1-1,text,true,,27070,1306,1,1,http://172.16.16.69/api/binaryresource/getBase64,66,0,0
+1716891375811,204,VIMRegCases/api/badgedesigner/getbadgetemplate,200,OK,VIMRegCases 1-1,text,true,,977,1633,1,1,http://172.16.16.69/api/badgedesigner/getbadgetemplate,204,0,0
+1716891377913,39,VIMRegCases/api/binaryresource/getBase64,200,OK,VIMRegCases 1-1,text,true,,25167,1287,1,1,http://172.16.16.69/api/binaryresource/getBase64,39,0,0

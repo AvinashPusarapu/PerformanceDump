@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1737129121011,1460,Login,200,OK,setUp Thread Group-Login 1-1,text,true,,219234,833,1,1,https://guardian-nfcdev.hsc.alertenterprisecloud.com/api/auth/token,1186,0,266
+1737129122534,310,RevokeAllMobileCredentials-/api/getnewids,200,OK,RevokeAllMobileCredentials 1-1,text,true,,643,1097,1,1,https://guardian-nfcdev.hsc.alertenterprisecloud.com/api/getnewids,310,0,237
+1737129122844,78,RevokeAllMobileCredentials-/api/request/save,500,Internal Server Error,RevokeAllMobileCredentials 1-1,text,false,,11549,1750,1,1,https://guardian-nfcdev.hsc.alertenterprisecloud.com/api/request/save,78,0,0

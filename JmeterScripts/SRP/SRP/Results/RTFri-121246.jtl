@@ -1,0 +1,23 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1716552766450,1720,adminLogin,200,OK,setUp Thread Group 1-1,text,true,,122980,801,1,1,http://172.16.16.69/api/auth/token,1229,0,2
+1716552768255,1260,lobbyAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,134451,807,1,1,http://172.16.16.69/api/auth/token,923,0,0
+1716552772242,26,api/getnewids,200,OK,VIMCases 1-1,text,true,,736,1213,1,1,http://172.16.16.69/api/getnewids,25,0,6
+1716552775164,207,VIMCases/api/binaryresource/upload,201,Created,VIMCases 1-1,text,true,,27417,26726,2,2,http://172.16.16.69/api/binaryresource/upload,206,0,0
+1716552776267,23,api/getnewids,200,OK,VIMCases 1-2,text,true,,742,1213,2,2,http://172.16.16.69/api/getnewids,23,0,2
+1716552777153,23,api/getnewids,200,OK,VIMCases 1-3,text,true,,736,1213,3,3,http://172.16.16.69/api/getnewids,23,0,2
+1716552777402,252,VIMCases/api/tpmadmin/visitors/save,200,OK,VIMCases 1-1,text,true,,1521,1560,3,3,http://172.16.16.69/api/tpmadmin/visitors/save,252,0,0
+1716552777674,252,VIMCases/api/tpmadmin/visit/save,200,OK,VIMCases 1-1,text,true,,731,2044,3,3,http://172.16.16.69/api/tpmadmin/visit/save,252,0,0
+1716552778368,174,VIMCases/api/binaryresource/upload,201,Created,VIMCases 1-2,text,true,,27418,26782,3,3,http://172.16.16.69/api/binaryresource/upload,173,0,0
+1716552778856,264,VIMCases/api/tpmadmin/visitors/save,200,OK,VIMCases 1-2,text,true,,1518,1560,3,3,http://172.16.16.69/api/tpmadmin/visitors/save,264,0,0
+1716552779213,102,VIMCasesCheckIn-/api/tpm/visitorsvisits/save,500,Internal Server Error,VIMCases 1-1,text,false,,1611,1430,3,3,http://172.16.16.69/api/tpm/visitorsvisits/save,102,0,0
+1716552779258,210,VIMCases/api/tpmadmin/visit/save,200,OK,VIMCases 1-2,text,true,,731,2044,2,2,http://172.16.16.69/api/tpmadmin/visit/save,210,0,0
+1716552779803,284,VIMCases/api/binaryresource/upload,201,Created,VIMCases 1-3,text,true,,27416,26775,2,2,http://172.16.16.69/api/binaryresource/upload,284,0,0
+1716552780409,57,VIMCasesCheckIn-/api/tpm/visitorsvisits/save,500,Internal Server Error,VIMCases 1-2,text,false,,1611,1430,3,3,http://172.16.16.69/api/tpm/visitorsvisits/save,57,0,0
+1716552782055,213,VIMCases/api/tpmadmin/visitors/save,200,OK,VIMCases 1-3,text,true,,1521,1560,2,2,http://172.16.16.69/api/tpmadmin/visitors/save,213,0,0
+1716552782855,18,api/getnewids,200,OK,VIMCases 1-4,text,true,,737,1213,2,2,http://172.16.16.69/api/getnewids,18,0,2
+1716552783372,200,VIMCases/api/tpmadmin/visit/save,200,OK,VIMCases 1-3,text,true,,731,2044,2,2,http://172.16.16.69/api/tpmadmin/visit/save,200,0,0
+1716552784613,254,VIMCases/api/binaryresource/upload,201,Created,VIMCases 1-4,text,true,,27419,26740,3,3,http://172.16.16.69/api/binaryresource/upload,253,0,0
+1716552785070,21,api/getnewids,200,OK,VIMCases 1-5,text,true,,743,1213,3,3,http://172.16.16.69/api/getnewids,21,0,3
+1716552785830,71,VIMCasesCheckIn-/api/tpm/visitorsvisits/save,500,Internal Server Error,VIMCases 1-3,text,false,,1611,1430,3,3,http://172.16.16.69/api/tpm/visitorsvisits/save,71,0,0
+1716552786096,170,VIMCases/api/binaryresource/upload,201,Created,VIMCases 1-5,text,true,,27417,26789,2,2,http://172.16.16.69/api/binaryresource/upload,169,0,0
+1716552786520,286,VIMCases/api/tpmadmin/visitors/save,200,OK,VIMCases 1-5,text,true,,1520,1560,2,2,http://172.16.16.69/api/tpmadmin/visitors/save,286,0,0

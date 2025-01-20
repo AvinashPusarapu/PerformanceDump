@@ -1,0 +1,20 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1732429856264,1539,Login-api/auth/token,200,OK,WFAPIs 1-1,text,true,,255545,880,1,1,https://hscperf69.alertenterprise.com/api/auth/token,1517,0,75
+1732429857854,9,api/getnewids,200,OK,WFAPIs 1-1,text,true,,807,1101,1,1,https://hscperf69.alertenterprise.com/api/getnewids,9,0,0
+1732429857867,7,WFAPIs-/api/getnewids,200,OK,WFAPIs 1-1,text,true,,816,1101,1,1,https://hscperf69.alertenterprise.com/api/getnewids,7,0,0
+1732429857875,1033,WFAPIs-/api/identity/save,400,Bad Request,WFAPIs 1-1,text,false,,568,1261,1,1,https://hscperf69.alertenterprise.com/api/identity/save,1033,0,0
+1732429858908,257,WFAPIs-/api/asset/save,400,Bad Request,WFAPIs 1-1,text,false,,568,1312,1,1,https://hscperf69.alertenterprise.com/api/asset/save,257,0,0
+1732429859165,80,WFAPIs-/api/access/save,400,Bad Request,WFAPIs 1-1,text,false,,568,1305,1,1,https://hscperf69.alertenterprise.com/api/access/save,80,0,0
+1732429859246,824,WFAPIs-/api/tpmadmin/visitors/save,200,OK,WFAPIs 1-1,text,true,,1045,1383,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visitors/save,824,0,0
+1732429860070,326,WFAPIs-/api/tpmadmin/visit/save,200,OK,WFAPIs 1-1,text,true,,1237,2109,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visit/save,326,0,0
+1732429860398,200,WFAPIs-/api/user/save,400,Bad Request,WFAPIs 1-1,text,false,,568,1261,1,1,https://hscperf69.alertenterprise.com/api/user/save,200,0,0
+1732429860599,73,WFAPIs-/api/organisation/save,400,Bad Request,WFAPIs 1-1,text,false,,568,1199,1,1,https://hscperf69.alertenterprise.com/api/organisation/save,73,0,0
+1732429860673,78,WFAPIs-/api/classdef/save,400,Bad Request,WFAPIs 1-1,text,false,,568,1359,1,1,https://hscperf69.alertenterprise.com/api/classdef/save,77,0,0
+1732429860751,223,WFAPIs-/api/tpmadmin/visittype/save,400,Bad Request,WFAPIs 1-1,text,false,,568,1244,1,1,https://hscperf69.alertenterprise.com/api/tpmadmin/visittype/save,223,0,0
+1732429860977,92,WFAPIs-/api/reconconfig/save,400,Bad Request,WFAPIs 1-1,text,false,,557,1322,1,1,https://hscperf69.alertenterprise.com/api/reconconfig/save,92,0,0
+1732429861070,78,WFAPIs-/api/rule/save,400,Bad Request,WFAPIs 1-1,text,false,,568,1307,1,1,https://hscperf69.alertenterprise.com/api/rule/save,78,0,0
+1732429861148,43,WFAPIs-/api/rule-set/save,400,Bad Request,WFAPIs 1-1,text,false,,557,1231,1,1,https://hscperf69.alertenterprise.com/api/rule-set/save,43,0,0
+1732429861191,898,WFAPIs-/api/request/save,200,OK,WFAPIs 1-1,text,true,,1427,1459,1,1,https://hscperf69.alertenterprise.com/api/request/save,898,0,0
+1732429862089,73,WFAPIs-/api/location/save,400,Bad Request,WFAPIs 1-1,text,false,,568,1260,1,1,https://hscperf69.alertenterprise.com/api/location/save,73,0,0
+1732429862162,26,WFAPIs-/api/configsetting/save,400,Bad Request,WFAPIs 1-1,text,false,,568,1290,1,1,https://hscperf69.alertenterprise.com/api/configsetting/save,26,0,0
+1732429862188,29,WFAPIs-/api/screencontrolset/save,400,Bad Request,WFAPIs 1-1,text,false,,568,1292,1,1,https://hscperf69.alertenterprise.com/api/screencontrolset/save,29,0,0

@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1716807462318,3183,adminLogin,200,OK,setUp Thread Group 1-1,text,true,,123003,801,1,1,http://172.16.16.69/api/auth/token,2735,0,2
+1716807465585,1756,lobbyAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,134503,807,1,1,http://172.16.16.69/api/auth/token,1433,0,0
+1716807468590,2649,Login-Admin-/api/auth/token,200,OK,#GroupDataCreation 1-1,text,true,,134497,864,1,1,http://172.16.16.69/api/auth/token,2128,0,3
+1716807472243,16,#GroupDataCreation/api/getnewids,200,OK,#GroupDataCreation 1-1,text,true,,743,1213,1,1,http://172.16.16.69/api/getnewids,16,0,0
+1716807472662,15,#GroupDataCreation/api/tpmadmin/visitors/find,400,Bad Request,#GroupDataCreation 1-1,text,false,,674,1412,1,1,http://172.16.16.69/api/tpmadmin/visitors/find?,15,0,0

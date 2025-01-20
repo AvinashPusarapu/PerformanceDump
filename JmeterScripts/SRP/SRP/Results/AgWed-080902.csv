@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1716970142555,1801,adminLogin,200,OK,setUp Thread Group 1-1,text,true,,123099,801,1,1,http://172.16.16.69/api/auth/token,1322,0,2
+1716970144439,1458,lobbyAdminLogin,200,OK,setUp Thread Group 1-1,text,true,,134611,807,1,1,http://172.16.16.69/api/auth/token,897,0,0
+1716970147490,21,api/getnewids,200,OK,#FCDataCreation 1-1,text,true,,740,1213,1,1,http://172.16.16.69/api/getnewids,21,0,2
+1716970149430,137,#FCDataCreation/api/binaryresource/upload,201,Created,#FCDataCreation 1-1,text,true,,27419,26726,1,1,http://172.16.16.69/api/binaryresource/upload,136,0,0
+1716970151317,174,#FCDataCreation/api/tpmadmin/visitors/save,200,OK,#FCDataCreation 1-1,text,true,,1023,1560,1,1,http://172.16.16.69/api/tpmadmin/visitors/save,173,0,0
+1716970151655,175,#FCDataCreation/api/tpmadmin/visit/save,200,OK,#FCDataCreation 1-1,text,true,,1092,2044,1,1,http://172.16.16.69/api/tpmadmin/visit/save,175,0,0
+1716970153550,74,#FCDataCreationCheckIn-/api/tpm/visitorsvisits/save,500,Internal Server Error,#FCDataCreation 1-1,text,false,,1611,1446,1,1,http://172.16.16.69/api/tpm/visitorsvisits/save,74,0,0

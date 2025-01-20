@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1731937999587,1031,AdminLogin,200,OK,setUp Thread Group 1-1,text,true,,155837,825,1,1,https://coa-dev.hsc.alertenterprisecloud.com/api/auth/token,822,0,249
+1731938000791,309,VIM_getnewids,200,OK,VIM 1-1,text,true,,644,1105,1,1,https://coa-dev.hsc.alertenterprisecloud.com/api/getnewids,309,0,229
+1731938001101,145,VIM/api/tpmadmin/visitors/save,200,OK,VIM 1-1,text,true,,946,1524,1,1,https://coa-dev.hsc.alertenterprisecloud.com/api/tpmadmin/visitors/save,145,0,0
+1731938006246,190,VIM/api/tpmadmin/visit/save,200,OK,VIM 1-1,text,true,,1015,1878,1,1,https://coa-dev.hsc.alertenterprisecloud.com/api/tpmadmin/visit/save,190,0,0
+1731938006437,274,VIM/api/tpm/visitorsvisits/save,200,OK,VIM 1-1,text,true,,800,1328,1,1,https://coa-dev.hsc.alertenterprisecloud.com/api/tpm/visitorsvisits/save,274,0,0

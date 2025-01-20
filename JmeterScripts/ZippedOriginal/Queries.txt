@@ -1,0 +1,138 @@
+select DISTINCT ON (iu.id) iu.id, iu.master_identity_id, iu.first_name, iac.access_id, ar.text from identity_user iu join identity_access iac on iac.identity_id=iu.id 
+join access_role ar on ar.id=iac.access_id where iac.access_id =4810280417153385 and
+lower(iu.first_name) like 'perfuserdc%' and regexp_replace(iu.first_name, '^\D*(\d+)$', '\1')::INTEGER >70
+and iu.mobilecred is true ORDER BY iu.id, regexp_replace(iu.first_name, '^\D*(\d+)$', '\1')::INTEGER;
+
+select * from identity_asset where identity_id=5044626037198775;
+
+select DISTINCT ON (iu.id) iu.id, iu.master_identity_id, iu.first_name from identity_user iu where 
+lower(iu.first_name) like 'perfuserdc%' and regexp_replace(iu.first_name, '^\D*(\d+)$', '\1')::INTEGER >2580
+ORDER BY iu.id, regexp_replace(iu.first_name, '^\D*(\d+)$', '\1')::INTEGER;
+
+select * from identity_user iu where 
+lower(iu.first_name) like 'perfuserdc%' and regexp_replace(iu.first_name, '^\D*(\d+)$', '\1')::INTEGER = 34;
+
+select * from access_role where int_status=0 and source_id in ('0x00479C1CF35E30F044409E709041A8DA41C4','0x0047C8DF3ECE050A4973A3B9BDDA048B3C3C','0x0047D56B38A324C54E2CAFECFA503F9496F3','0x0047829710FC8A1B4D5295477285ED181608','0x0047C4245D1000594544BEDF3765A5DDF79A','0x0047397D7969200D4F20820D880FD187369F','0x0047C076099581B34774B5CDDAFA8245F510','0x00479139AAD5E6354BD7BF598F2A32F5A3A9','0x0047DB5944F538D74314AD8D9BF4B3CCD71B','0x00477CA960150F554BC6B31C11AC5FC29772','0x0047DFA9A4FA27354C3DAFADD9F48F1082B9','0x0047DAE2D4423D0C4920B963FC28426A4F83','0x00471A3D8525128E412EBE1C427519DEBC14','0x004766F68C375DE84503B9AD6BD15171B12D','0x0047BE81C24A063D4BA9B24A683344356221','0x0047F72B8A9CB88D422B94FEC18EAB6C70F8','0x0047889FBC683DA946A09CE08266F1D720B4','0x0047D84BE7B97FA84DD99FD3C15EF42B2937','0x0047A0D5F82EA6F142C692485A19E795C04F','0x0047E9299A84BCA44A068DFF7546E466FDEC','0x0047ED2AC9D1322F4ED9996E79C137138FF4','0x0047DD0E199FA6A04DE88E8108C21E30A378','0x004755E3982AFDFD4598828577D9429AF9ED','0x004780F8F5E20BEA4D42A73C6693E9CC0801','0x0047D42A161616C648F7AF166FBA68D46438') order by id;
+
+select * from access_owner where int_status=0 and access_id in (4810280417153331,4810280417153348,4810280417153359,4810280417153369,4810280417153382,4810280417153384,4810280417153385,4810280417153388,4810280417153393,4810280417153401,4810280417153404,4810280417153417,4810280417153418,4810280417153420,4810280417153426,4810280417153434,4810280417153435,4810280417153441,4810280417153442,4810280417153443,4810280417153444,4810280417153448,4810280417153452,4810280417153457,4810280417153461) order by access_id;
+select * from access_role where int_status=0 and source_id in ('5000','5003','5004','5022','5023','5024','5025','5036','5035','5037','5038','5039','5040','5041','5042','5043','5044','5046','5045','5051','5047','5052','5053','5054','5055','5056','5058','5057','5061','5059','5060','5062','5063','5064','5065','5067','5068','5069','5071','5072','5073','5074','5075','5076','5077','5078','5079','5080','5082','5085', '5088','5087','5089','5090','5092','5091','5093','5094','5095','5097','5096','5099','5098','5100','5101','5102','5103','5104','5106','5107','5108','5110','5112','5111','5113') order by id;
+select * from access_owner where int_status=0 and access_id in (select id from access_role where int_status=0 and source_id in ('5000','5003','5004','5022','5023','5024','5025','5036','5035','5037','5038','5039','5040','5041','5042','5043','5044','5046','5045','5051','5047','5052','5053','5054','5055','5056','5058','5057','5061','5059','5060','5062','5063','5064','5065','5067','5068','5069','5071','5072','5073','5074','5075','5076','5077','5078','5079','5080','5082','5085', '5088','5087','5089','5090','5092','5091','5093','5094','5095','5097','5096','5099','5098','5100','5101','5102','5103','5104','5106','5107','5108','5110','5112','5111','5113')) order by access_id;
+
+select * from access_owner where int_status=0 and access_id in (select id from access_role where system_id=4232918200356110);
+select * from access_location where access_id=4861726560847004;
+select * from "location" l where id=4809589172720055;
+select * from system;
+--deactivate
+select a.serial_no, ia.asset_id,ia.identity_id, TO_CHAR(ia.valid_from, 'YYYY-MM-DD"T"HH24:MI:SS-0000') as valid_from,
+TO_CHAR(ia.valid_to, 'YYYY-MM-DD"T"HH24:MI:SS-0000') as valid_to, ia.source_asset_status, iu.master_identity_id from identity_asset ia 
+join asset a on a.id=ia.asset_id join identity_user iu on iu.id=ia.identity_id where ia.cbadge_type='standard' --and a.type='standard'
+and lower(iu.first_name) like 'perfuserdc%' and regexp_replace(iu.first_name, '^\D*(\d+)$', '\1')::INTEGER between 2071 and 2570
+and iu.mobilecred is true 
+--and ia.system_id=4232918200356110 
+and ia.int_status=0 
+and a.asset_status='ACTIVE' 
+ORDER BY regexp_replace(iu.first_name, '^\D*(\d+)$', '\1')::INTEGER;
+
+--Activate
+select a.serial_no, ia.asset_id,ia.identity_id, TO_CHAR(ia.valid_from, 'YYYY-MM-DD"T"HH24:MI:SS-0000') as valid_from,
+TO_CHAR(ia.valid_to, 'YYYY-MM-DD"T"HH24:MI:SS-0000') as valid_to, ia.source_asset_status, iu.master_identity_id from identity_asset ia 
+join asset a on a.id=ia.asset_id join identity_user iu on iu.id=ia.identity_id where ia.cbadge_type='standard' --and a.type='standard'
+and lower(iu.first_name) like 'perfuserdc%' and regexp_replace(iu.first_name, '^\D*(\d+)$', '\1')::INTEGER between 2071 and 2570
+and iu.mobilecred is true 
+--and ia.system_id=4232918200356110 
+and ia.int_status=9
+and a.asset_status='DISABLED' 
+ORDER BY regexp_replace(iu.first_name, '^\D*(\d+)$', '\1')::INTEGER;
+
+--Request An Access Area
+select iu.id, iu.master_identity_id,iu.first_name from identity_user iu join identity_asset ia on ia.identity_id=iu.id
+left join identity_access iac on iac.identity_id=iu.id and iac.access_id in (4810280417153434,4810280417153384,4810280417153359,4810280417153457,4810280417153444,4810280417153452,4810280417153404,4810280417153441,4810280417153388,4810280417153461)	
+where iu.int_status=0 and ia.cbadge_type='standard' --and a.type='standard'
+and iac.identity_id is null 
+and lower(iu.first_name) like 'perfuserdc%' and regexp_replace(iu.first_name, '^\D*(\d+)$', '\1')::INTEGER between 71 and 2070;
+ORDER BY regexp_replace(iu.first_name, '^\D*(\d+)$', '\1')::INTEGER;
+
+--Remove An Access Area 
+SELECT iu.id, 
+       iu.master_identity_id, 
+       STRING_AGG(CAST(iac.access_id AS TEXT), ', ') AS accessIds, 
+       iu.first_name 
+FROM identity_user iu 
+JOIN identity_asset ia ON ia.identity_id = iu.id
+LEFT JOIN identity_access iac ON iac.identity_id = iu.id 
+WHERE iu.int_status = 0 
+  AND ia.cbadge_type = 'standard' --and a.type='standard'
+  AND LOWER(iu.master_identity_id) LIKE 'perfuserdc%' 
+  AND REGEXP_REPLACE(iu.first_name, '^\D*(\d+)$', '\1')::INTEGER BETWEEN 571 AND 1070
+  AND iac.int_status=0
+GROUP BY iu.id, iu.master_identity_id, iu.first_name
+HAVING COUNT(iac.access_id) >= 10
+ORDER BY REGEXP_REPLACE(iu.first_name, '^\D*(\d+)$', '\1')::INTEGER;
+
+--Remove An Access Area (Exceptional)
+SELECT iu.id, 
+       iu.master_identity_id, 
+       STRING_AGG(CAST(iac.access_id AS TEXT), ', ') AS accessIds, 
+       iu.first_name 
+FROM identity_user iu 
+JOIN identity_asset ia ON ia.identity_id = iu.id
+LEFT JOIN identity_access iac ON iac.identity_id = iu.id 
+WHERE iu.int_status = 0 
+  AND ia.cbadge_type = 'standard' --and a.type='standard'
+  AND LOWER(iu.first_name) LIKE 'perfuserdc%' 
+  AND REGEXP_REPLACE(iu.first_name, '^\D*(\d+)$', '\1')::INTEGER BETWEEN 2171 AND 2370
+  AND iac.int_status=0
+GROUP BY iu.id, iu.master_identity_id, iu.first_name
+HAVING COUNT(iac.access_id) >= 10
+ORDER BY REGEXP_REPLACE(iu.first_name, '^\D*(\d+)$', '\1')::INTEGER;
+
+select * from identity_system where system_id=4233055097671150 and identity_id in 
+(select id from identity_user where LOWER(first_name) LIKE 'perfuserdc%');
+
+select id, master_identity_id, first_name from identity_user where LOWER(first_name) LIKE 'perfuserdc%'
+AND REGEXP_REPLACE(first_name, '^\D*(\d+)$', '\1')::INTEGER BETWEEN 3087 AND 3200
+ORDER BY REGEXP_REPLACE(first_name, '^\D*(\d+)$', '\1')::INTEGER;
+
+  
+select * from rule_set_rule rsr where rule_id=4847558018994890;
+select * from rules where id=4847558018994890;
+select * from rule_set_rule rs where rule_id=4847558018994890;
+
+
+
+select * from identity_asset where identity_id=5092479156981661;
+select * from identity_asset where identity_id=5093352038125355 order by created_on;
+update identity_asset set int_status=3 where identity_id=5092479157014304 and asset_id in (5092479157079937,5092479157080004,5092479157096199,5092479157096266,5092479157096333);
+select * from identity_access where identity_id=5093352038125355 and int_status=0 order by created_on;
+update identity_access set int_status=3 where identity_id=5092479157014304 and asset_id in (5092479157079937,5092479157080004,5092479157096199,5092479157096266,5092479157096333)
+
+select distinct access_id from access_owner where int_status=0 and access_id in (select id from access_role where system_id=4237099265094320);
+select * from system;
+select * from access_role where id in (4485210978719193,4810280417153331,4810280417153348,4810280417153359,4810280417153369,4810280417153382,4810280417153384,4810280417153385,4810280417153388,4810280417153393,4810280417153401,4810280417153404,4810280417153416,4810280417153417,4810280417153418,4810280417153420,4810280417153426,4810280417153434,4810280417153435,4810280417153441,4810280417153442,4810280417153443,4810280417153444,4810280417153448,4810280417153452,4810280417153457,4810280417153459,4810280417153461,4812203796811387,4812203829923578,4812203829923580,4812203829939712,4812203829939716,4812203829939717,4812203829939718,4812203830005348,4812203830021797,4812203830021851,4812203830021855,4906889967343821,4937177016402059) order by changed_on;
+
+select distinct identity_id, * from identity_access where identity_id in 
+(select id from identity_user where LOWER(first_name) LIKE 'perfuserdc%' and 
+regexp_replace(first_name, '^\D*(\d+)$', '\1')::INTEGER between 71 and 570) 
+--and access_id not in (4485210978719193,4810280417153359,4810280417153369,4810280417153384,4810280417153388,4810280417153401,4810280417153404,4810280417153416,4810280417153417,4810280417153426,4810280417153434,4810280417153435,4810280417153441,4810280417153444,4810280417153452,4810280417153457,4810280417153459,4810280417153461,4812203796811387,4812203829923578,4812203829923580,4812203829939712,4812203829939716,4812203829939717,4812203829939718,4812203830005348,4812203830021797,4812203830021851,4812203830021855,4906889967343821,4937177016402059)
+and access_id=4810280417153420;
+
+select * from access_role where id=4810280417153420;
+
+select * from access_role where id=4810280417186217;
+
+
+Leave
+Active user
+iu.int_status=0
+iu.type in ('EMP','CWR','POI')
+iu.employement_status = 18
+
+Return from leave
+iu.int_status=0
+iu.type in ('EMP','CWR','POI')
+iu.employement_status in ('22', '23', '24')
+
+
+
+
+
